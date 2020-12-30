@@ -1,0 +1,12 @@
+$colour: #f03;
+
+body {
+  background-color: $colour;
+}
+
+.Wrapper {
+  padding: 100px;
+  &__innderWrapper {
+    padding: 10px;
+  }
+}
