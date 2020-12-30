@@ -1,4 +1,4 @@
-import { src, dest } from 'gulp';
+import { src, dest, watch } from 'gulp';
 import yargs from 'yargs';
 import sass from 'gulp-sass';
 import cleanCss from 'gulp-clean-css';
@@ -19,9 +19,14 @@ export const styles = () => {
     .pipe(gulpif(PRODUCTION, postcss([ autoprefixer ])))
     // minify the file
     .pipe(gulpif(PRODUCTION, cleanCss({compatibility:'ie8'})))
-    
+    // add source maps
     .pipe(gulpif(!PRODUCTION, sourcemaps.write()))
+
     .pipe(dest('dist/css'));
 }
 
-export default styles;
+export const watchForChanges = () => {
+  watch('src/scss/**/*.scss', styles);
+}
+
+export default watchForChanges;
