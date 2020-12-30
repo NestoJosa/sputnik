@@ -13,8 +13,11 @@ export const styles = () => {
   return src('src/scss/bundle.scss')
     .pipe(gulpif(!PRODUCTION, sourcemaps.init()))
 
+    // compile from sass til css
     .pipe(sass().on('error', sass.logError))
+    // add vendor profixes
     .pipe(gulpif(PRODUCTION, postcss([ autoprefixer ])))
+    // minify the file
     .pipe(gulpif(PRODUCTION, cleanCss({compatibility:'ie8'})))
     
     .pipe(gulpif(!PRODUCTION, sourcemaps.write()))
