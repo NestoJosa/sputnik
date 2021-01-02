@@ -4,7 +4,8 @@
   "description": "",
   "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp",
+    "build": "gulp build --prod"
   },
   "author": "",
   "license": "",
@@ -14,6 +15,7 @@
     "@babel/register": "^7.12.10",
     "autoprefixer": "^10.1.0",
     "browserslist": "^4.16.0",
+    "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
     "gulp-if": "^3.0.0",

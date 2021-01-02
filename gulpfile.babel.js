@@ -1,4 +1,4 @@
-import { src, dest, watch } from 'gulp';
+import { src, dest, watch, series, parallel } from 'gulp';
 import yargs from 'yargs';
 import sass from 'gulp-sass';
 import cleanCss from 'gulp-clean-css';
@@ -7,6 +7,7 @@ import postcss from 'gulp-postcss';
 import sourcemaps from 'gulp-sourcemaps';
 import autoprefixer from 'autoprefixer';
 import imagemin from 'gulp-imagemin';
+import del from 'del';
 
 const PRODUCTION = yargs.argv.prod;
 
@@ -32,9 +33,19 @@ export const compressImages = () => {
     .pipe(dest('dist/images'));
 }
 
+export const copy = () =>{
+  return src(['src/**/*', '!src/{images,js,scss}', '!src/{images,js,scss}/**/*'])
+  .pipe(dest('dist'));
+}
+
+export const clean = () => del(['dist']);
+
 export const watchForChanges = () => {
   watch('src/scss/**/*.scss', compileStyles);
   watch('src/images/**/*.{jpg,jpeg,png,svg,gif}', compressImages);
+  watch(['src/**/*','!src/{images,js,scss}','!src/{images,js,scss}/**/*'], copy);
 }
 
-export default watchForChanges;
+export const dev = series(clean, parallel(compileStyles, compressImages, copy), watchForChanges);
+export const build = series(clean, parallel(compileStyles, compressImages, copy));
+export default dev;
