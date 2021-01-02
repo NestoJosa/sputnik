@@ -9,6 +9,7 @@ import autoprefixer from 'autoprefixer';
 import imagemin from 'gulp-imagemin';
 import del from 'del';
 import webpack from 'webpack-stream';
+import browserSync from "browser-sync";
 
 const PRODUCTION = yargs.argv.prod;
 
@@ -68,13 +69,29 @@ export const scripts = () => {
   .pipe(dest('dist/js'));
 }
 
+
+// Refreshing the browser with Browsersync
+const server = browserSync.create();
+export const serve = done => {
+  server.init({
+    proxy: "http://localhost/dev-atb" // put your local website link here
+  });
+  done();
+};
+export const reload = done => {
+  server.reload();
+  done();
+};
+
+
 export const watchForChanges = () => {
-  watch('src/scss/**/*.scss', compileStyles);
-  watch('src/images/**/*.{jpg,jpeg,png,svg,gif}', compressImages);
-  watch(['src/**/*','!src/{images,js,scss}','!src/{images,js,scss}/**/*'], copy);
-  watch('src/js/**/*.js', scripts);
+  watch('src/scss/**/*.scss', series(compileStyles, reload));
+  watch('src/images/**/*.{jpg,jpeg,png,svg,gif}', series(compressImages, reload));
+  watch(['src/**/*','!src/{images,js,scss}','!src/{images,js,scss}/**/*'], series(copy, reload));
+  watch('src/js/**/*.js', series(scripts, reload));
+  watch('**/*.php', reload); 
 }
 
-export const dev = series(clean, parallel(compileStyles, compressImages, copy, scripts), watchForChanges);
+export const dev = series(clean, parallel(compileStyles, compressImages, copy, scripts), serve, watchForChanges);
 export const build = series(clean, parallel(compileStyles, compressImages, copy, scripts));
 export default dev;
