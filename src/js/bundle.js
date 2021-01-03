@@ -1,3 +1,4 @@
 // bundle.js
-import './components/slider';
-console.log('bundle');
+import './components/_sputnik-checkIfDesktopUp.js';
+import './components/_sputnik-desktopUpScript.js';
+

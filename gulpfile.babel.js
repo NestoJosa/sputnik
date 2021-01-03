@@ -36,7 +36,7 @@ export const compressImages = () => {
 }
 
 export const copy = () =>{
-  return src(['src/**/*', '!src/{images,js,scss}', '!src/{images,js,scss}/**/*'])
+  return src(['src/**/*', '!src/{images,js,scss}', '!src/{images,js,scss}/**/*', '!src/bootstrap/scss', '!src/bootstrap/scss/**/*'])
   .pipe(dest('dist'));
 }
 
@@ -87,8 +87,8 @@ export const reload = done => {
 export const watchForChanges = () => {
   watch('src/scss/**/*.scss', series(compileStyles, reload));
   watch('src/images/**/*.{jpg,jpeg,png,svg,gif}', series(compressImages, reload));
-  watch(['src/**/*','!src/{images,js,scss}','!src/{images,js,scss}/**/*'], series(copy, reload));
   watch('src/js/**/*.js', series(scripts, reload));
+  watch(['src/**/*','!src/{scss,images,js,}','!src/{scss,images,js}/**/*'], series(copy, reload));
   watch('**/*.php', reload); 
 }
 

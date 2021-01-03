@@ -1,3 +1,24 @@
 // bundle.scss
 
+// import our custom bootstrap
 @import './custom-bootstrap.scss';
+
+// Abstracts - order matters
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+
+//Base - order matters
+@import 'base/resets';
+@import 'base/layout';
+@import 'base/typography';
+
+
+// Components - order does NOT matter
+@import 'Components/Nav';
+@import 'Components/Hero';
+@import 'components/ButtonSolid';
+@import 'components/ClientLogos';
+@import 'components/About';
+@import 'components/SubPromo';
+
