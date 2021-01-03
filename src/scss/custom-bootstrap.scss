@@ -1,0 +1,24 @@
+// custom-bootstrap.scss
+
+/* 
+
+  Notice: The Bootstrap @import paths are relative to the custom.scss, 
+  and will vary depending on your project environment.
+
+*/
+
+/* import only the necessary Bootstrap files */
+@import "../bootstrap/scss/functions"; 
+@import "../bootstrap/scss/variables";
+
+/* -------begin customization-------- */
+
+/* change the primary theme color to red */
+$theme-colors: (
+  "primary": #ab6247,
+);
+
+/* -------end customization-------- */
+
+/* finally, import Bootstrap to set the changes! */
+@import "../bootstrap/scss/bootstrap.scss";

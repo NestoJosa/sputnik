@@ -1,29 +1,3 @@
-//src/scss/bundle.scss
-@import './components/slider.scss';
+// bundle.scss
 
-$colour: #f03;
-
-body {
-  background-color: $colour;
-}
-
-.Wrapper {
-  padding: 100px;
-  display: grid;
-  &__innderWrapper {
-    padding: 10px;
-  }
-}
-
-::placeholder {
-  color: gray;
-}
-
-.image {
-  background-image: url(image@1x.png);
-}
-@media (min-resolution: 2dppx) {
-  .image {
-    background-image: url(image@2x.png);
-  }
-}
+@import './custom-bootstrap.scss';
