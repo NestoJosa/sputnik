@@ -1,0 +1,13 @@
+.ClientLogos {
+  background-color: #3b012d;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  @include for-md-up {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  &__outerRow {
+    min-height: 240px;
+  }
+}

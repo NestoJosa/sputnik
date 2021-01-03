@@ -1,0 +1,80 @@
+/* 
+
+  Make variables for the colors
+
+*/
+
+$bgColor: #fbf9f0;
+
+.SubPromo {
+  font-family: neue-haas-unica, sans-serif;
+  background-color: $bgColor;
+  border: 2px solid rgba(60, 0, 46, 0.04);
+  border-radius: 24px;
+  padding: 24px 14px 64px !important;
+  @include for-md-up {
+    padding: 72px 48px 76px 51px !important;
+  }
+
+  &__image {
+    margin-bottom: 40px;
+    @include for-md-up {
+      margin-bottom: 0px;
+    }
+  }
+
+  &__news {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    color: #ff582d;
+    margin-bottom: 8px;
+    line-height: 1.71;
+  }
+
+  &__heading {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.27;
+    color: #3b012d;
+    margin-bottom: 24px;
+    @include for-md-up {
+      font-size: 28px;
+      line-height: 1.29;
+    }
+  }
+
+  &__subHeading {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #3b012d;
+    opacity: 0.72;
+    margin-bottom: 36px;
+  }
+}
+
+.Dots {
+  // Note: the path for the url starts from 
+  // the compiled stylesheet's location
+  // - NOT this partition file
+  background-image: url("../img/dots.svg");
+  background-repeat: no-repeat;
+  display: block;
+  height: 100px;
+  z-index: -1;
+  display: none;
+  &--left {
+    margin-top: -50px;  
+  }
+  &--right {
+    margin-bottom: -50px;
+    // place --right 
+    // on the opposite side of --left
+    transform: scaleX(-1);
+    z-index: -1;
+  }
+  @include for-md-up {
+    display: block;
+  }
+}

@@ -1,0 +1,129 @@
+$fontColor: #3b012d;
+
+// About Autobahn
+.About {
+  font-family: neue-haas-unica, sans-serif;
+  padding-top: 64px;
+  padding-bottom: 22px;
+  @include for-md-up {
+    padding-top: 128px;
+  }
+
+  &__heading {
+    color: $fontColor;
+    font-size: 22px;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 20px;
+    @include for-md-up {
+      text-align: center;
+      /* font-size: 28px; */ // start by using bootstrap default resp. 
+    }
+  }
+
+  &__subHeading {
+    color: $fontColor;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4;
+    opacity: 0.72;
+    margin-bottom: 56px;
+    @include for-md-up {
+      text-align: center;
+      margin-bottom: 72px;
+    }
+  }
+}
+
+/* 
+
+  #refactor
+
+*/
+$brand-yellow: #FFCD00;
+$brand-brown: #3b012d;
+$icon-bg: #fbf9f0;
+
+
+
+.AboutCard {
+  font-family: neue-haas-unica, sans-serif;
+  &__iconWrapper {
+    width: 80px;
+    background-color: $icon-bg;
+    border-radius: 35px;
+    padding: 15px;
+    border: 2px solid #F8F6F8;
+    margin-bottom: 24px; 
+  }
+
+  &__icon {
+    & .utils-fill {
+      fill: $brand-yellow;
+    }
+  
+    & .utils-stroke {
+      fill: none;
+      stroke: $brand-brown;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-width: 2px;
+    }
+  }
+
+  &__heading {
+    font-size: 20px;
+    font-weight: 700;
+    color: $fontColor;
+    line-height: 1.4;
+    margin-bottom: 16px;
+  }
+
+  &__subHeading {
+    font-size: 16px;
+    color: $fontColor;
+    line-height: 1.5;
+    margin-bottom: 40px;
+  }
+}
+
+
+/* the modifier class is added to the icon element via js,
+and its triggered when the element appears on screen.
+Note: the animation script does not run on mobile devices */
+.AboutCard__icon--animate {
+  & .utils-fill {
+    animation-name: fade-in;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 1s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    animation-play-state: running; 
+  }
+
+  & .utils-stroke {
+    animation-name: draw;
+    animation-duration: 8s; 
+    animation-timing-function: ease-in-out; 
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running; 
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+  }
+}
+
+@keyframes fade-in {
+  from { fill: transparent; }
+  to { fill: $brand-yellow; }
+}
+
+@keyframes draw {
+  from { stroke-dashoffset: 1000; }
+  to { stroke-dashoffset: 0; }
+}

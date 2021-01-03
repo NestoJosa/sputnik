@@ -1,0 +1,31 @@
+$fontColor: #3b012d;
+$bgColor: #fbf9f0;
+
+.Hero {
+  font-family: neue-haas-unica, sans-serif;
+  background-color: $bgColor;
+  color: $fontColor;
+
+  &__image {
+    margin-bottom: 16px;
+  }
+
+  &__heading {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 24px;
+  }
+
+  &__subHeading {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    opacity: 0.72;
+    margin-bottom: 36px;
+  }
+
+  &__button {
+    margin-bottom: 64px;
+  }
+}
