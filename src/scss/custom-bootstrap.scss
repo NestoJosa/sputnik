@@ -1,12 +1,5 @@
 // custom-bootstrap.scss
 
-/* 
-
-  Notice: The Bootstrap @import paths are relative to the custom.scss, 
-  and will vary depending on your project environment.
-
-*/
-
 /* import only the necessary Bootstrap files */
 @import "../bootstrap/scss/functions"; 
 @import "../bootstrap/scss/variables";
@@ -22,3 +15,11 @@ $theme-colors: (
 
 /* finally, import Bootstrap to set the changes! */
 @import "../bootstrap/scss/bootstrap.scss";
+
+/* 
+
+  If you want to extend any bootstrap class,
+  the additional styles should live here - 
+  after the bootstrap import. 
+
+*/

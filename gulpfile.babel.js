@@ -74,7 +74,7 @@ export const scripts = () => {
 const server = browserSync.create();
 export const serve = done => {
   server.init({
-    proxy: "http://localhost/dev-atb" // put your local website link here
+    proxy: "http://192.168.0.15:8888/dev-atb/" // put your local website link here
   });
   done();
 };
