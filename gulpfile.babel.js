@@ -30,13 +30,13 @@ export const compileStyles = () => {
 }
 
 export const compressImages = () => {
-  return src('src/images/**/*.{jpg,jpeg,png,svg,gif}')
+  return src('src/img/**/*.{jpg,jpeg,png,svg,gif}')
     .pipe(gulpif(PRODUCTION, imagemin()))
-    .pipe(dest('dist/images'));
+    .pipe(dest('dist/img'));
 }
 
 export const copy = () =>{
-  return src(['src/**/*', '!src/{images,js,scss}', '!src/{images,js,scss}/**/*', '!src/bootstrap/scss', '!src/bootstrap/scss/**/*'])
+  return src(['src/**/*', '!src/{img,js,scss}', '!src/{img,js,scss}/**/*', '!src/bootstrap/scss', '!src/bootstrap/scss/**/*'])
   .pipe(dest('dist'));
 }
 
@@ -86,9 +86,9 @@ export const reload = done => {
 
 export const watchForChanges = () => {
   watch('src/scss/**/*.scss', series(compileStyles, reload));
-  watch('src/images/**/*.{jpg,jpeg,png,svg,gif}', series(compressImages, reload));
+  watch('src/img/**/*.{jpg,jpeg,png,svg,gif}', series(compressImages, reload));
   watch('src/js/**/*.js', series(scripts, reload));
-  watch(['src/**/*','!src/{scss,images,js,}','!src/{scss,images,js}/**/*'], series(copy, reload));
+  watch(['src/**/*','!src/{scss,img,js,}','!src/{scss,img,js}/**/*'], series(copy, reload));
   watch('**/*.php', reload); 
 }
 

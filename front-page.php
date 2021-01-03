@@ -5,7 +5,7 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="Hero__image col-md-6 order-md-2">
-          <img src="<?php echo get_template_directory_uri();?>/img/man-on-rocket--small.png" alt="Rocket Man">
+          <img src="<?php echo get_template_directory_uri();?>/dist/img/man-on-rocket--small.png" alt="Rocket Man">
         </div>
         <div class="col-md-6 order-md-1">
           <h1 class="Hero__heading">Marketing Automation forvandler data til bedre resultater</h1>
@@ -25,21 +25,10 @@
         <div class="col-md-4">
           <div class="row">
             <div class="col">
-              <img src="<?php echo get_template_directory_uri();?>/img/logo-oticon@3x.png" alt="Oticon Logo">
+              <img src="<?php echo get_template_directory_uri();?>/dist/img/logo-oticon@3x.png" alt="Oticon Logo">
             </div>
             <div class="col">
-              <img src="<?php echo get_template_directory_uri();?>/img/logo-gjensidige@3x.png" alt="Gjensidige Logo">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="row">
-            <div class="col">
-              <img src="<?php echo get_template_directory_uri();?>/img/logo-nordea@3x.png" alt="Nordea Logo">
-            </div>
-            <div class="col">
-              <img src="<?php echo get_template_directory_uri();?>/img/logo-3-shape@3x.png" alt="3Shape Logo">
+              <img src="<?php echo get_template_directory_uri();?>/dist/img/logo-gjensidige@3x.png" alt="Gjensidige Logo">
             </div>
           </div>
         </div>
@@ -47,10 +36,21 @@
         <div class="col-md-4">
           <div class="row">
             <div class="col">
-              <img src="<?php echo get_template_directory_uri();?>/img/logo-express@3x.png" alt="Express Logo">
+              <img src="<?php echo get_template_directory_uri();?>/dist/img/logo-nordea@3x.png" alt="Nordea Logo">
             </div>
             <div class="col">
-              <img src="<?php echo get_template_directory_uri();?>/img/logo-3-disc@3x.png" alt="3DISC Logo">
+              <img src="<?php echo get_template_directory_uri();?>/dist/img/logo-3-shape@3x.png" alt="3Shape Logo">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col">
+              <img src="<?php echo get_template_directory_uri();?>/dist/img/logo-express@3x.png" alt="Express Logo">
+            </div>
+            <div class="col">
+              <img src="<?php echo get_template_directory_uri();?>/dist/img/logo-3-disc@3x.png" alt="3DISC Logo">
             </div>
           </div>
         </div>
@@ -144,7 +144,7 @@
         <div class="row">
 
           <div class="col-md-6">
-            <img class="SubPromo__image" src="<?php echo get_template_directory_uri();?>/img/man-with-computer--small.png" alt="Man using computer">
+            <img class="SubPromo__image" src="<?php echo get_template_directory_uri();?>/dist/img/man-with-computer--small.png" alt="Man using computer">
           </div>
           <div class="col-md-6">
             <p class="SubPromo__news">Nyhed</p>

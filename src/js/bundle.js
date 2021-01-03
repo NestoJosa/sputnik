@@ -1,4 +1,3 @@
 // bundle.js
-import './components/_sputnik-checkIfDesktopUp.js';
-import './components/_sputnik-desktopUpScript.js';
+import './components/_sputnik-forLaptopUp.js';
 
