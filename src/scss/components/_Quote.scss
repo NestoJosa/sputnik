@@ -1,0 +1,49 @@
+// _Quote.scss
+
+.Quote {
+  font-family: map-get($brand-fonts, 'primary');
+  background-color: #3b012d;
+  color: white !important;
+  padding-top: 64px !important;
+  // for md up: 78px
+  // using bootstrap media query mixins
+  // - how to?
+  @include media-breakpoint-up(md) {
+    padding-top: 78px !important; 
+  }
+
+  &__icon {
+    margin-bottom: 24px;    
+  }
+
+  &__text {
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 36px;
+  }
+
+  &__imageAndTextWrapper {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 56px;
+  }
+
+  &__image {
+    width: 64px;
+    height: 64px;
+    border-radius: 20px;
+    margin-right: 20px;
+  }
+
+  &__nameAndTitle {
+    margin-bottom: 0 !important;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  &__name {
+    color: #ffc900;
+  }
+
+}   

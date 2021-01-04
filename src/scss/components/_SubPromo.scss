@@ -6,12 +6,18 @@
 
 $bgColor: #fbf9f0;
 
+.SubPromoWrapper {
+  background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(59,1,45,1) 50%);
+}
+
 .SubPromo {
   font-family: neue-haas-unica, sans-serif;
   background-color: $bgColor;
   border: 2px solid rgba(60, 0, 46, 0.04);
   border-radius: 24px;
   padding: 24px 14px 64px !important;
+  position: relative;
+  z-index: 10;
   @include for-md-up {
     padding: 72px 48px 76px 51px !important;
   }
@@ -55,24 +61,24 @@ $bgColor: #fbf9f0;
 }
 
 .Dots {
-  // Note: the path for the url starts from 
+  // The path for the url starts from 
   // the compiled stylesheet's location
-  // - NOT this partition file
+  // - NOT this partition's location
   background-image: url("../img/dots.svg");
   background-repeat: no-repeat;
-  display: block;
   height: 100px;
-  z-index: -1;
   display: none;
+
+  // .Dots--left is located bottom-left
+  // and --right is located top-right
   &--left {
     margin-top: -50px;  
   }
   &--right {
     margin-bottom: -50px;
-    // place --right 
-    // on the opposite side of --left
+    // required in order to have the same amounts
+    // of dots visible on each side 
     transform: scaleX(-1);
-    z-index: -1;
   }
   @include for-md-up {
     display: block;
