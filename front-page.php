@@ -167,7 +167,7 @@
 <!-- Quote -->
 <div class="Quote container-fluid p-0">
   <div class="container">
-    <div class="row justify-content-between">
+    <div class="row justify-content-between align-items-center">
 
       <div class="col-md-6 order-md-2">
         <div class="Quote__icon">
@@ -194,7 +194,11 @@
       </div>
 
       <div class="col-md-5 order-md-1">
-        
+        <div class="Quote__stats">
+          <div class="Quote__statsText">We helped PLM Group achieve</div>
+          <div class="Quote__statsNumber">219%</div>
+          <div class="Quote__statsText">højere konverteringsrate</div>
+        </div>
       </div>
 
     </div>
