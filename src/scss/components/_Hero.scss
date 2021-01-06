@@ -2,8 +2,8 @@
 
 .Hero {
   font-family: map-get($brand-fonts, 'primary' );
-  color: map-get($brand-font-colors, 'heading');
-  background-color: map-get($brand-bg-colors, 'cream-white');
+  color: map-get($brand-colors, 'purple-dark');
+  background-color: map-get($brand-colors, 'cream-white');
   padding-bottom: 64px !important;
 
 
