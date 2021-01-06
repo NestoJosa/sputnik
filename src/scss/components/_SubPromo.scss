@@ -63,18 +63,19 @@ $bgColor: #fbf9f0;
 .Dots {
   // The path for the url starts from 
   // the compiled stylesheet's location
-  // - NOT this partition's location
-  background-image: url("../img/dots.svg");
+  // - NOT this partition's location 
+  display: none;
   background-repeat: no-repeat;
   height: 100px;
-  display: none;
 
   // .Dots--left is located bottom-left
   // and --right is located top-right
   &--left {
+    background-image: url("../img/dots--dark.svg");
     margin-top: -50px;  
   }
   &--right {
+    background-image: url("../img/dots.svg");
     margin-bottom: -50px;
     // required in order to have the same amounts
     // of dots visible on each side 
