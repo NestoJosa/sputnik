@@ -18,8 +18,8 @@
 <!-- /Hero -->
 
 <!-- ClientLogos -->
-  <div class="ClientLogos container-fluid p-0">
-    <div class="container">
+  <div class="ClientLogosWrapper container-fluid p-0">
+    <div class="ClientLogos container">
       <div class="ClientLogos__outerRow row align-items-center">
 
         <div class="col-md-4">
