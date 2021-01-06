@@ -19,7 +19,7 @@ $bgColor: #fbf9f0;
   position: relative;
   z-index: 10;
   @include for-md-up {
-    padding: 72px 48px 76px 51px !important;
+    padding: 72px 48px 80px 48px !important;
   }
 
   &__image {
