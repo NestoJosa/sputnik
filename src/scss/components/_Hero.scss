@@ -1,10 +1,11 @@
-$fontColor: #3b012d;
-$bgColor: #fbf9f0;
+// _Hero.scss
 
 .Hero {
-  font-family: neue-haas-unica, sans-serif;
-  background-color: $bgColor;
-  color: $fontColor;
+  font-family: map-get($brand-fonts, 'primary' );
+  color: map-get($brand-font-colors, 'heading');
+  background-color: map-get($brand-bg-colors, 'cream-white');
+  padding-bottom: 64px !important;
+
 
   &__image {
     margin-bottom: 16px;
@@ -15,6 +16,10 @@ $bgColor: #fbf9f0;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 24px;
+    @include media-breakpoint-up (md) {
+      font-size: 40px;
+      margin-bottom: 32px;
+    }
   }
 
   &__subHeading {
@@ -23,9 +28,12 @@ $bgColor: #fbf9f0;
     line-height: 1.4;
     opacity: 0.72;
     margin-bottom: 36px;
+    @include media-breakpoint-up (md) {
+      margin-bottom: 40px;
+    }
   }
 
   &__button {
-    margin-bottom: 64px;
+    // Do something
   }
 }
