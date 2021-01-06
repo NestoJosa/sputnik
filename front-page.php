@@ -165,45 +165,56 @@
 <!-- /SubPromo -->
 
 <!-- Quote -->
-<div class="Quote container-fluid p-0">
-  <div class="container">
-    <div class="row justify-content-between align-items-center">
+  <div class="Quote container-fluid p-0">
+    <div class="container">
+      <div class="row justify-content-between align-items-center">
 
-      <div class="col-md-6 order-md-2">
-        <div class="Quote__icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="52" height="48" viewBox="0 0 52 48">
-            <g fill="none" fill-rule="evenodd">
-              <g fill="#FF571E" fill-rule="nonzero">
-                <g>
+        <div class="col-md-6 order-md-2">
+          <div class="Quote__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="52" height="48" viewBox="0 0 52 48">
+              <g fill="none" fill-rule="evenodd">
+                <g fill="#FF571E" fill-rule="nonzero">
                   <g>
-                    <path d="M21.507 48V24.333h-7.223L22 0H10.343L0 24.333V48h21.507zm30 0V24.333h-7.223L52 0H40.343L30 24.333V48h21.507z" transform="translate(-736 -2259) translate(0 1911) translate(736 348)"/>
+                    <g>
+                      <path d="M21.507 48V24.333h-7.223L22 0H10.343L0 24.333V48h21.507zm30 0V24.333h-7.223L52 0H40.343L30 24.333V48h21.507z" transform="translate(-736 -2259) translate(0 1911) translate(736 348)"/>
+                    </g>
                   </g>
                 </g>
               </g>
-            </g>
-          </svg>
+            </svg>
+          </div>
+          <div class="Quote__text">
+            Hos mange blev vi mødt af store indledende omkostninger og lange processer, inden vi kunne se de første resultater. Autobahn tilbød os en løsning, hvor vi inden for de første to måneder havde en business case på plads og kunne gå live med de første aktiviteter.
+          </div>
+          <div class="Quote__imageAndTextWrapper">
+            <img src="<?php echo get_template_directory_uri();?>/dist/img/Silva-Lill.jpg" alt="Portrait of Silva Lill" class="Quote__image">
+            <p class="Quote__nameAndTitle">
+              <span class="Quote__name">Silva Lill</span><br>Marketing Manager, PLM Group</p>
+          </div>
         </div>
-        <div class="Quote__text">
-          Hos mange blev vi mødt af store indledende omkostninger og lange processer, inden vi kunne se de første resultater. Autobahn tilbød os en løsning, hvor vi inden for de første to måneder havde en business case på plads og kunne gå live med de første aktiviteter.
-        </div>
-        <div class="Quote__imageAndTextWrapper">
-          <img src="<?php echo get_template_directory_uri();?>/dist/img/Silva-Lill.jpg" alt="Portrait of Silva Lill" class="Quote__image">
-          <p class="Quote__nameAndTitle">
-            <span class="Quote__name">Silva Lill</span><br>Marketing Manager, PLM Group</p>
-        </div>
-      </div>
 
-      <div class="col-md-5 order-md-1">
-        <div class="Quote__stats">
-          <div class="Quote__statsText">We helped PLM Group achieve</div>
-          <div class="Quote__statsNumber">219%</div>
-          <div class="Quote__statsText">højere konverteringsrate</div>
+        <div class="col-md-5 order-md-1">
+          <div class="Quote__stats">
+            <div class="Quote__statsText">We helped PLM Group achieve</div>
+            <div class="Quote__statsNumber">219%</div>
+            <div class="Quote__statsText">højere konverteringsrate</div>
+          </div>
         </div>
-      </div>
 
+      </div>
     </div>
   </div>
-</div>
 <!-- /Quote -->
+
+<!-- BlogPromo -->
+  <div class="BlogPromo container">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <h2 class="BlogPromo__heading">Viden & Indsigt</h2>
+        <p  class="BlogPromo__subHeading">Free directories - directories are perfect for customers that are searching for a particular topic. What’s great about them is that you only have to post once and they are good for long periods of time.</p>
+      </div>
+    </div><!-- /row justify-content-center -->
+  </div><!-- /container -->
+<!-- /BlogPromo -->
 
 <?php get_footer(); ?>
