@@ -3,9 +3,10 @@
 .About {
   font-family: map-get($brand-fonts, 'primary');
   padding-top: 64px;
-  padding-bottom: 22px;
+  padding-bottom: 24px;
   @include media-breakpoint-up(md) {
     padding-top: 128px;
+    padding-bottom: 56px;
   }
   
   &__heading {
