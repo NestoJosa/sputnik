@@ -60,14 +60,19 @@
   </div>
 <!-- /ClientLogos -->
 
+<div class="HeadingBlock container">
+  <div class="row justify-content-center">
+
+    <div class="col-md-8">
+      <h2 class="HeadingBlock__heading">Om Autobahn</h2>
+      <p  class="HeadingBlock__subHeading">Free directories: directories are perfect for customers that are searching for a particular topic. What’s great about them is that you only have to post once and they are good for long periods of time. When you don’t have to resubmit your information every week or every month.</p>
+    </div>
+
+  </div>   
+</div>
+
 <!-- About -->
   <div class="About container">
-    <div class="row justify-content-center">
-      <div class="col-md-8">
-        <h2 class="About__heading">Om Autobahn</h2>
-        <p  class="About__subHeading">Free directories: directories are perfect for customers that are searching for a particular topic. What’s great about them is that you only have to post once and they are good for long periods of time. When you don’t have to resubmit your information every week or every month.</p>
-      </div>
-    </div>
     <div class="row">
       <div class="col-md-4">
         <!-- the animation is triggered when the icon is visible on the screen, via the js-hook -->
@@ -227,14 +232,19 @@
 <!-- /Quote -->
 
 <!-- BlogPromo -->
-  <div class="BlogPromo container">
-    <div class="row justify-content-center">
-      <div class="col-md-8">
-        <h2 class="BlogPromo__heading">Viden & Indsigt</h2>
-        <p  class="BlogPromo__subHeading">Free directories - directories are perfect for customers that are searching for a particular topic. What’s great about them is that you only have to post once and they are good for long periods of time.</p>
-      </div>
-    </div><!-- /row -->
-  </div><!-- /BlogPromo container -->
+  <!-- HeadingBlock -->
+    <div class="HeadingBlock container">
+      <div class="row justify-content-center">
+
+        <div class="col-md-8">
+          <h2 class="HeadingBlock__heading">Viden & Indsigt</h2>
+          <p  class="HeadingBlock__subHeading">Free directories - directories are perfect for customers that are searching for a particular topic. What’s great about them is that you only have to post once and they are good for long periods of time.</p>
+        </div>
+
+      </div><!-- /row -->
+    </div><!-- /container -->
+  <!-- /HeadingBlock -->
+
 
   <div class="widget-section">
     <?php the_widget( 'Ernies_Recent_Blog_Posts_Widget' ); ?>
