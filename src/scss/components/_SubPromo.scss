@@ -18,13 +18,13 @@ $bgColor: #fbf9f0;
   padding: 24px 14px 64px !important;
   position: relative;
   z-index: 10;
-  @include for-md-up {
+  @include media-breakpoint-up (md) {
     padding: 72px 48px 80px 48px !important;
   }
 
   &__image {
     margin-bottom: 40px;
-    @include for-md-up {
+    @include media-breakpoint-up (md) {
       margin-bottom: 0px;
     }
   }
@@ -44,7 +44,7 @@ $bgColor: #fbf9f0;
     line-height: 1.27;
     color: #3b012d;
     margin-bottom: 24px;
-    @include for-md-up {
+    @include media-breakpoint-up (md) {
       font-size: 28px;
       line-height: 1.29;
     }
@@ -81,7 +81,7 @@ $bgColor: #fbf9f0;
     // of dots visible on each side 
     transform: scaleX(-1);
   }
-  @include for-md-up {
+  @include media-breakpoint-up (md) {
     display: block;
   }
 }
