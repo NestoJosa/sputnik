@@ -24,4 +24,7 @@
 
   add_action('wp_enqueue_scripts', 'load_js');
 
+  // This theme uses post thumbnails
+  add_theme_support( 'post-thumbnails' );
+
 ?>
