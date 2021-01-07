@@ -60,16 +60,18 @@
   </div>
 <!-- /ClientLogos -->
 
-<div class="HeadingBlock container">
-  <div class="row justify-content-center">
+<!-- HeadingBlock -->
+  <div class="HeadingBlock container">
+    <div class="row justify-content-center">
 
-    <div class="col-md-8">
-      <h2 class="HeadingBlock__heading">Om Autobahn</h2>
-      <p  class="HeadingBlock__subHeading">Free directories: directories are perfect for customers that are searching for a particular topic. What’s great about them is that you only have to post once and they are good for long periods of time. When you don’t have to resubmit your information every week or every month.</p>
-    </div>
+      <div class="col-md-8">
+        <h2 class="HeadingBlock__heading">Om Autobahn</h2>
+        <p  class="HeadingBlock__subHeading">Free directories: directories are perfect for customers that are searching for a particular topic. What’s great about them is that you only have to post once and they are good for long periods of time. When you don’t have to resubmit your information every week or every month.</p>
+      </div>
 
-  </div>   
-</div>
+    </div>   
+  </div>
+<!-- /HeadingBlock -->
 
 <!-- About -->
   <div class="About container">
