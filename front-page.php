@@ -163,11 +163,12 @@
 <!-- SubPromo -->
   <div class="SubPromoWrapper container-fluid p-0">
     <div class="container">
+
       <div class="row justify-content-end">
         <div class="Dots Dots--right col-md-3"></div>
       </div>
+
       <div class="row justify-content-center no-gutters">
-        
         <div class="SubPromo col-md-10">
           <div class="row">
 
@@ -184,9 +185,11 @@
           </div>
         </div>
       </div>
+
       <div class="row justify-content-start">
-        <div class="Dots Dots--left col-md-3"></div>
+        <div class="Dots Dots--leftAndDark col-md-3"></div>
       </div>
+
     </div><!-- /container -->
   </div><!-- /SubPromoWrapper container-fluid p-0 -->
 <!-- /SubPromo -->
@@ -233,7 +236,7 @@
   </div>
 <!-- /Quote -->
 
-<!-- BlogPromo -->
+<!-- Recent Blog Posts -->
   <!-- HeadingBlock -->
     <div class="HeadingBlock container">
       <div class="row justify-content-center">
@@ -247,12 +250,13 @@
     </div><!-- /container -->
   <!-- /HeadingBlock -->
 
-
+  <!-- BlogPostCards -->
   <div class="widget-section">
     <?php the_widget( 'Ernies_Recent_Blog_Posts_Widget' ); ?>
   </div>
+  <!-- /BlogPostCards -->
 
-  <!-- To Blog Button -->
+  <!-- ToBlogButton -->
   <div class="container ToBlogButton">
     <div class="row justify-content-center">
       <div class="col-auto">
@@ -260,7 +264,39 @@
       </div>
     </div>
   </div>
-  <!-- /To Blog Button -->
-<!-- /BlogPromo -->
+  <!-- /ToBlogButton -->
+<!-- /Recent Blog Posts -->
+
+<!-- Promo-->
+  <div class="PromoWrapper container-fluid p-0">
+    <div class="container">
+
+      <div class="row justify-content-end">
+        <div class="Dots Dots--right col-md-3"></div>
+      </div>
+
+      <div class="row justify-content-center no-gutters">
+        <div class="Promo col-md-10">
+          <div class="row">
+            <div class="col-md-6">
+              <img class="Promo__image" src="<?php echo get_template_directory_uri();?>/dist/img/Kasper-waistUp.png" alt="Kasper Larsen">
+            </div>
+            <div class="col-md-6">
+              <p class="Promo__news">Nyhed</p>
+              <h2 class="Promo__heading">Marketing Automation som abbonnementsløsning</h2>
+              <p class="Promo__subHeading">Find ud af hvilke muligheder Marketing Automation kan give din virksomhed, ud af hvilke muligheder Marketing Automation kan give din virksomhed</p>
+              <button class="ButtonSolid--large" type="button">Se vores abonnementer</button>  
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-start">
+        <div class="Dots Dots--left col-md-3"></div>
+      </div>
+
+    </div><!-- /container -->
+  </div><!-- /PromoWrapper container-fluid p-0 -->
+<!-- /Promo -->
 
 <?php get_footer(); ?>

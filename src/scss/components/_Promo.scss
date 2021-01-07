@@ -1,0 +1,89 @@
+// _Promo.scss
+
+.PromoWrapper {
+  &--sub {
+    background: linear-gradient(180deg, #FFFFFF 50%, map-get($brand-colors, 'purple-dark') 50%);
+  }
+}
+
+.Promo {
+
+  font-family: map-get($brand-fonts, 'primary');
+  color: map-get($brand-colors, 'purple-dark');
+  background-color: map-get($brand-colors, 'white-cream');
+  border: 2px solid rgba(60, 0, 46, 0.04);
+  border-radius: 24px;
+  
+  position: relative;
+  z-index: 10; // arbitrary choise - no particular reason for "10"
+  
+  padding: 24px 16px 64px !important;
+  @include media-breakpoint-up (md) {
+    padding: 64px 48px 64px !important;
+  }
+
+  &__image {
+    margin-bottom: 40px;
+    @include media-breakpoint-up (md) {
+      margin-bottom: 0px;
+    }
+  }
+
+  &__news {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    color: map-get($brand-colors, 'red');
+    margin-bottom: 8px;
+  }
+
+  &__heading {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.27;
+    margin-bottom: 24px;
+    @include media-breakpoint-up (md) {
+      font-size: 28px;
+      line-height: 1.29;
+    }
+  }
+
+  &__subHeading {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    opacity: 0.72;
+    margin-bottom: 36px;
+  }
+}
+
+.Dots {
+  // The path for the url starts from 
+  // the compiled stylesheet's location
+  // - NOT this partition's location 
+  display: none;
+  background-repeat: no-repeat;
+  height: 100px;
+
+  // .Dots--left is located bottom-left
+  // and --right is located top-right
+  &--left {
+    background-image: url("../img/dots.svg");
+    margin-top: -50px;  
+  }
+  &--leftAndDark {
+    background-image: url("../img/dots--dark.svg");
+    margin-top: -50px;  
+  }
+  &--right {
+    background-image: url("../img/dots.svg");
+    margin-bottom: -50px;
+    // required in order to have the same amounts
+    // of dots visible on each side 
+    transform: scaleX(-1);
+  }
+  @include media-breakpoint-up (md) {
+    display: block;
+  }
+}
+
