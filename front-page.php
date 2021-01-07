@@ -227,14 +227,18 @@
 <!-- /Quote -->
 
 <!-- BlogPromo -->
-<!--   <div class="BlogPromo container">
+  <div class="BlogPromo container">
     <div class="row justify-content-center">
       <div class="col-md-8">
         <h2 class="BlogPromo__heading">Viden & Indsigt</h2>
         <p  class="BlogPromo__subHeading">Free directories - directories are perfect for customers that are searching for a particular topic. What’s great about them is that you only have to post once and they are good for long periods of time.</p>
       </div>
     </div>
-  </div> -->
+  </div>
+
+  <div class="widget-section">
+    <?php the_widget( 'Ernies_Recent_Blog_Posts_Widget' ); ?>
+  </div>
 <!-- /BlogPromo -->
 
 <?php get_footer(); ?>
