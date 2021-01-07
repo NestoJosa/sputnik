@@ -18,6 +18,9 @@
 
     padding: 0 8px;
     margin-bottom: 16px;
+    @include media-breakpoint-up (md) {
+      padding: 0 16px;
+    }
   }
 
   &__subTitle {
@@ -29,6 +32,9 @@
     
     padding: 0 8px;
     margin-bottom: 36px;
+    @include media-breakpoint-up (md) {
+      padding: 0 16px;
+    }
   }
 
   &__authorAvatarAndNameWrapper {
