@@ -257,10 +257,10 @@
   <!-- /BlogPostCards -->
 
   <!-- ToBlogButton -->
-  <div class="container ToBlogButton">
+  <div class="ToBlogButtonWrapper container">
     <div class="row justify-content-center">
       <div class="col-auto">
-        <button type="button" class="ButtonGhost">Button</button>
+        <button type="button" class="ButtonGhost">Gå til bloggen</button>
       </div>
     </div>
   </div>
