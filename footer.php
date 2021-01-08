@@ -25,7 +25,7 @@
           </div>
         </div>
 
-        <div class="row justify-content-between">
+        <div class="row justify-content-between align-items-center">
           <div class="col-auto order-md-2">
             <div class="Footer__soMeIconsWrapper">
               <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
