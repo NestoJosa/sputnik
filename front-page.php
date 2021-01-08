@@ -5,7 +5,7 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="Hero__image col-md-6 order-md-2">
-          <img src="<?php echo get_template_directory_uri();?>/dist/img/man-on-rocket--small.png" alt="Rocket Man">
+          <img src="<?php echo get_template_directory_uri();?>/dist/img/man-on-rocket--large.png" alt="Rocket Man">
         </div>
         <div class="col-md-6 order-md-1">
           <h1 class="Hero__heading">Marketing Automation forvandler data til bedre resultater</h1>
@@ -173,7 +173,7 @@
           <div class="row">
 
             <div class="col-md-6">
-              <img class="SubPromo__image" src="<?php echo get_template_directory_uri();?>/dist/img/man-with-computer--small.png" alt="Man using computer">
+              <img class="SubPromo__image" src="<?php echo get_template_directory_uri();?>/dist/img/man-with-computer--large.png" alt="Man using computer">
             </div>
             <div class="col-md-6">
               <p class="SubPromo__news">Nyhed</p>
@@ -279,7 +279,7 @@
         <div class="Promo col-md-10">
           <div class="row">
             <div class="col-md-6">
-              <img class="Promo__image" src="<?php echo get_template_directory_uri();?>/dist/img/Kasper-waistUp.png" alt="Kasper Larsen">
+              <img class="Promo__image" src="<?php echo get_template_directory_uri();?>/dist/img/kasper-waistUp--large.png" alt="Kasper Larsen">
             </div>
             <div class="col-md-6">
               <p class="Promo__news">Nyhed</p>
