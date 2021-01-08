@@ -15,7 +15,7 @@
             </div>
           </div>
           <div class="col-md-4 order-md-1">
-            <p>31 70 01 01<br>hello@autobahncph.dk</p>
+            <p class="Footer__phoneAndEmail">31 70 01 01<br>hello@autobahncph.dk</p>
             <ul>
               <li>Autobahn ApS</li>
               <li>Vesterbrogade 37, 1. th</li>

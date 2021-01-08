@@ -13,4 +13,17 @@
   }
 }
 
+.Footer {
 
+  &__phoneAndEmail {
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: map-get($brand-colors, 'yellow-dark');
+    margin-bottom: 32px;
+  }
+
+}
