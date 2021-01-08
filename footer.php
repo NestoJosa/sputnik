@@ -1,7 +1,7 @@
 <!-- Footer -->
   <footer>
     <div class="FooterWrapper container-fluid p-0">
-      <div class="container">
+      <div class="Footer container">
 
         <div class="row justify-content-between">
           <div class="NewsLetterSignup col-md-4 order-md-2">

@@ -1,0 +1,42 @@
+// _NewsLetterSignup.scss
+
+.NewsLetterSignup {
+  padding-bottom: 56px !important;
+  @include media-breakpoint-up (md) {
+    padding-bottom: 0 !important;
+  }
+
+  &__title {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 1.4;
+    margin-bottom: 16px;
+  }
+
+  &__subTitle {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    margin-bottom: 32px;
+  }
+
+  &__buttonsWrapper {
+    display: flex;
+  }
+
+  &__emailInput {
+    flex-grow: 2;
+    background-color: #825d79;
+    margin-right: 16px;
+    color: white;
+    border-radius: 16px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
