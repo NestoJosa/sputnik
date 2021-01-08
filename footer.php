@@ -84,7 +84,7 @@
               </svg>
             </div>
           </div>
-          <div class="col-md-4 order-md-1">
+          <div class="Footer__copyright col-md-4 order-md-1">
             <p>&copy; <?php echo date("Y"); ?> - Autobahn ApS</p>
           </div>
         </div>
