@@ -1,0 +1,55 @@
+// _Footer.scss
+
+.FooterWrapper {
+  background-color: map-get($brand-colors, 'purple-dark');
+  font-family: map-get($brand-fonts, 'primary');
+  color: white;
+
+  padding-top: 56px !important;
+  padding-bottom: 32px !important;
+  @include media-breakpoint-up (md) {
+    padding-top: 72px !important;
+    padding-bottom: 40px !important;
+  }
+}
+
+.NewsLetterSignup {
+  padding-bottom: 56px !important;
+  @include media-breakpoint-up (md) {
+    padding-bottom: 0 !important;
+  }
+
+  &__title {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 1.4;
+    margin-bottom: 16px;
+  }
+
+  &__subTitle {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    margin-bottom: 32px;
+  }
+
+  &__buttonsWrapper {
+    display: flex;
+  }
+
+  &__emailInput {
+    flex-grow: 2;
+    background-color: #825d79;
+    margin-right: 16px;
+    color: white;
+    border-radius: 16px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
