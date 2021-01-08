@@ -26,4 +26,29 @@
     margin-bottom: 32px;
   }
 
+  &__contactInfoList {
+    list-style-type: none;
+    padding: 0;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+
+    // break out of BEM for simplicity
+    & li {
+      height: 24px;
+    }
+  }
+
+  &__soMeIconsWrapper {
+    display: flex;
+
+    // breaking out of BEM for simplicity
+    & svg {
+      margin-right: 12px;
+    }
+  }
+
 }
