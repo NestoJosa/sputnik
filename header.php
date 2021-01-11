@@ -10,35 +10,30 @@
 </head>
 <body>
 
-<!-- Nav -->
-<!-- <div class="NavBarWrapper container-fluid">
+<header>
+
   <div class="container">
-    <nav class="Nav navbar navbar-expand-lg">
-
-      <a class="navbar-brand" href="#">autobahn</a>
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
+          <span class="navbar-toggler-icon"></span>
       </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Abbonnement</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Priser</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Book et møde</a>
-          </li>
-        </ul>
+      <a class="navbar-brand" href="#">Navbar</a>
+          <?php
+          wp_nav_menu( array(
+              'theme_location'    => 'top-menu',
+              'depth'             => 2,
+              'container'         => 'div',
+              'container_class'   => 'collapse navbar-collapse',
+              'container_id'      => 'bs-example-navbar-collapse-1',
+              'menu_class'        => 'nav navbar-nav',
+              'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+              'walker'            => new WP_Bootstrap_Navwalker(),
+          ) );
+          ?>
       </div>
-      
-    </nav>
+  </nav>
   </div>
-</div> -->
-<!-- /Nav -->
+
+</header>
