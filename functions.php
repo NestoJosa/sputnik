@@ -14,9 +14,8 @@
 
   // Load Javascript
   function load_js() {
-    wp_enqueue_script('jquery');
 
-    wp_register_script('bootstrap', get_template_directory_uri() . '/dist/bootstrap/dist/js/bootstrap.min.js', 'jquery', false, true );
+    wp_register_script('bootstrap', get_template_directory_uri() . '/dist/bootstrap/dist/js/bootstrap.min.js', array('jquery'), null, true );
     wp_enqueue_script('bootstrap');
 
     wp_enqueue_script( 'bundle', get_template_directory_uri() . '/dist/js/bundle.js', array(), null, true );
@@ -50,5 +49,27 @@
     require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
   }
   add_action( 'after_setup_theme', 'register_navwalker' );
+
+  
+  // load jqueyr in the footer,
+  // and NOT in the header 
+  function my_init()   
+  {  
+      if (!is_admin())   
+      {  
+          wp_deregister_script('jquery');  
+          wp_deregister_script('jquery-migrate');  
+    
+          // Load a copy of jQuery from the Google API CDN  
+          // The last parameter set to TRUE states that it should be loaded  
+          // in the footer.  
+          wp_register_script('jquery', 'https://code.jquery.com/jquery-3.5.1.min.js', FALSE, '3.5.1', TRUE);  
+          wp_register_script('jquery-migrate', 'https://code.jquery.com/jquery-migrate-3.3.2.min.js"', FALSE, '3.3.2', TRUE);  
+    
+          wp_enqueue_script('jquery');  
+          wp_enqueue_script('jquery-migrate');  
+      }  
+  }  
+  add_action('init', 'my_init');  
 
 ?>
