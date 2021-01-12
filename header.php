@@ -13,14 +13,19 @@
 <body>
 
 <header>
-  <div class="TopNavWrapper container-fluid">
-    <div class="container p-0">
-      <nav class="navbar navbar-expand-md navbar-light p-0" role="navigation">
+  <div class="TopNavWrapper container-fluid px-0">
+    <div class="container px-0">
+      <nav class="navbar navbar-expand-md navbar-light" role="navigation">
+
+          <a class="navbar-brand" href="<?php echo get_home_url(); ?>">autobahn</a>
+
           <!-- Brand and toggle get grouped for better mobile display -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
               <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="<?php echo get_home_url(); ?>">autobahn</a>
+          
+          
+
             <?php
               wp_nav_menu( 
                 array(
