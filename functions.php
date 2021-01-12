@@ -15,9 +15,13 @@
   // Load Javascript
   function load_js() {
 
+    
+    wp_register_script('popper', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js"', false, '2.6.0', true);
+    wp_enqueue_script('popper');    
+    
     wp_register_script('bootstrap', get_template_directory_uri() . '/dist/bootstrap/dist/js/bootstrap.min.js', array('jquery'), null, true );
     wp_enqueue_script('bootstrap');
-
+    
     wp_enqueue_script( 'bundle', get_template_directory_uri() . '/dist/js/bundle.js', array(), null, true );
   }
 
@@ -51,7 +55,6 @@
   add_action( 'after_setup_theme', 'register_navwalker' );
 
   
-  // load jquery in the footer
   function my_init() {  
     if (!is_admin()) {  
       wp_deregister_script('jquery');  
@@ -60,8 +63,8 @@
       // Load a copy of jQuery from the Google API CDN  
       // The last parameter set to TRUE states that it should be loaded  
       // in the footer.  
-      wp_register_script('jquery', 'https://code.jquery.com/jquery-3.5.1.min.js', FALSE, '3.5.1', TRUE);  
-      wp_register_script('jquery-migrate', 'https://code.jquery.com/jquery-migrate-3.3.2.min.js"', FALSE, '3.3.2', TRUE);  
+      wp_register_script('jquery', 'https://code.jquery.com/jquery-3.5.1.min.js', false, '3.5.1', true);  
+      wp_register_script('jquery-migrate', 'https://code.jquery.com/jquery-migrate-3.3.2.min.js"', false, '3.3.2', true);  
 
       wp_enqueue_script('jquery');  
       wp_enqueue_script('jquery-migrate');  
