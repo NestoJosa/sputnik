@@ -3,9 +3,9 @@
 .Hero {
   font-family: map-get($brand-fonts, 'primary' );
   color: map-get($brand-colors, 'purple-dark');
-  background-color: map-get($brand-colors, 'cream-white');
+  background-color: map-get($brand-colors, 'white-cream');
   padding-bottom: 64px !important;
-
+  margin-top: 56px !important;
 
   &__image {
     margin-bottom: 16px;
