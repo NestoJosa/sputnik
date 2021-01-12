@@ -1,8 +1,9 @@
 // custom-bootstrap.scss
 
-/* import only the necessary Bootstrap files */
-@import "../bootstrap/scss/functions"; 
-@import "../bootstrap/scss/variables";
+/* import only the necessary Bootstrap files,
+these are the files which have content we are going to change */
+@import "../bootstrap-4.0.0/scss/functions"; 
+@import "../bootstrap-4.0.0/scss/variables";
 
 /* ------- begin customization -------- */
 
@@ -30,7 +31,7 @@ $container-max-widths: (
 /* ------- end customization -------- */
 
 /* finally, import Bootstrap to set the changes! */
-@import "../bootstrap/scss/bootstrap.scss";
+@import "../bootstrap-4.0.0/scss/bootstrap.scss";
 
 /* 
 
