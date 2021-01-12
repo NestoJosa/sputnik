@@ -2,4 +2,74 @@
 
 .TopNavWrapper {
   background-color: map-get($brand-colors, 'white-cream');
+  position: absolute;
+  top: 0;
+  z-index: 1;
+
+
+  font-family: map-get($brand-fonts, 'primary');
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
 }
+
+.navbar {
+  // Note: the padding is included inside of the min-height
+  // because of box-sizing => border-box
+  min-height: 64px !important;
+  @include media-breakpoint-up (md) {
+    min-height: 96px !important;
+  }
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.navbar-brand {
+  margin-right: 0 !important;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.nav-link {
+  color: map-get($brand-colors, 'purple-dark') !important;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: red !important;
+  }
+}
+
+
+@include media-breakpoint-up (md) {
+  .navbar-nav {
+    width: 100%;
+  }
+  
+  /* First menu item */
+  #menu-item-60 {
+    margin-left: auto;
+  }
+  
+  /* Book et møde link */
+  #menu-item-57 {
+    margin-left: auto;
+    border-radius: 16px;
+    border: solid 1px map-get($brand-colors, 'yellow-dark');
+    & .nav-link {
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+  }
+}
+
+
+
+
+

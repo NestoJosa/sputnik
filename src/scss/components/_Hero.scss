@@ -5,7 +5,11 @@
   color: map-get($brand-colors, 'purple-dark');
   background-color: map-get($brand-colors, 'white-cream');
   padding-bottom: 64px !important;
-  margin-top: 56px !important;
+
+  margin-top: 64px !important;
+  @include media-breakpoint-up (md) {
+    margin-top: 96px !important;
+  }
 
   &__image {
     margin-bottom: 16px;
