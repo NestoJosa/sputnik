@@ -191,7 +191,7 @@ Template Name:  Priser Template
 
 <!-- /table -->
 
-
+<?php get_template_part('includes/section', 'promo');  ?>
 
 
 <?php get_footer(); ?>
