@@ -180,7 +180,7 @@ Template Name:  Priser Template
       </div><!-- /col -->
     </div><!-- /row -->
 
-    <div class="row justify-content-center">
+    <div class="FinePrint row justify-content-center">
       <div class="col-auto">
         All prices is pr. month (invoiced yearly)
       </div>
