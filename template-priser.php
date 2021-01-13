@@ -67,18 +67,18 @@ Template Name:  Priser Template
             <div class="SubTable__lines"></div>
             <div class="SubTable__lines"></div>
 
-            <span class="SubTable__labels SubTable__labels1">Contacts</span>
-            <span class="SubTable__labels SubTable__labels2">Lead score</span>
-            <span class="SubTable__labels SubTable__labels3">Lead stages</span>
-            <span class="SubTable__labels SubTable__labels4">Content Automations/ Blasts</span>
-            <span class="SubTable__labels SubTable__labels5">Reports</span>
-            <span class="SubTable__labels SubTable__labels6">Sales notifications</span>
-            <span class="SubTable__labels SubTable__labels7">Webinar support</span>
-            <span class="SubTable__labels SubTable__labels8">Multi language</span>
-            <span class="SubTable__labels SubTable__labels9">Channel tracking</span>
-            <span class="SubTable__labels SubTable__labels10">Customer engagement</span>
-            <span class="SubTable__labels SubTable__labels11">Customer score</span>
-            <span class="SubTable__labels SubTable__labels12">Customer onboarding flow</span>
+            <span class="SubTable__labels SubTable__labels-1">Contacts</span>
+            <span class="SubTable__labels SubTable__labels-2">Lead score</span>
+            <span class="SubTable__labels SubTable__labels-3">Lead stages</span>
+            <span class="SubTable__labels SubTable__labels-4">Content Automations/ Blasts</span>
+            <span class="SubTable__labels SubTable__labels-5">Reports</span>
+            <span class="SubTable__labels SubTable__labels-6">Sales notifications</span>
+            <span class="SubTable__labels SubTable__labels-7">Webinar support</span>
+            <span class="SubTable__labels SubTable__labels-8">Multi language</span>
+            <span class="SubTable__labels SubTable__labels-9">Channel tracking</span>
+            <span class="SubTable__labels SubTable__labels-10">Customer engagement</span>
+            <span class="SubTable__labels SubTable__labels-11">Customer score</span>
+            <span class="SubTable__labels SubTable__labels-12">Customer onboarding flow</span>
 
             <span class="SubTable__mostPopular">Most popular</span>
 

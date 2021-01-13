@@ -61,20 +61,22 @@
     font-style: normal;
     line-height: 1.5;
     letter-spacing: normal;
+
+    &-1 { grid-row: 3; }
+    &-2 { grid-row: 4; }
+    &-3 { grid-row: 5; }
+    &-4 { grid-row: 6; }
+    &-5 { grid-row: 7; }
+    &-6 { grid-row: 8; }
+    &-7 { grid-row: 9; }
+    &-8 { grid-row: 10; }
+    &-9 { grid-row: 11; }
+    &-10 { grid-row: 12; }
+    &-11 { grid-row: 13; }
+    &-12 { grid-row: 14; }
   }
 
-  &__labels1 { grid-row: 3; }
-  &__labels2 { grid-row: 4; }
-  &__labels3 { grid-row: 5; }
-  &__labels4 { grid-row: 6; }
-  &__labels5 { grid-row: 7; }
-  &__labels6 { grid-row: 8; }
-  &__labels7 { grid-row: 9; }
-  &__labels8 { grid-row: 10; }
-  &__labels9 { grid-row: 11; }
-  &__labels10 { grid-row: 12; }
-  &__labels11 { grid-row: 13; }
-  &__labels12 { grid-row: 14; }
+
 
   // Most Popular highlight
   &__mostPopular {
