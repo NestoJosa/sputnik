@@ -29,6 +29,7 @@
   &__lines {
     grid-column: 1 / -1;
     border-top: 1px solid grey;
+    z-index: 1;
   }
 
   & div:nth-child(1) { grid-row: 3; }
@@ -174,7 +175,6 @@
     border-right:  1px solid grey;
     border-left:   1px solid  grey;
     background-color: map-get($brand-colors, 'white-cream');
-    border-top:    1px solid  grey;
 
     &-1 { grid-row-start: 3; }
     &-2 { grid-row-start: 4; }
@@ -187,10 +187,7 @@
     &-9 { grid-row-start: 11; }
     &-10 { grid-row-start: 12; }
     &-11 { grid-row-start: 13; }
-    &-12 { 
-      grid-row-start: 14;
-      border-bottom:    1px solid  grey; 
-    }
+    &-12 { grid-row-start: 14; }
   }
 
   &__enterpriseData {
