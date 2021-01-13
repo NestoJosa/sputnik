@@ -73,7 +73,18 @@ Template Name:  Priser Template
 
             <span class="SubTable__mostPopular">Most popular</span>
 
-                    
+            <div class="SubTable__nameWrapper SubTable__nameWrapper--growth">
+              <p class="SubTable__subName">Growth</p>        
+              <p class="SubTable__subNameDesc">Simple Lead Journey</p>        
+            </div>
+            <div class="SubTable__nameWrapper SubTable__nameWrapper--scale">
+              <p class="SubTable__subName">Scale</p>        
+              <p class="SubTable__subNameDesc">Advanced Lead Journey</p>        
+            </div>
+            <div class="SubTable__nameWrapper SubTable__nameWrapper--enterprise">
+              <p class="SubTable__subName">Enterprise</p>        
+              <p class="SubTable__subNameDesc">Customer Journey</p>        
+            </div>
 
 
 
