@@ -69,8 +69,11 @@ Template Name:  Priser Template
             <span class="SubTable__labels SubTable__labels9">Channel tracking</span>
             <span class="SubTable__labels SubTable__labels10">Customer engagement</span>
             <span class="SubTable__labels SubTable__labels11">Customer score</span>
-            <span class="SubTable__labels SubTable__labels12">Customer onboarding flow</span> 
-          
+            <span class="SubTable__labels SubTable__labels12">Customer onboarding flow</span>
+
+            <span class="SubTable__mostPopular">Most popular</span>
+
+                    
 
 
 
