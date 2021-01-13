@@ -45,20 +45,34 @@ Template Name:  Priser Template
       <div class="col">
         <div class="SubTable">
 
-            <div class="SubTable__labels">Contacts</div>
-            <div class="SubTable__labels">Lead score</div>
-            <div class="SubTable__labels">Lead stages</div>
-            <div class="SubTable__labels">Content Automations/ Blasts</div>
-            <div class="SubTable__labels">Reports</div>
-            <div class="SubTable__labels">Sales notifications</div>
-            <div class="SubTable__labels">Webinar support</div>
-            <div class="SubTable__labels">Multi language</div>
-            <div class="SubTable__labels">Channel tracking</div>
-            <div class="SubTable__labels">Customer engagement</div>
-            <div class="SubTable__labels">Customer score</div>
-            <div class="SubTable__labels">Customer onboarding flow</div>
+            <div class="SubTable__lines"></div>
+            <div class="SubTable__lines"></div>
+            <div class="SubTable__lines"></div>
+            <div class="SubTable__lines"></div>
+            <div class="SubTable__lines"></div>
+            <div class="SubTable__lines"></div>
+            <div class="SubTable__lines"></div>
+            <div class="SubTable__lines"></div>
+            <div class="SubTable__lines"></div>
+            <div class="SubTable__lines"></div>
+            <div class="SubTable__lines"></div>
+            <div class="SubTable__lines"></div>
 
-            
+            <span class="SubTable__labels SubTable__labels1">Contacts</span>
+            <span class="SubTable__labels SubTable__labels2">Lead score</span>
+            <span class="SubTable__labels SubTable__labels3">Lead stages</span>
+            <span class="SubTable__labels SubTable__labels4">Content Automations/ Blasts</span>
+            <span class="SubTable__labels SubTable__labels5">Reports</span>
+            <span class="SubTable__labels SubTable__labels6">Sales notifications</span>
+            <span class="SubTable__labels SubTable__labels7">Webinar support</span>
+            <span class="SubTable__labels SubTable__labels8">Multi language</span>
+            <span class="SubTable__labels SubTable__labels9">Channel tracking</span>
+            <span class="SubTable__labels SubTable__labels10">Customer engagement</span>
+            <span class="SubTable__labels SubTable__labels11">Customer score</span>
+            <span class="SubTable__labels SubTable__labels12">Customer onboarding flow</span> 
+          
+
+
 
         </div>
       </div>
