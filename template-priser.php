@@ -54,6 +54,7 @@ Template Name:  Priser Template
 
         <div class="SubTable">
 
+            <!-- Lines -->
             <div class="SubTable__lines"></div>
             <div class="SubTable__lines"></div>
             <div class="SubTable__lines"></div>
@@ -66,7 +67,9 @@ Template Name:  Priser Template
             <div class="SubTable__lines"></div>
             <div class="SubTable__lines"></div>
             <div class="SubTable__lines"></div>
+            <!-- /Lines -->
 
+            <!-- Labels -->
             <span class="SubTable__labels SubTable__labels-1">Contacts</span>
             <span class="SubTable__labels SubTable__labels-2">Lead score</span>
             <span class="SubTable__labels SubTable__labels-3">Lead stages</span>
@@ -79,13 +82,18 @@ Template Name:  Priser Template
             <span class="SubTable__labels SubTable__labels-10">Customer engagement</span>
             <span class="SubTable__labels SubTable__labels-11">Customer score</span>
             <span class="SubTable__labels SubTable__labels-12">Customer onboarding flow</span>
+            <!-- /Labels -->
 
+            <!-- Most Popular -->
             <span class="SubTable__mostPopular">Most popular</span>
+            <!-- /Most Popular -->
 
+            <!-- Growth Header -->
             <div class="SubTable__nameWrapper SubTable__nameWrapper--growth">
               <p class="SubTable__subName">Growth</p>        
               <p class="SubTable__subNameDesc">Simple Lead Journey</p>        
             </div>
+            <!-- /Growth Header -->
 
             <!-- Growth Data -->
             <span class="SubTable__growthData SubTable__growthData-1">2000</span>
@@ -102,10 +110,15 @@ Template Name:  Priser Template
             <span class="SubTable__growthData SubTable__growthData-12"><?php echo $icon_dash ?></span>
             <!-- /Growth Data -->
 
+            <!-- Growth Foot -->
+            <!-- Growth Foot -->
+
+            <!-- Scale Header -->
             <div class="SubTable__nameWrapper SubTable__nameWrapper--scale">
               <p class="SubTable__subName">Scale</p>        
               <p class="SubTable__subNameDesc">Advanced Lead Journey</p>        
             </div>
+            <!-- /Scale Header -->
 
             <!-- Scale Data -->
             <span class="SubTable__scaleData SubTable__scaleData-1">5000</span>
@@ -122,10 +135,12 @@ Template Name:  Priser Template
             <span class="SubTable__scaleData SubTable__scaleData-12"><?php echo $icon_dash ?></span>
             <!-- /Scale Data -->
 
+            <!-- Enterprise Header -->
             <div class="SubTable__nameWrapper SubTable__nameWrapper--enterprise">
               <p class="SubTable__subName">Enterprise</p>        
               <p class="SubTable__subNameDesc">Customer Journey</p>        
             </div>
+            <!-- /Enterprise Header -->
 
             <!-- Enterprise Data -->
             <span class="SubTable__enterpriseData SubTable__enterpriseData-1">10.000</span>
@@ -141,6 +156,8 @@ Template Name:  Priser Template
             <span class="SubTable__enterpriseData SubTable__enterpriseData-11"><?php echo $icon_check_box ?></span>
             <span class="SubTable__enterpriseData SubTable__enterpriseData-12"><?php echo $icon_check_box ?></span>
             <!-- /Enterprise Data -->
+
+
 
         </div><!-- /SubTable -->
 
