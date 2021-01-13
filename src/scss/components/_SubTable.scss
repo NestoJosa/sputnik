@@ -1,0 +1,25 @@
+// _SubTable.scss
+
+/* 
+
+  Note:
+  - we are using empty columns for the gutters,
+  in order to be able to define them individually
+
+*/
+
+.SubTable {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns:
+  // the cols correspond to:
+  // labels - empty - growth - empty - scale - empty - enterprise 
+  1fr 4% 1fr 2% 1fr 2% 1fr;
+  grid-template-rows: 
+    48px    // "Most popular"
+    112px   // empty for labels-col, start of SubCards
+    repeat(12, 48px)
+    112px   // empty for labels-col
+     
+  ;
+}

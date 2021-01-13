@@ -39,6 +39,8 @@ Template Name:  Priser Template
 
 <!-- SubCards -->
   <div class="container">
+
+    <!-- table -->
     <div class="row">
       <div class="col">
         <div class="SubTable">
@@ -48,7 +50,17 @@ Template Name:  Priser Template
         </div>
       </div>
     </div>
+    <!-- /table -->
+
+    <div class="row justify-content-center">
+      <div class="col-auto">
+        All prices is pr. month (invoiced yearly)
+      </div>
+    </div>
+
   </div>
+
+
 <!-- /SubCards -->
 
 
