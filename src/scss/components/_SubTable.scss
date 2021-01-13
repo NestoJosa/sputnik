@@ -96,7 +96,7 @@
   }
 
   // Subscription Package Styles
-  &__nameWrapper {
+  &__header {
     // horizontal/vertical centering
     @include flex-center;
     flex-flow: wrap;
@@ -212,6 +212,55 @@
     &-12 { grid-row-start: 14; }
   }
 
-  
+  /* Footers */
+  &__footer {
+    // horizontal/vertical centering
+    @include flex-center;
+    flex-flow: wrap;
+    align-content: center;
+    border-top:       none;
+    border-right:     1px solid grey;
+    border-bottom:    1px solid  grey;
+    border-left:   1px solid  grey;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    grid-row-start: 15;
+    
+    &--growth {
+      grid-column-start: 3;
+    }
+    &--scale {
+      grid-column-start: 5;
+      background-color: map-get($brand-colors, 'white-cream');
+    }
+    &--enterprise {
+      grid-column-start: 7;
+    }
+  }
+
+  &__priceFrom {
+    margin-bottom: 0;
+    opacity: 0.5;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    width: 100%;
+  }
+
+  &__price {
+    margin-bottom: 0;
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+  }
+
 
 }

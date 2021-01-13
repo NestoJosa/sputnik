@@ -89,7 +89,7 @@ Template Name:  Priser Template
             <!-- /Most Popular -->
 
             <!-- Growth Header -->
-            <div class="SubTable__nameWrapper SubTable__nameWrapper--growth">
+            <div class="SubTable__header SubTable__header--growth">
               <p class="SubTable__subName">Growth</p>        
               <p class="SubTable__subNameDesc">Simple Lead Journey</p>        
             </div>
@@ -111,10 +111,14 @@ Template Name:  Priser Template
             <!-- /Growth Data -->
 
             <!-- Growth Foot -->
+            <div class="SubTable__footer SubTable__footer--growth">
+              <p class="SubTable__priceFrom">Price from</p>        
+              <p class="SubTable__price">DKK 3.900,-</p>        
+            </div>
             <!-- Growth Foot -->
 
             <!-- Scale Header -->
-            <div class="SubTable__nameWrapper SubTable__nameWrapper--scale">
+            <div class="SubTable__header SubTable__header--scale">
               <p class="SubTable__subName">Scale</p>        
               <p class="SubTable__subNameDesc">Advanced Lead Journey</p>        
             </div>
@@ -135,8 +139,15 @@ Template Name:  Priser Template
             <span class="SubTable__scaleData SubTable__scaleData-12"><?php echo $icon_dash ?></span>
             <!-- /Scale Data -->
 
+            <!-- Scale Foot -->
+            <div class="SubTable__footer SubTable__footer--scale">
+              <p class="SubTable__priceFrom">Price from</p>        
+              <p class="SubTable__price">DKK 3.900,-</p>        
+            </div>
+            <!-- Scale Foot -->
+
             <!-- Enterprise Header -->
-            <div class="SubTable__nameWrapper SubTable__nameWrapper--enterprise">
+            <div class="SubTable__header SubTable__header--enterprise">
               <p class="SubTable__subName">Enterprise</p>        
               <p class="SubTable__subNameDesc">Customer Journey</p>        
             </div>
@@ -157,7 +168,12 @@ Template Name:  Priser Template
             <span class="SubTable__enterpriseData SubTable__enterpriseData-12"><?php echo $icon_check_box ?></span>
             <!-- /Enterprise Data -->
 
-
+            <!-- Enterprise Foot -->
+            <div class="SubTable__footer SubTable__footer--enterprise">
+              <p class="SubTable__priceFrom">Price from</p>        
+              <p class="SubTable__price">DKK 3.900,-</p>        
+            </div>
+            <!-- Enterprise Foot -->
 
         </div><!-- /SubTable -->
 
