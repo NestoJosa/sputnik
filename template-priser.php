@@ -45,7 +45,20 @@ Template Name:  Priser Template
       <div class="col">
         <div class="SubTable">
 
-          I am table
+            <div class="SubTable__labels">Contacts</div>
+            <div class="SubTable__labels">Lead score</div>
+            <div class="SubTable__labels">Lead stages</div>
+            <div class="SubTable__labels">Content Automations/ Blasts</div>
+            <div class="SubTable__labels">Reports</div>
+            <div class="SubTable__labels">Sales notifications</div>
+            <div class="SubTable__labels">Webinar support</div>
+            <div class="SubTable__labels">Multi language</div>
+            <div class="SubTable__labels">Channel tracking</div>
+            <div class="SubTable__labels">Customer engagement</div>
+            <div class="SubTable__labels">Customer score</div>
+            <div class="SubTable__labels">Customer onboarding flow</div>
+
+            
 
         </div>
       </div>
