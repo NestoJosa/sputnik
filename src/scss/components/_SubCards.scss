@@ -15,15 +15,26 @@
 
   margin-bottom: 48px;
 
+  &__promote {
+    // do something if needed
+
+    &--scale {
+      height: 48px;
+      background-color: map-get($brand-colors, 'yellow-dark');
+    }
+  }
+
   &__header {
     padding: 24px 16px 24px; // top horizontal bottom
     border-bottom: 1px solid rgba(59, 1, 45, 0.08);
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
   }
 
   &__name {
     display: block;
     font-size: 22px;
-    font-weight: 900;
+    font-weight: 700;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.27;
@@ -45,13 +56,55 @@
     align-items: center;
     min-height: 48px;
     border-bottom: 1px solid rgba(59, 1, 45, 0.08);
-    padding: 0 16px;
+    padding: 8px 16px;
   }
 
   &__label {
     flex-basis: 70%;
     padding-right: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
   }
+
   &__value {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+  }
+
+  &__footer {
+    padding: 24px 16px 28px; // top horizontal bottom
+  }
+
+  &__priceFrom {
+    display: block;
+    opacity: 0.5;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+  }
+
+  &__price {
+    font-size: 22px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+  }
+
+  // modifiers
+  &--scale {
+    background-color: map-get($brand-colors, 'white-cream');
   }
 }
