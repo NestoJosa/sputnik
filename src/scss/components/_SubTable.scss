@@ -13,17 +13,23 @@
   font-family: map-get($brand-fonts, 'primary');
   color: map-get($brand-colors, 'purple-dark');
 
-  display: grid;
-  grid-template-columns:
-  // the cols correspond to:
-  // labels - empty - growth - empty - scale - empty - enterprise 
-  1fr 4% 1fr 2% 1fr 2% 1fr;
-  grid-template-rows: 
-    minmax(48px, auto)    // for "Most popular"
-    112px   // start of SubCards
-    repeat(12, minmax(48px, auto))
-    112px   // end of SubCards
-  ;
+  // hidden as default
+  // show on md up
+  display: none;
+  @include media-breakpoint-up(md) {
+    display: grid;
+    grid-template-columns:
+    // the cols correspond to:
+    // labels - empty - growth - empty - scale - empty - enterprise 
+    1fr 4% 1fr 2% 1fr 2% 1fr;
+    grid-template-rows: 
+      minmax(48px, auto)    // for "Most popular"
+      112px   // start of SubCards
+      repeat(12, minmax(48px, auto))
+      112px   // end of SubCards
+    ;
+  }
+  
 
   // place the lines
   &__lines {
@@ -266,6 +272,10 @@
 }
 
 .FinePrint {
+  display: none;
+  @include media-breakpoint-up(md) {
+    display: flex;
+  }
   margin-top: 48px;
   margin-bottom: 96px;
   opacity: 0.5;
