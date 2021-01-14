@@ -8,13 +8,14 @@
 
 */
 
+$border-color: #efebee;
+
 .SubTable {
 
   font-family: map-get($brand-fonts, 'primary');
   color: map-get($brand-colors, 'purple-dark');
 
-  // hidden as default
-  // show on md up
+  // hidden as default, show on md up
   display: none;
   @include media-breakpoint-up(md) {
     display: grid;
@@ -34,8 +35,7 @@
   // place the lines
   &__lines {
     grid-column: 1 / -1;
-    border-top: 1px solid map-get($brand-colors, 'purple-dark');
-    opacity: 0.08;
+    border-top: 1px solid #efebee;
     z-index: 1;
   }
 
@@ -52,8 +52,7 @@
   & div:nth-child(11) { grid-row: 13; }
   & div:nth-child(12) { 
     grid-row: 14;
-    border-bottom: 1px solid map-get($brand-colors, 'purple-dark');
-    opacity: 0.08;
+    border-bottom: 1px solid #efebee;
   }
 
   // place the labels
@@ -109,10 +108,10 @@
     @include flex-center;
     flex-flow: wrap;
     align-content: center;
-    border-top:    1px solid  map-get($brand-colors, 'purple-dark');
-    border-right:  1px solid map-get($brand-colors, 'purple-dark');
+    border-top:    1px solid  $border-color;
+    border-right:  1px solid $border-color;
     border-bottom: none;
-    border-left:   1px solid  map-get($brand-colors, 'purple-dark');
+    border-left:   1px solid  $border-color;
     border-top-right-radius: 16px;
     border-top-left-radius: 16px;
     grid-row-start: 2; 
@@ -162,8 +161,8 @@
   &__growthData {
     grid-column-start: 3;
     @include flex-center;
-    border-right:  1px solid map-get($brand-colors, 'purple-dark');
-    border-left:   1px solid map-get($brand-colors, 'purple-dark');
+    border-right:  1px solid $border-color;
+    border-left:   1px solid $border-color;
 
     &-1 { grid-row-start: 3; }
     &-2 { grid-row-start: 4; }
@@ -182,8 +181,8 @@
   &__scaleData {
     grid-column-start: 5;
     @include flex-center;
-    border-right:  1px solid map-get($brand-colors, 'purple-dark');
-    border-left:   1px solid  map-get($brand-colors, 'purple-dark');
+    border-right:  1px solid $border-color;
+    border-left:   1px solid  $border-color;
     background-color: map-get($brand-colors, 'white-cream');
 
     &-1 { grid-row-start: 3; }
@@ -203,8 +202,8 @@
   &__enterpriseData {
     grid-column-start: 7;
     @include flex-center;
-    border-right:  1px solid map-get($brand-colors, 'purple-dark');
-    border-left:   1px solid  map-get($brand-colors, 'purple-dark');
+    border-right:  1px solid $border-color;
+    border-left:   1px solid  $border-color;
 
     &-1 { grid-row-start: 3; }
     &-2 { grid-row-start: 4; }
@@ -227,9 +226,9 @@
     flex-flow: wrap;
     align-content: center;
     border-top:       none;
-    border-right:     1px solid map-get($brand-colors, 'purple-dark');
-    border-bottom:    1px solid  grey;
-    border-left:   1px solid  grey;
+    border-right:     1px solid $border-color;
+    border-bottom:    1px solid  $border-color;
+    border-left:   1px solid  $border-color;
     border-bottom-right-radius: 16px;
     border-bottom-left-radius: 16px;
     grid-row-start: 15;
