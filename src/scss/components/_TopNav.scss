@@ -39,22 +39,41 @@
 .nav-link {
   color: map-get($brand-colors, 'purple-dark') !important;
 
-  &:hover,
-  &:active,
-  &:focus {
-    color: red !important;
-  }
+
 }
 
 
+
+
+
+
 @include media-breakpoint-up (md) {
+
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .current-menu-item {
+    border-bottom: 2px solid #ffc900;
+  }
+
+  #menu-top-nav .menu-item:not(:last-child) {
+    &:hover ,
+    &:active,
+    &:focus {
+      border-bottom: 2px solid #ffc900;
+    }
+  }
+
   .navbar-nav {
     width: 100%;
   }
   
-  /* First menu item */
+  /* Push first menu item to the right */
   #menu-top-nav li:nth-child(1) {
     margin-left: auto;
+    margin-right: 48px;
   }
   
   /* Book et møde link */
@@ -68,6 +87,10 @@
   #menu-top-nav li:last-child a {
     padding-left: 24px !important;
     padding-right: 24px !important;
+  }
+  /* the anchor inside of the Book et möde link */
+  #menu-top-nav li:last-child a:hover {
+    border-bottom: none;
   }
   
 }
