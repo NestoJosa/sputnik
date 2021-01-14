@@ -2,7 +2,27 @@
 
 .ImageAndCardsWrapper {
   background-color: map-get($brand-colors, 'white-cream');
+  padding-top: 40px;
+  padding-bottom: 24px;
+  @include media-breakpoint-up(md) {
+    padding-top: 96px;
+    padding-bottom: 88px;
+  }
+}
+
+.ImageAndCards {
   font-family: map-get($brand-fonts, 'primary');
 
-  padding-top: 40px;
+  &__image {
+    margin-bottom: 40px;
+    @include media-breakpoint-up(md) {
+      margin-bottom: 0;
+    }
+  }
+
+  &__firstCardsRow {
+    @include media-breakpoint-up(md) {
+      margin-bottom: 8px;
+    }
+  }
 }
