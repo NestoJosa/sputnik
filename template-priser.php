@@ -37,17 +37,194 @@ Template Name:  Priser Template
   </div>
 <!-- /HeadingBlock -->
 
-<!-- table -->
-  <?php 
+<?php 
 
-    // icons for the table
+  /* 
+  
+    icons
 
-    $icon_check_box = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"> <g fill="none" fill-rule="evenodd"> <g> <g> <g transform="translate(-564 -1381) translate(160 1369) translate(404 12)"> <rect width="20" height="20" x="2" y="2" fill="#FF582D" rx="6"/> <g fill="#FBF9F0" transform="rotate(-45 18.45 1.672)"> <rect width="13" height="2" x=".793" y="4.55" rx="1"/> <rect width="2" height="6" x=".636" y=".464" rx="1"/> </g> </g> </g> </g> </g> </svg>';
-    
-    $icon_dash = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"> <g fill="none" fill-rule="evenodd"> <g fill="#FF582D"> <g> <g transform="translate(-564 -1429) translate(160 1417) translate(404 12)"> <rect width="8" height="2" x="8" y="11" rx="1"/> </g> </g> </g> </g></svg>';
+  */
 
-  ?>
+  $icon_check_box = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"> <g fill="none" fill-rule="evenodd"> <g> <g> <g transform="translate(-564 -1381) translate(160 1369) translate(404 12)"> <rect width="20" height="20" x="2" y="2" fill="#FF582D" rx="6"/> <g fill="#FBF9F0" transform="rotate(-45 18.45 1.672)"> <rect width="13" height="2" x=".793" y="4.55" rx="1"/> <rect width="2" height="6" x=".636" y=".464" rx="1"/> </g> </g> </g> </g> </g> </svg>';
+  
+  $icon_dash = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"> <g fill="none" fill-rule="evenodd"> <g fill="#FF582D"> <g> <g transform="translate(-564 -1429) translate(160 1417) translate(404 12)"> <rect width="8" height="2" x="8" y="11" rx="1"/> </g> </g> </g> </g></svg>';
 
+?>
+
+<!-- SubCards -->
+  <div class="container">
+
+    <!-- Growth Card -->
+    <div class="row">
+      <div class="col">
+        <div class="SubCard">
+          <div class="SubCard__promote">
+          </div>
+          <div class="SubCard__header">
+            <span class="SubCard__name">Growth</span>
+            <span class="SubCard__decription">Simple Lead Journey</span>
+          </div>
+          <div class="SubCard__data">
+            <span class="SubCard__label">Contacts</span>
+            <span class="SubCard__value">2000</span>
+          </div>
+          <div class="SubCard__data">
+            <span class="SubCard__label">Lead score</span>
+            <span class="SubCard__value">Simple</span>
+          </div>
+          <div class="SubCard__data">
+            <span class="SubCard__label">Lead Stages</span>
+            <span class="SubCard__value">2</span>
+          </div>
+          <div class="SubCard__data">
+            <span class="SubCard__label">Content Automations/ Blasts</span>
+            <span class="SubCard__value">15</span>
+          </div>
+          <div class="SubCard__data">
+            <span class="SubCard__label">Reports</span>
+            <span class="SubCard__value">Simple</span>
+          </div>
+          <div class="SubCard__data">
+            <span class="SubCard__label">Sales notifications</span>
+            <span class="SubCard__value"><?php echo $icon_check_box ?></span>
+          </div>
+          <div class="SubCard__footer">
+            <span class="SubCard__priceFrom">Price from</span>
+            <span class="SubCard__price">DKK 3.900,-</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Growth Card -->
+
+    <!-- Scale Card -->
+    <div class="row">
+      <div class="col">
+        <div class="SubCard SubCard--scale">
+          <div class="SubCard__promote SubCard__promote--scale">
+            Most Popular
+          </div>
+          <div class="SubCard__header">
+            <span class="SubCard__name">Scale</span>
+            <span class="SubCard__decription">Advanced Lead Journey</span>
+          </div>
+          <div class="SubCard__data">
+            <span class="SubCard__label">Contacts</span>
+            <span class="SubCard__value">5000</span>
+          </div>
+          <div class="SubCard__data">
+            <span class="SubCard__label">Lead score</span>
+            <span class="SubCard__value">Advanced</span>
+          </div>
+          <div class="SubCard__data">
+            <span class="SubCard__label">Lead Stages</span>
+            <span class="SubCard__value">5</span>
+          </div>
+          <div class="SubCard__data">
+            <span class="SubCard__label">Content Automations/ Blasts</span>
+            <span class="SubCard__value">25</span>
+          </div>
+          <div class="SubCard__data">
+            <span class="SubCard__label">Reports</span>
+            <span class="SubCard__value">Advanced</span>
+          </div>
+          <div class="SubCard__data">
+            <span class="SubCard__label">Sales notifications</span>
+            <span class="SubCard__value"><?php echo $icon_check_box ?></span>
+          </div>
+          <div class="SubCard__data">
+            <span class="SubCard__label">Webinar support</span>
+            <span class="SubCard__value"><?php echo $icon_check_box ?></span>
+          </div>
+          <div class="SubCard__data">
+            <span class="SubCard__label">Multi language</span>
+            <span class="SubCard__value"><?php echo $icon_check_box ?></span>
+          </div>
+          <div class="SubCard__data">
+            <span class="SubCard__label">Channel tracking</span>
+            <span class="SubCard__value"><?php echo $icon_check_box ?></span>
+          </div>
+          <div class="SubCard__footer">
+            <span class="SubCard__priceFrom">Price from</span>
+            <span class="SubCard__price">DKK 6.500,-</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Scale Card -->
+
+    <!-- Enterprise Card -->
+    <div class="row">
+      <div class="col">
+        <div class="SubCard">
+          <div class="SubCard__promote">
+          </div>
+          <div class="SubCard__header">
+            <span class="SubCard__name">Enterprise</span>
+            <span class="SubCard__decription">Customer Journey</span>
+          </div>
+          <div class="SubCard__data">
+            <span class="SubCard__label">Contacts</span>
+            <span class="SubCard__value">10.000</span>
+          </div>
+          <div class="SubCard__data">
+            <span class="SubCard__label">Lead score</span>
+            <span class="SubCard__value">Advanced</span>
+          </div>
+          <div class="SubCard__data">
+            <span class="SubCard__label">Lead Stages</span>
+            <span class="SubCard__value">10</span>
+          </div>
+          <div class="SubCard__data">
+            <span class="SubCard__label">Content Automations/ Blasts</span>
+            <span class="SubCard__value">50</span>
+          </div>
+          <div class="SubCard__data">
+            <span class="SubCard__label">Reports</span>
+            <span class="SubCard__value">Advanced</span>
+          </div>
+          <div class="SubCard__data">
+            <span class="SubCard__label">Sales notifications</span>
+            <span class="SubCard__value"><?php echo $icon_check_box ?></span>
+          </div>
+          <div class="SubCard__data">
+            <span class="SubCard__label">Webinar support</span>
+            <span class="SubCard__value"><?php echo $icon_check_box ?></span>
+          </div>
+          <div class="SubCard__data">
+            <span class="SubCard__label">Multi language</span>
+            <span class="SubCard__value"><?php echo $icon_check_box ?></span>
+          </div>
+          <div class="SubCard__data">
+            <span class="SubCard__label">Channel tracking</span>
+            <span class="SubCard__value"><?php echo $icon_check_box ?></span>
+          </div>
+          <div class="SubCard__data">
+            <span class="SubCard__label">Customer engagement</span>
+            <span class="SubCard__value"><?php echo $icon_check_box ?></span>
+          </div>
+          <div class="SubCard__data">
+            <span class="SubCard__label">Customer score</span>
+            <span class="SubCard__value"><?php echo $icon_check_box ?></span>
+          </div>
+          <div class="SubCard__data">
+            <span class="SubCard__label">Customer onboarding flow</span>
+            <span class="SubCard__value"><?php echo $icon_check_box ?></span>
+          </div>
+          <div class="SubCard__footer">
+            <span class="SubCard__priceFrom">Price from</span>
+            <span class="SubCard__price">DKK 10.000,-</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Enterprise Card -->
+
+  </div>
+<!-- /SubCards -->
+
+
+<!-- SubTable and FinePrint -->
   <div class="container">
     <div class="row">
       <div class="col">
@@ -110,12 +287,12 @@ Template Name:  Priser Template
             <span class="SubTable__growthData SubTable__growthData-12"><?php echo $icon_dash ?></span>
             <!-- /Growth Data -->
 
-            <!-- Growth Foot -->
+            <!-- Growth Footer -->
             <div class="SubTable__footer SubTable__footer--growth">
               <p class="SubTable__priceFrom">Price from</p>        
               <p class="SubTable__price">DKK 3.900,-</p>        
             </div>
-            <!-- Growth Foot -->
+            <!-- Growth Footer -->
 
             <!-- Scale Header -->
             <div class="SubTable__header SubTable__header--scale">
@@ -139,12 +316,12 @@ Template Name:  Priser Template
             <span class="SubTable__scaleData SubTable__scaleData-12"><?php echo $icon_dash ?></span>
             <!-- /Scale Data -->
 
-            <!-- Scale Foot -->
+            <!-- Scale Footer -->
             <div class="SubTable__footer SubTable__footer--scale">
               <p class="SubTable__priceFrom">Price from</p>        
               <p class="SubTable__price">DKK 3.900,-</p>        
             </div>
-            <!-- Scale Foot -->
+            <!-- Scale Footer -->
 
             <!-- Enterprise Header -->
             <div class="SubTable__header SubTable__header--enterprise">
@@ -168,12 +345,12 @@ Template Name:  Priser Template
             <span class="SubTable__enterpriseData SubTable__enterpriseData-12"><?php echo $icon_check_box ?></span>
             <!-- /Enterprise Data -->
 
-            <!-- Enterprise Foot -->
+            <!-- Enterprise Footer -->
             <div class="SubTable__footer SubTable__footer--enterprise">
               <p class="SubTable__priceFrom">Price from</p>        
               <p class="SubTable__price">DKK 3.900,-</p>        
             </div>
-            <!-- Enterprise Foot -->
+            <!-- Enterprise Footer -->
 
         </div><!-- /SubTable -->
 
@@ -187,9 +364,7 @@ Template Name:  Priser Template
     </div>
 
   </div><!-- /container -->
-
-
-<!-- /table -->
+<!-- /SubTable and FinePrint -->
 
 <?php get_template_part('includes/section', 'promo');  ?>
 
