@@ -104,7 +104,7 @@ Template Name:  Priser Template
           <div class="SubCard__promote SubCard__promote--scale">
             Most Popular
           </div>
-          <div class="SubCard__header">
+          <div class="SubCard__header SubCard__header--scale">
             <span class="SubCard__name">Scale</span>
             <span class="SubCard__decription">Advanced Lead Journey</span>
           </div>
