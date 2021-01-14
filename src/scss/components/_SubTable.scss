@@ -17,7 +17,7 @@ $border-color: #efebee;
 
   // hidden as default, show on md up
   display: none;
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     display: grid;
     grid-template-columns:
     // the cols correspond to:
