@@ -124,7 +124,6 @@
               </g>
             </g>
           </svg>
-
         </div>
         <h3 class="AboutCard__heading">Design & brugeroplevelse</h3>
         <p class="AboutCard__subHeading">Vi designer den digitale kunderejse, der giver dig det rigtige aftryk i markedet og som kan mærkes på bundlinjen</p>
