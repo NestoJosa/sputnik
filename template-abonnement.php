@@ -207,4 +207,40 @@ Template Name:  Abonnement Template
   </div><!-- /container-fluid -->
 <!-- /ManAndCards -->
 
+<!-- ImageAndTextBoxes -->
+  <div class="ImageAndTextBoxesWrapper container-fluid">
+    <div class="ImageAndTextBoxes container">
+
+      <div class="row align-items-center">
+
+        <div class="col-md-6">
+          <img class="ImageAndTextBoxes__image" src="<?php echo get_template_directory_uri();?>/dist/img/man-with-computer--large.png" alt="Man using computer">
+        </div>
+
+        <div class="ImageAndTextBoxes__box col-md-6">
+          <div>Windows Registry Cleaner Checklist</div>
+          <p>Free directories: directories are perfect for customers that are searching for a particular topic. What’s great about them is that you only have to post once and they are good for long periods of time. When you don’t have to resubmit your information.</p>
+        </div>
+
+      </div><!-- /row -->
+
+      <div class="row align-items-center">
+
+        <div class="col-md-6 order-md-2">
+          <img class="ImageAndTextBoxes__image" src="<?php echo get_template_directory_uri();?>/dist/img/man-with-computer--large.png" alt="Man using computer">
+        </div>
+
+        <div class="ImageAndTextBoxes__box col-md-6 order-md-1">
+          <div>Windows Registry Cleaner Checklist</div>
+          <p>Free directories: directories are perfect for customers that are searching for a particular topic. What’s great about them is that you only have to post once and they are good for long periods of time. When you don’t have to resubmit your information.</p>
+        </div>
+
+      </div><!-- /row -->
+
+    </div><!-- /container -->
+  </div><!-- /container-fluid -->
+<!-- /ImageAndTextBoxes -->
+
+<?php get_template_part('includes/section', 'promo');  ?>
+
 <?php get_footer(); ?>

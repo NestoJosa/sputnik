@@ -2,6 +2,7 @@
 
 .ManAndCardsWrapper {
   background-color: map-get($brand-colors, 'white-cream');
+  font-family: map-get($brand-fonts, 'primary');
 
   padding-top: 40px;
 }
