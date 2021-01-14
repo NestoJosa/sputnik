@@ -73,8 +73,8 @@ Template Name:  Abonnement Template
   </div>
 <!-- /About -->
 
-<!-- ManAndCards -->
-  <div class="ManAndCardsWrapper container-fluid">
+<!-- ImageAndCards -->
+  <div class="ImageAndCardsWrapper container-fluid">
     <div class="container">
       <div class="row">
         
@@ -148,18 +148,20 @@ Template Name:  Abonnement Template
 
             <div class="col-md-6">
               <div class="AboutCard__iconWrapper">          
-                <svg class="AboutCard__icon js-AboutCard__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 81">
+                <svg class="AboutCard__icon js-AboutCard__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
                   <g fill="none" fill-rule="evenodd">
                     <g>
                       <g>
                         <g>
+                          <g fill="#FBF9F0" stroke="#3B012D" stroke-opacity=".04" stroke-width="2">
+                            <path d="M50 1c8.008 0 15.258 3.246 20.506 8.494C75.754 14.742 79 21.992 79 30h0v20c0 8.008-3.246 15.258-8.494 20.506C65.258 75.754 58.008 79 50 79h0-20c-8.008 0-15.258-3.246-20.506-8.494C4.246 65.258 1 58.008 1 50h0V30c0-8.008 3.246-15.258 8.494-20.506C14.742 4.246 21.992 1 30 1h0z" transform="translate(-16 -2877) translate(0 1983) translate(16 894)"/>
+                          </g>
                           <g>
-                            <g fill="#FBF9F0" stroke="#3B012D" stroke-opacity=".04" stroke-width="2">
-                              <path d="M50 1c8.008 0 15.258 3.246 20.506 8.494C75.754 14.742 79 21.992 79 30h0v20c0 8.008-3.246 15.258-8.494 20.506C65.258 75.754 58.008 79 50 79h0-20c-8.008 0-15.258-3.246-20.506-8.494C4.246 65.258 1 58.008 1 50h0V30c0-8.008 3.246-15.258 8.494-20.506C14.742 4.246 21.992 1 30 1h0z" transform="translate(-544 -1343) translate(0 975.257) translate(160 367.956) translate(384)"/>
-                            </g>
                             <g>
-                              <path class="utils-fill" d="M27.996 27.99l-7.295 7.293-8.059.986 5.02-5.018.31-.304c.943-.893 2.015-1.634 3.18-2.197l.283-.132-.12.02c2.168-.384 4.362-.6 6.562-.647l.119-.001zM29.118 43.838l7.347-7.345-.002.084c-.054 1.915-.238 3.824-.55 5.716l-.121.696.042-.095c-.62 1.464-1.51 2.799-2.624 3.933l-5.03 5.022.938-8.011z" transform="translate(-544 -1343) translate(0 975.257) translate(160 367.956) translate(384) translate(8 7)"/>
-                              <path class="utils-stroke" d="M37.461 34.084c.092 3.083-.145 6.167-.706 9.2-.668 1.58-1.629 3.02-2.832 4.244l-5.034 5.026c-.3.302-.76.38-1.144.195-.385-.186-.608-.595-.558-1.02l.978-8.351M19.813 37.654s21.89-21.956 23.306-23.37c1.57-1.572 6.636-2.756 9.156-3.264.329-.066.668.036.905.273.237.237.34.576.273.905-.508 2.52-1.692 7.584-3.264 9.156L26.853 44.688l-7.04-7.034zM22.633 34.802L29.685 41.86M30.39 27.012c-3.098-.115-6.199.1-9.25.642-1.565.691-2.984 1.672-4.185 2.89l-5.02 5.018c-.302.302-.38.762-.192 1.146.188.384.598.606 1.022.554l8.4-1.028M22.611 44.688c1.416 1.414.826 3.418-.706 4.952-1.434 1.432-6.87 3.066-9.652 3.83-.342.09-.707-.009-.958-.259-.252-.25-.352-.614-.264-.957.756-2.79 2.374-8.242 3.8-9.678 1.554-1.552 3.538-2.12 4.952-.706" transform="translate(-544 -1343) translate(0 975.257) translate(160 367.956) translate(384) translate(8 7)"/>
+                              <path class="utils-fill" fill-rule="nonzero" d="M19.608 25.87L44.372 2.875l-7.05 33.491c-.055.254-.235.469-.48.569l-.106.035c-.216.054-.448.016-.637-.108L19.608 25.87z" transform="translate(-16 -2877) translate(0 1983) translate(16 894) translate(8 7) translate(4 14)"/>
+                              <path class="utils-stroke" d="M46 0L.862 18.646c-.547.23-.889.782-.853 1.375.036.592.442 1.098 1.013 1.261L18 26 46 0z" transform="translate(-16 -2877) translate(0 1983) translate(16 894) translate(8 7) translate(4 14)"/>
+                              <path class="utils-stroke" d="M46 0l-7.7 36.572c-.125.581-.529 1.064-1.08 1.288-.55.225-1.176.164-1.672-.164L18 26 46 0z" transform="translate(-16 -2877) translate(0 1983) translate(16 894) translate(8 7) translate(4 14)"/>
+                              <path class="utils-stroke" d="M18 26v12.96c0 .468.315.878.768 1 .452.122.93-.074 1.166-.478l5.122-8.78" transform="translate(-16 -2877) translate(0 1983) translate(16 894) translate(8 7) translate(4 14)"/>
                             </g>
                           </g>
                         </g>
@@ -205,7 +207,7 @@ Template Name:  Abonnement Template
       </div><!-- /row -->
     </div><!-- /container -->
   </div><!-- /container-fluid -->
-<!-- /ManAndCards -->
+<!-- /ImageAndCards -->
 
 <!-- ImageAndTextBoxes -->
   <div class="ImageAndTextBoxesWrapper container-fluid">
