@@ -11,11 +11,29 @@
     padding-bottom: 72px;
   }
   
+  &__preHeading {
+    color: map-get($brand-colors, 'red');
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    margin-bottom: 8px;
+    @include media-breakpoint-up(md) {
+      text-align: center;
+    }
+  }
+
   &__heading {
     font-size: 22px;
     font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
     line-height: 1.27;
-    padding-bottom: 20px;
+    letter-spacing: normal;
+
+    margin-bottom: 20px !important;
     @include media-breakpoint-up(md) {
       text-align: center;
       font-size: 28px;
@@ -26,8 +44,12 @@
   &__subHeading {
     font-size: 20px;
     font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
     line-height: 1.4;
+    letter-spacing: normal;
     opacity: 0.72;
+    
     margin-bottom: 0 !important; // overrule bootstrap
     @include media-breakpoint-up(md) {
       text-align: center;
