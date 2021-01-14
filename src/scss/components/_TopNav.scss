@@ -53,20 +53,23 @@
   }
   
   /* First menu item */
-  #menu-item-60 {
+  #menu-top-nav li:nth-child(1) {
     margin-left: auto;
   }
   
   /* Book et møde link */
-  #menu-item-57 {
+  #menu-top-nav li:last-child {
     margin-left: auto;
     border-radius: 16px;
     border: solid 1px map-get($brand-colors, 'yellow-dark');
-    & .nav-link {
-      padding-left: 24px;
-      padding-right: 24px;
-    }
   }
+
+  /* the anchor inside of the Book et möde link */
+  #menu-top-nav li:last-child a {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+  }
+  
 }
 
 

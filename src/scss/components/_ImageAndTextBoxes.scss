@@ -3,6 +3,11 @@
 .ImageAndTextBoxesWrapper {
   background-color: map-get($brand-colors, 'purple-dark');
   font-family: map-get($brand-fonts, 'primary');
+
+  margin-bottom: 64px;
+  @include media-breakpoint-up(md) {
+    margin-bottom: 96px;
+  }
 }
 
 .ImageAndTextBoxes {
