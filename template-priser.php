@@ -62,7 +62,7 @@ Template Name:  Priser Template
           </div>
           <div class="SubCard__header">
             <span class="SubCard__name">Growth</span>
-            <span class="SubCard__decription">Simple Lead Journey</span>
+            <span class="SubCard__description">Simple Lead Journey</span>
           </div>
           <div class="SubCard__data">
             <span class="SubCard__label">Contacts</span>
@@ -106,7 +106,7 @@ Template Name:  Priser Template
           </div>
           <div class="SubCard__header SubCard__header--scale">
             <span class="SubCard__name">Scale</span>
-            <span class="SubCard__decription">Advanced Lead Journey</span>
+            <span class="SubCard__description">Advanced Lead Journey</span>
           </div>
           <div class="SubCard__data">
             <span class="SubCard__label">Contacts</span>
@@ -161,7 +161,7 @@ Template Name:  Priser Template
           </div>
           <div class="SubCard__header">
             <span class="SubCard__name">Enterprise</span>
-            <span class="SubCard__decription">Customer Journey</span>
+            <span class="SubCard__description">Customer Journey</span>
           </div>
           <div class="SubCard__data">
             <span class="SubCard__label">Contacts</span>
@@ -359,7 +359,7 @@ Template Name:  Priser Template
 
     <div class="FinePrint row justify-content-center">
       <div class="col-auto">
-        All prices is pr. month (invoiced yearly)
+        All prices are pr. month (invoiced yearly)
       </div>
     </div>
 
