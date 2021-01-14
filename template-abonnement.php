@@ -75,16 +75,16 @@ Template Name:  Abonnement Template
 
 <!-- ImageAndCards -->
   <div class="ImageAndCardsWrapper container-fluid">
-    <div class="container">
+    <div class="ImageAndCards container">
       <div class="row">
         
         <div class="col-md-6">
-          <img class="" src="<?php echo get_template_directory_uri();?>/dist/img/man-with-computer--large.png" alt="Man using computer">
+          <img class="ImageAndCards__image" src="<?php echo get_template_directory_uri();?>/dist/img/man-with-computer--large.png" alt="Man using computer">
         </div>
         
         <div class="col-md-6">
         
-          <div class="row">
+          <div class="ImageAndCards__firstCardsRow row">
 
             <div class="col-md-6">
               <!-- the animation is triggered when the icon is visible on the screen, via the js-hook -->
@@ -220,8 +220,8 @@ Template Name:  Abonnement Template
         </div>
 
         <div class="ImageAndTextBoxes__box col-md-6">
-          <div>Windows Registry Cleaner Checklist</div>
-          <p>Free directories: directories are perfect for customers that are searching for a particular topic. What’s great about them is that you only have to post once and they are good for long periods of time. When you don’t have to resubmit your information.</p>
+          <div class="ImageAndTextBoxes__heading">Windows Registry Cleaner Checklist</div>
+          <p class="ImageAndTextBoxes__body">Free directories: directories are perfect for customers that are searching for a particular topic. What’s great about them is that you only have to post once and they are good for long periods of time. When you don’t have to resubmit your information.</p>
         </div>
 
       </div><!-- /row -->
@@ -233,8 +233,8 @@ Template Name:  Abonnement Template
         </div>
 
         <div class="ImageAndTextBoxes__box col-md-6 order-md-1">
-          <div>Windows Registry Cleaner Checklist</div>
-          <p>Free directories: directories are perfect for customers that are searching for a particular topic. What’s great about them is that you only have to post once and they are good for long periods of time. When you don’t have to resubmit your information.</p>
+          <div class="ImageAndTextBoxes__heading">Windows Registry Cleaner Checklist</div>
+          <p class="ImageAndTextBoxes__body">Free directories: directories are perfect for customers that are searching for a particular topic. What’s great about them is that you only have to post once and they are good for long periods of time. When you don’t have to resubmit your information.</p>
         </div>
 
       </div><!-- /row -->

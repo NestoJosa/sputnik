@@ -3,7 +3,6 @@
 .ImageAndTextBoxesWrapper {
   background-color: map-get($brand-colors, 'purple-dark');
   font-family: map-get($brand-fonts, 'primary');
-  color: white; // update! 
 }
 
 .ImageAndTextBoxes {
@@ -32,4 +31,31 @@
     box-shadow: 2px 2px 16px 0 rgba(0, 0, 0, 0.05);
     background-color: #401224;
   }
+
+  &__heading {
+    color: map-get($brand-colors, 'yellow-dark');
+    font-size: 22px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    margin-bottom: 24px;
+    @include media-breakpoint-up(md) {
+      font-size: 24px;
+      line-height: 1.33;
+    } 
+  }
+
+  &__body {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-bottom: 0 !important;
+  }
+
 }
