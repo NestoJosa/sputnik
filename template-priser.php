@@ -52,7 +52,7 @@ Template Name:  Priser Template
 ?>
 
 <!-- SubCards -->
-  <div class="container">
+  <div class="SubCardsWrapper container">
 
     <!-- Growth Card -->
     <div class="row">

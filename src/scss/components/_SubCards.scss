@@ -1,2 +1,57 @@
 // _SubCards.scss
 
+.SubCardsWrapper {
+  @include media-breakpoint-up(md) {
+    display: none;
+  }
+}
+
+.SubCard {
+  border-radius: 16px;
+  border: solid 1px rgba(59, 1, 45, 0.08);
+
+  font-family: map-get($brand-fonts, 'primary');
+  color: map-get($brand-colors, 'purple-dark');
+
+  margin-bottom: 48px;
+
+  &__header {
+    padding: 24px 16px 24px; // top horizontal bottom
+    border-bottom: 1px solid rgba(59, 1, 45, 0.08);
+  }
+
+  &__name {
+    display: block;
+    font-size: 22px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    margin-bottom: 4px;
+  }
+
+  &__description {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+  }
+
+  &__data {
+    display: flex;
+    align-items: center;
+    min-height: 48px;
+    border-bottom: 1px solid rgba(59, 1, 45, 0.08);
+    padding: 0 16px;
+  }
+
+  &__label {
+    flex-basis: 70%;
+    padding-right: 16px;
+  }
+  &__value {
+  }
+}
