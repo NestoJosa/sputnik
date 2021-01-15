@@ -1,0 +1,61 @@
+// _Privacy.scss
+
+.Privacy {
+  font-family: map-get($brand-fonts, 'primary');
+  color: map-get($brand-colors, 'purple-dark');
+
+  padding-top: 72px;
+  padding-bottom: 64px;
+  @include media-breakpoint-up(md) {
+    padding-top: 96px;
+    padding-bottom: 128px;
+  }
+
+  & h2 {
+    font-size: 22px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+
+    margin-top: 42px;
+    margin-bottom: 20px;
+    @include media-breakpoint-up(md) {
+      font-size: 28px;
+      line-height: 1.29;
+      margin-top: 48px;
+      margin-bottom: 20px;
+    }
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  & p {
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    opacity: 0.72;
+  }
+
+  & ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  & li {
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    opacity: 0.72;
+    list-style-type: none;
+  }
+}

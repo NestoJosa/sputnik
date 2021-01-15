@@ -25,7 +25,7 @@ Template Name:  Priser Template
 <!-- /Hero -->
 
 <!-- HeadingBlock -->
-<div class="HeadingBlock container">
+  <div class="HeadingBlock container">
     <div class="row justify-content-center">
 
       <div class="col-md-8">
