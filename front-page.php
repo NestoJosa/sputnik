@@ -9,7 +9,7 @@
         </div>
         <div class="col-md-6 order-md-1">
           <h1 class="Hero__heading">Få mere ud af dit marketingbudget med Marketing Automation</h1>
-          <p class="Hero__subHeading">Vi gør det nemt og enkelt at komme i gang med Marketing Automation</p>
+          <p class="Hero__subHeading">Vi gør det nemt og enkelt at komme i gang med Marketing Automation.</p>
           <button class="Hero__button ButtonSolid--large" type="button">
             <a href="<?php echo get_permalink( 46 ); ?>">Kom let i gang</a>
           </button>  
@@ -228,9 +228,9 @@
 
         <div class="col-md-5 order-md-1">
           <div class="Quote__stats">
-            <div class="Quote__statsText">Vi skaffede PLM Group</div>
+            <div class="Quote__statsText">Vi skaffede PLM Group mere end</div>
             <div class="Quote__statsNumber">200%</div>
-            <div class="Quote__statsText">Flere kvalificerede leads til salg - første år.</div>
+            <div class="Quote__statsText">flere kvalificerede leads til salg - første år.</div>
           </div>
         </div>
 

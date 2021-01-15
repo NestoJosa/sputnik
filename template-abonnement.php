@@ -16,8 +16,8 @@ Template Name:  Abonnement Template
           <img src="<?php echo get_template_directory_uri();?>/dist/img/man-with-computer-circle-bg--large.png" alt="Man using computer">
         </div>
         <div class="col-md-6 order-md-1">
-          <h1 class="Hero__heading">Lead Automation</h1>
-          <p class="Hero__subHeading">Få flere Leads til en lav månedlig pris - uden alt besværet</p>
+          <h1 class="Hero__heading">Få flere Leads til en lav månedlig pris - uden alt besværet</h1>
+          <p class="Hero__subHeading">Lead Automation på abonnement, er den letteste og billigste måde at få flere leads og mere salg.</p>
         </div>
       </div>
     </div>
@@ -29,9 +29,9 @@ Template Name:  Abonnement Template
     <div class="row justify-content-center">
 
       <div class="col-md-8">
-        <p class="HeadingBlock__preHeading">Fordele</p>
+        <p class="HeadingBlock__preHeading">Abonnementsløsning</p>
         <h2 class="HeadingBlock__heading">Alle fordelene. Uden alt besværet!</h2>
-        <p class="HeadingBlock__subHeading">Free directories: directories are perfect for customers that are searching for a particular topic. What’s great about them is that you only have to post once and they are good for long periods of time. When you don’t have to resubmit your information every week or every month.</p>
+        <p class="HeadingBlock__subHeading">Lead Automation er den letteste og billigste måde at arbejde med Lead Automation der virker. Vi tager os af alt teknikken, så du kan fokusere på forretningen. Det der før var unikt for dem med store budgetter, kan du nu få til en fast lav månedlig pris.</p>
       </div>
 
     </div>   
@@ -48,8 +48,8 @@ Template Name:  Abonnement Template
           <img src="<?php echo get_template_directory_uri();?>/dist/img/icon-number-one.png" alt="Number one icon">
 
         </div>
-        <h3 class="AboutCard__heading">Strategi & rådgivning</h3>
-        <p class="AboutCard__subHeading">Har du brug for at få lagt den rigtige plan? Eller bare få ført den du har ud i livet? Vi kan hjælpe.</p>
+        <h3 class="AboutCard__heading">Du laver indhold</h3>
+        <p class="AboutCard__subHeading">Du laver indhold der engagerer og oplyse din målgruppe og skaffe nye navne i lead databasen.</p>
       </div>
       <div class="col-md-4">
       <div class="AboutCard__iconWrapper">
@@ -57,8 +57,8 @@ Template Name:  Abonnement Template
           <img src="<?php echo get_template_directory_uri();?>/dist/img/icon-number-two.png" alt="Number two icon">
 
         </div>
-        <h3 class="AboutCard__heading">Design & brugeroplevelse</h3>
-        <p class="AboutCard__subHeading">Vi designer den digitale kunderejse, der giver dig det rigtige aftryk i markedet og som kan mærkes på bundlinjen</p>
+        <h3 class="AboutCard__heading">Vi automatiserer kommunikationen</h3>
+        <p class="AboutCard__subHeading">Vi sørger for at dine leads får det rigtige budskab på det rigtige tidspunkt. På den måde får du det meste ud af den kommunikation.</p>
       </div>
       <div class="col-md-4">
       <div class="AboutCard__iconWrapper">
@@ -66,8 +66,8 @@ Template Name:  Abonnement Template
           <img src="<?php echo get_template_directory_uri();?>/dist/img/icon-number-three.png" alt="Number three icon">
 
         </div>
-        <h3 class="AboutCard__heading">Martech</h3>
-        <p class="AboutCard__subHeading">Få en Martech løsning der sikrer at i får mest muligt ud af Jeres kundedata, og kan fungere som omdrejningspunkt for Jeres kommunikation</p>
+        <h3 class="AboutCard__heading">Vi sender varme leads til salget</h3>
+        <p class="AboutCard__subHeading">Fokuserer du nu bare på forretningen. Vi giver besked når dine leads er varme og parate til at få kontakt med en sælger.</p>
       </div>
     </div>
   </div>
@@ -110,8 +110,8 @@ Template Name:  Abonnement Template
                   </g>
                 </svg>
               </div>
-              <h3 class="AboutCard__heading">Strategi & rådgivning</h3>
-              <p class="AboutCard__subHeading">Har du brug for at få lagt den rigtige plan? Eller bare få ført den du har ud i livet? Vi kan hjælpe.</p>
+              <h3 class="AboutCard__heading">Lead Score</h3>
+              <p class="AboutCard__subHeading">Vi holder styr på dine leads digitale adfærd, og giver alle leads en score så du ved hvem, der er mest tilbøjelige til at købe.</p>
             </div><!-- /col-md-6 -->
 
             <div class="col-md-6">
@@ -138,8 +138,8 @@ Template Name:  Abonnement Template
                   </g>
                 </svg>
               </div>
-              <h3 class="AboutCard__heading">Martech</h3>
-              <p class="AboutCard__subHeading">Få en Martech løsning der sikrer at i får mest muligt ud af Jeres kundedata, og kan fungere som omdrejningspunkt for Jeres kommunikation</p>
+              <h3 class="AboutCard__heading">Lead Nurturing</h3>
+              <p class="AboutCard__subHeading">Vi engagerer automatisk dine målgruppe med relevante budskaber, der engagerer og flytter dem fra kolde til varme leads.</p>
             </div><!-- /col-md-6 -->
 
           </div><!-- /row -->
@@ -170,8 +170,8 @@ Template Name:  Abonnement Template
                   </g>
                 </svg>
               </div>
-              <h3 class="AboutCard__heading">Design & brugeroplevelse</h3>
-              <p class="AboutCard__subHeading">Vi designer den digitale kunderejse, der giver dig det rigtige aftryk i markedet og som kan mærkes på bundlinjen</p>
+              <h3 class="AboutCard__heading">Salgs Notifikationer</h3>
+              <p class="AboutCard__subHeading">Når dine leads er varme giver vi besked, så en sælger kan følge op - med indsigter, der gør det let at lukke ordren.</p>
             </div>
 
             <div class="col-md-6">
@@ -196,8 +196,8 @@ Template Name:  Abonnement Template
                   </g>
                 </svg>
               </div>
-              <h3 class="AboutCard__heading">Design & brugeroplevelse</h3>
-              <p class="AboutCard__subHeading">Vi designer den digitale kunderejse, der giver dig det rigtige aftryk i markedet og som kan mærkes på bundlinjen</p>
+              <h3 class="AboutCard__heading">Rapportering</h3>
+              <p class="AboutCard__subHeading">Med datadrevet marketing og salg får i tilgang til rapporter, så i hele tiden kan udvikle processen og resultaterne.</p>
             </div>
 
           </div><!-- /row -->
@@ -220,8 +220,8 @@ Template Name:  Abonnement Template
         </div>
 
         <div class="ImageAndTextBoxes__box col-md-6">
-          <div class="ImageAndTextBoxes__heading">Windows Registry Cleaner Checklist</div>
-          <p class="ImageAndTextBoxes__body">Free directories: directories are perfect for customers that are searching for a particular topic. What’s great about them is that you only have to post once and they are good for long periods of time. When you don’t have to resubmit your information.</p>
+          <div class="ImageAndTextBoxes__heading">Fra manuel marketing til en automatiseret lead maskine</div>
+          <p class="ImageAndTextBoxes__body">Vi automatiserer kommunikation gennem hele lead rejsen. Det gør at der bliver fulgt op på leads fra første kontakt til en sælger tager over.</p>
         </div>
 
       </div><!-- /row -->
@@ -233,8 +233,8 @@ Template Name:  Abonnement Template
         </div>
 
         <div class="ImageAndTextBoxes__box col-md-6 order-md-1">
-          <div class="ImageAndTextBoxes__heading">Windows Registry Cleaner Checklist</div>
-          <p class="ImageAndTextBoxes__body">Free directories: directories are perfect for customers that are searching for a particular topic. What’s great about them is that you only have to post once and they are good for long periods of time. When you don’t have to resubmit your information.</p>
+          <div class="ImageAndTextBoxes__heading">Drop kold kanvas! Ring til varme leads</div>
+          <p class="ImageAndTextBoxes__body">Vi kvalificerer automatisk dine leads ud fra deres digitale adfærd. Vi giver besked når Jeres leads viser købssignaler og notificerer en sælger.</p>
         </div>
 
       </div><!-- /row -->
