@@ -8,9 +8,11 @@
           <img src="<?php echo get_template_directory_uri();?>/dist/img/man-on-rocket--large.png" alt="Rocket Man">
         </div>
         <div class="col-md-6 order-md-1">
-          <h1 class="Hero__heading">Marketing Automation forvandler data til bedre resultater</h1>
-          <p class="Hero__subHeading">Vi hjælper virksomheder rigtigt i gang med Marketing Automation - eller med at få mere ud af den eksisterende løsning.</p>
-          <button class="Hero__button ButtonSolid--large" type="button">Se vores løsninger</button>  
+          <h1 class="Hero__heading">Få mere ud af dit marketingbudget med Marketing Automation</h1>
+          <p class="Hero__subHeading">Vi gør det nemt og enkelt at komme i gang med Marketing Automation</p>
+          <button class="Hero__button ButtonSolid--large" type="button">
+            <a href="<?php echo get_permalink( 46 ); ?>">Kom let i gang</a>
+          </button>  
         </div>
       </div>
     </div>

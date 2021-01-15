@@ -9,14 +9,13 @@ $btnTextColor: #3b012d;
 @mixin button-solid-base {
   // button resets
   border: none;
-  font-family: inherit;
+  font-family: map-get($brand-fonts, 'primary');
   padding: 0;
   // center horizontally/vertically
   display: inline-flex;
   align-items: center;
   justify-content: center;
   background-color: $btnColor;
-  color: $btnTextColor;
   transition: 220ms all ease-in-out;
   // state-styles
   &:hover,
@@ -41,7 +40,9 @@ $btnTextColor: #3b012d;
   font-size: 0.9375rem; // => 15px
   padding: 0 24px;
   min-width: 134px;
-  min-height: 48px; 
+  min-height: 48px;
+  
+
 }
 
 .ButtonSolid--large {
@@ -50,7 +51,12 @@ $btnTextColor: #3b012d;
   font-size: 1rem; // => 16px
   padding: 0 28px;
   min-width: 147px;
-  min-height: 56px; 
+  min-height: 56px;
+  
+  & a {
+    text-decoration: none;
+    color: $btnTextColor;
+  }
 }
 
 .ButtonSolid--extraLarge {
