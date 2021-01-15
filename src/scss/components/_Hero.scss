@@ -8,12 +8,14 @@
   padding-bottom: 64px !important;
 
   &--onPricePage {
+    // remove the margin-bottom, because there is
+    // no button under the subHeading on the price page
     .Hero__subHeading {
       margin-bottom: 0;
     }
   }  
 
-  &--onPricePage {
+  &--onPrivacyPage {
     .Hero__heading {
       margin-bottom: 0;
     }
