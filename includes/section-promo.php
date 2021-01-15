@@ -14,9 +14,11 @@
             </div>
             <div class="col-md-6">
               <p class="Promo__news">Nyhed</p>
-              <h2 class="Promo__heading">Marketing Automation som abbonnementsløsning</h2>
-              <p class="Promo__subHeading">Find ud af hvilke muligheder Marketing Automation kan give din virksomhed, ud af hvilke muligheder Marketing Automation kan give din virksomhed</p>
-              <button class="ButtonSolid--large" type="button">Se vores abonnementer</button>  
+              <h2 class="Promo__heading">Din tur til at tage action</h2>
+              <p class="Promo__subHeading">Find ud af hvor let du og din virksomhed, kan komme i gang med at få bedre resultater med Marketing Automation.</p>
+              <button class="ButtonSolid--large" type="button">
+                <a href="<?php echo get_permalink( 55 ); ?>">Kom rigtigt i gang</a>
+              </button>  
             </div>
           </div>
         </div>
