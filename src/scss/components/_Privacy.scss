@@ -58,4 +58,11 @@
     opacity: 0.72;
     list-style-type: none;
   }
+
+  & a:not(.MailTo--inPrivacyPage) {
+    text-decoration: none;
+    color: map-get($brand-colors, 'purple-dark');
+    border-bottom: 1px solid map-get($brand-colors, 'purple-dark');
+  }
+
 }

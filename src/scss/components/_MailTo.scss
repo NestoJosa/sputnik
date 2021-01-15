@@ -1,0 +1,39 @@
+// _MailTo.scss
+
+
+a.MailTo {
+
+  // proceed with caution when adding generic styles
+  // that should apply to the .MailTo class,
+  // because the class is used in a number of places
+
+  // remove default anchor underline
+  text-decoration: none;
+  
+
+  
+  &--inPrivacyPage {
+  
+    color: map-get($brand-colors, 'purple-dark');
+  
+    &:hover,
+    &:active,
+    &:focus {
+      text-decoration: none;
+    }
+  
+  }
+
+  &--inFooter {
+  
+    color: map-get($brand-colors, 'yellow-dark');
+  
+    &:hover,
+    &:active,
+    &:focus {
+      text-decoration: none;
+    }
+  }
+
+}
+
