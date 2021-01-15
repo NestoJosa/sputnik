@@ -70,7 +70,7 @@
           <li>Autobahn ApS</li>
           <li>Vesterbrogade 37, 1. th</li>
           <li>1620 københavn V</li>
-          <li>Telefon: 51 51 47 84</li>
+          <li>Telefon: <a class="PhoneToLink PhoneToLink--inPrivacyPage" href="tel:004551514784">51 51 47 84</a></li>
           <li>Email: <a class="MailTo MailTo--inPrivacyPage" href="mailto:hello@autobahncph.dk">hello@autobahncph.dk</a></li>
         </ul>
 
