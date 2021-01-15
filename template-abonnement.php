@@ -16,8 +16,8 @@ Template Name:  Abonnement Template
           <img src="<?php echo get_template_directory_uri();?>/dist/img/man-with-computer-circle-bg--large.png" alt="Man using computer">
         </div>
         <div class="col-md-6 order-md-1">
-          <h1 class="Hero__heading">Marketing Automation på abonnement</h1>
-          <p class="Hero__subHeading">Vi tilbyder Marketing Automation på abonnement så du kan få alle fordelen til en fast lav månedlig pris. Du slipper for alt besværet - og sparer samtidig penge.</p>
+          <h1 class="Hero__heading">Lead Automation</h1>
+          <p class="Hero__subHeading">Få flere Leads til en lav månedlig pris - uden alt besværet</p>
         </div>
       </div>
     </div>

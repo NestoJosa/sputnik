@@ -16,8 +16,8 @@ Template Name:  Book Template
           <img src="<?php echo get_template_directory_uri();?>/dist/img/man-with-computer-circle-bg--large.png" alt="Man using computer">
         </div>
         <div class="col-md-6 order-md-1">
-          <h1 class="Hero__heading">Marketing Automation på abonnement</h1>
-          <p class="Hero__subHeading">Vi tilbyder Marketing Automation på abonnement så du kan få alle fordelen til en fast lav månedlig pris. Du slipper for alt besværet - og sparer samtidig penge.</p>
+          <h1 class="Hero__heading">Book et møde</h1>
+          <p class="Hero__subHeading">Er du nysgerrig efter at høre, hvor hurtigt DU kan være i gang med at automatisere? Vi lytter til dine behov og hjælper dig rigtigt i gang.</p>
         </div>
       </div>
     </div>
@@ -30,8 +30,11 @@ Template Name:  Book Template
       <div class="ContactForm row justify-content-between">
         <div class="col-md-6 order-md-2">
           <h2 class="ContactForm__heading">Udfyld formularen. Så kontakter vi dig!</h2>
-          <p class="ContactForm__subHeading">Free directories: directories are perfect for customers that are searching for a particular topic. What’s great about them is that you only have to post once and they are good for long periods of time.</p>
-          <p class="ContactForm__phoneNumberAndEmail">31 70 01 01<br>hello@autobahncph.dk</p>
+          <p class="ContactForm__subHeading">Udfyld formularen, så tager vi fat på dig og finder et tidspunkt til et møde. Vi kan klare alt virtuelt og uden behov personlig kontakt.</p>
+          <p class="ContactForm__phoneNumberAndEmail">
+            <a class="PhoneToLink PhoneToLink--inFooter PhoneToLink--inPrivacyPage" href="tel:004551514784">51 51 47 84</a>
+            <br>
+            <a class="MailTo MailTo--inFooter MailTo MailTo--inPrivacyPage" href="mailto:hello@autobahncph.dk">hello@autobahncph.dk</a></p>
         </div>
         <div class="col-md-5 order-md-1">
           Marketo Form Here

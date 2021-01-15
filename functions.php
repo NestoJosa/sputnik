@@ -21,8 +21,10 @@
     
     wp_enqueue_script( 'bundle', get_template_directory_uri() . '/dist/js/bundle.js', array(), null, true );
     
+    /*
     wp_register_script('cookie-scripts', '//cdn.cookie-script.com/s/94803146c0751e7d78183f5afa6c45f2.js', array(), null, true );
     wp_enqueue_script('cookie-scripts');
+    */
    
   }
 
