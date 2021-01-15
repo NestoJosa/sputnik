@@ -67,8 +67,8 @@
     <div class="row justify-content-center">
 
       <div class="col-md-8">
-        <h2 class="HeadingBlock__heading">Om Autobahn</h2>
-        <p  class="HeadingBlock__subHeading">Free directories: directories are perfect for customers that are searching for a particular topic. What’s great about them is that you only have to post once and they are good for long periods of time. When you don’t have to resubmit your information every week or every month.</p>
+        <h2 class="HeadingBlock__heading">Vi finder den bedste vej for dig!</h2>
+        <p  class="HeadingBlock__subHeading">Vi er et Marketing Automation bureau. Vi har samlet mange års erfaring i alt fra store komplekse, til små og lette løsninger. Vi er derfor helt trygge når vi siger at vi kan hjælpe dig og din virksomhed, med at finde den rigtige vej for Jer.</p>
       </div>
 
     </div>   
@@ -102,8 +102,8 @@
             </g>
           </svg>
         </div>
-        <h3 class="AboutCard__heading">Strategi & rådgivning</h3>
-        <p class="AboutCard__subHeading">Har du brug for at få lagt den rigtige plan? Eller bare få ført den du har ud i livet? Vi kan hjælpe.</p>
+        <h3 class="AboutCard__heading">Mere salg</h3>
+        <p class="AboutCard__subHeading">Vi hjælper med at automatisere lead rejsen, så du med simple midler får flere ordre, bedre og flere leads og ultimativt - mere salg.</p>
       </div>
       <div class="col-md-4">
         <div class="AboutCard__iconWrapper">          
@@ -127,8 +127,8 @@
             </g>
           </svg>
         </div>
-        <h3 class="AboutCard__heading">Design & brugeroplevelse</h3>
-        <p class="AboutCard__subHeading">Vi designer den digitale kunderejse, der giver dig det rigtige aftryk i markedet og som kan mærkes på bundlinjen</p>
+        <h3 class="AboutCard__heading">Bedre brugeroplevelse</h3>
+        <p class="AboutCard__subHeading">Med en automatiseret brugerrejse er det let at levere det rigtigt budskab på det rigtige tidspunkt. Godt for brugeroplevelsen - godt for forretningen.</p>
       </div>
       <div class="col-md-4">
         <div class="AboutCard__iconWrapper">
@@ -154,8 +154,8 @@
             </g>
           </svg>
         </div>
-        <h3 class="AboutCard__heading">Martech</h3>
-        <p class="AboutCard__subHeading">Få en Martech løsning der sikrer at i får mest muligt ud af Jeres kundedata, og kan fungere som omdrejningspunkt for Jeres kommunikation</p>
+        <h3 class="AboutCard__heading">Lettere eksekvering</h3>
+        <p class="AboutCard__subHeading">Automatisering gør det let for dig og dit team at nå i mål med alle opgaver i marketingafdelingen - i høj kvalitet, hver gang.</p>
       </div>
     </div>
   </div>
@@ -178,9 +178,11 @@
             </div>
             <div class="col-md-6">
               <p class="SubPromo__news">Nyhed</p>
-              <h2 class="SubPromo__heading">Marketing Automation som abbonnementsløsning</h2>
-              <p class="SubPromo__subHeading">Find ud af hvilke muligheder Marketing Automation kan give din virksomhed, ud af hvilke muligheder Marketing Automation kan give din virksomhed</p>
-              <button class="ButtonSolid--large" type="button">Se vores abonnementer</button>  
+              <h2 class="SubPromo__heading">Lead Automation som abonnementsløsning</h2>
+              <p class="SubPromo__subHeading">Nu er det lettere end nogensinde, at få flere varme leads, der er mere tilbøjelige til at købe.</p>
+              <button class="ButtonSolid--large" type="button">
+                <a href="<?php echo get_permalink( 46 ); ?>">Se vores abonnementer</a>
+              </button>  
             </div>
 
           </div>
@@ -220,15 +222,15 @@
           <div class="Quote__imageAndTextWrapper">
             <img src="<?php echo get_template_directory_uri();?>/dist/img/Silva-Lill.jpg" alt="Portrait of Silva Lill" class="Quote__image">
             <p class="Quote__nameAndTitle">
-              <span class="Quote__name">Silva Lill</span><br>Marketing Manager, PLM Group</p>
+              <span class="Quote__name">Silva Lill</span><br>Chief Marketing Manager, PLM Group</p>
           </div>
         </div>
 
         <div class="col-md-5 order-md-1">
           <div class="Quote__stats">
-            <div class="Quote__statsText">We helped PLM Group achieve</div>
-            <div class="Quote__statsNumber">219%</div>
-            <div class="Quote__statsText">højere konverteringsrate</div>
+            <div class="Quote__statsText">Vi skaffede PLM Group</div>
+            <div class="Quote__statsNumber">200%</div>
+            <div class="Quote__statsText">Flere kvalificerede leads til salg - første år.</div>
           </div>
         </div>
 
@@ -239,7 +241,7 @@
 
 <!-- Recent Blog Posts -->
   <!-- HeadingBlock -->
-    <div class="HeadingBlock container">
+<!--     <div class="HeadingBlock container">
       <div class="row justify-content-center">
 
         <div class="col-md-8">
@@ -247,24 +249,24 @@
           <p  class="HeadingBlock__subHeading">Free directories - directories are perfect for customers that are searching for a particular topic. What’s great about them is that you only have to post once and they are good for long periods of time.</p>
         </div>
 
-      </div><!-- /row -->
-    </div><!-- /container -->
+      </div>
+    </div> -->
   <!-- /HeadingBlock -->
 
   <!-- BlogPostCards -->
-  <div class="widget-section">
-    <?php the_widget( 'Ernies_Recent_Blog_Posts_Widget' ); ?>
-  </div>
+  <!-- <div class="widget-section"> -->
+    <?php /* the_widget( 'Ernies_Recent_Blog_Posts_Widget' ); */ ?>
+  <!-- </div> -->
   <!-- /BlogPostCards -->
 
   <!-- ToBlogButton -->
-  <div class="ToBlogButtonWrapper container">
+<!--   <div class="ToBlogButtonWrapper container">
     <div class="row justify-content-center">
       <div class="col-auto">
         <button type="button" class="ButtonGhost">Gå til bloggen</button>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- /ToBlogButton -->
 <!-- /Recent Blog Posts -->
 
