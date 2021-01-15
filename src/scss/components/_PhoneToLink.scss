@@ -1,16 +1,14 @@
-// _MailTo.scss
+// _PhoneToLink.scss
 
 
-a.MailTo {
+a.PhoneToLink {
 
   // proceed with caution when adding generic styles
-  // that should apply to the .MailTo class,
-  // because the class is used in a number of places
+  // that should apply to the class,
+  // because its used in a number of places
 
   // remove default anchor underline
   text-decoration: none;
-  
-
   
   &--inPrivacyPage {
   
@@ -37,4 +35,3 @@ a.MailTo {
   }
 
 }
-

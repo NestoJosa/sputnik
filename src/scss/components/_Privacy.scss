@@ -59,7 +59,7 @@
     list-style-type: none;
   }
 
-  & a:not(.MailTo--inPrivacyPage) {
+  & a {
     text-decoration: none;
     color: map-get($brand-colors, 'purple-dark');
     border-bottom: 1px solid map-get($brand-colors, 'purple-dark');
