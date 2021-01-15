@@ -5,9 +5,11 @@
     background: linear-gradient(180deg, #FFFFFF 50%, map-get($brand-colors, 'purple-dark') 50%);
   }
 
-  padding-bottom: 68px !important;
+  margin-top: 68px !important;
+  margin-bottom: 68px !important;
   @include media-breakpoint-up (md) {
-    padding-bottom: 96px !important;
+    margin-top: 96px !important;
+    margin-bottom: 96px !important;
   }
 }
 
