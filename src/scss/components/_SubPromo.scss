@@ -30,12 +30,15 @@ $bgColor: #fbf9f0;
   }
 
   &__news {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.71;
-    color: #ff582d;
+    color: map-get($brand-colors, 'red');
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
     margin-bottom: 8px;
-    line-height: 1.71;
   }
 
   &__heading {
