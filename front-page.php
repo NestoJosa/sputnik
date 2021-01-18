@@ -83,22 +83,24 @@
         <div class="AboutCard__iconWrapper">
           <svg class="AboutCard__icon js-AboutCard__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 81">
             <g fill="none" fill-rule="evenodd">
-              <g>
                 <g>
-                  <g>
-                    <g fill="#FBF9F0" stroke="#3B012D" stroke-opacity=".04" stroke-width="2">
-                      <path d="M50 1c8.008 0 15.258 3.246 20.506 8.494C75.754 14.742 79 21.992 79 30h0v20c0 8.008-3.246 15.258-8.494 20.506C65.258 75.754 58.008 79 50 79h0-20c-8.008 0-15.258-3.246-20.506-8.494C4.246 65.258 1 58.008 1 50h0V30c0-8.008 3.246-15.258 8.494-20.506C14.742 4.246 21.992 1 30 1h0z" transform="translate(-160 -1343) translate(0 975.257) translate(160 367.956)"/>
-                    </g>
                     <g>
-                      <g>
-                        <path class="utils-fill" fill-rule="nonzero" d="M1.281 38.561h43.437l-.31 1.244c-.111.445-.511.757-.97.757H2.562l-.113-.006c-.41-.047-.755-.343-.857-.751l-.311-1.244zM30 28.566l.164.003c.52.016.78.116.866.266l.007.015.743 3.716H14.22l.742-3.716-.013.032c.064-.193.362-.316 1.051-.316h14z" transform="translate(-160 -1343) translate(0 975.257) translate(160 367.956) translate(8 7) translate(9 11.5)"/>
-                        <path class="utils-stroke" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 27.562H6.236c-.757 0-1.45.429-1.788 1.106L0 37.562h46l-4.448-8.894c-.339-.677-1.03-1.106-1.788-1.106H35M0 37.562l.622 2.486c.223.89 1.023 1.514 1.94 1.514h40.876c.917 0 1.717-.624 1.94-1.514L46 37.562M16 27.562c-.237-3.897.818-7.763 3-11 .937-1.061 1.939-2.063 3-3h-8c-1.344 0-1.582-.72-2-2-.099-.807.295-1.595 1-2l7-5V.438s4 2.124 6 3.124c4.42 2.21 4.092 4.106 4.012 6.4-.014.398-.146.782-.38 1.104L25 17.438c2.957 2.568 4.759 6.215 5 10.124" transform="translate(-160 -1343) translate(0 975.257) translate(160 367.956) translate(8 7) translate(9 11.5)"/>
-                        <path class="utils-stroke" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M32.76 32.366c.06.294-.015.6-.205.833-.19.232-.475.367-.775.367H14.22c-.3 0-.585-.135-.775-.367-.19-.233-.265-.539-.205-.833l.76-3.8c.272-.816 1.14-1 2-1h14c.86 0 1.728.184 2 1l.76 3.8zM38.5 31.562h0c.276 0 .5.224.5.5h0c0 .276-.224.5-.5.5h0c-.276 0-.5-.224-.5-.5h0c0-.276.224-.5.5-.5" transform="translate(-160 -1343) translate(0 975.257) translate(160 367.956) translate(8 7) translate(9 11.5)"/>
-                      </g>
+                        <g>
+                            <g>
+                                <g fill="#FBF9F0" stroke="#3B012D" stroke-opacity=".04" stroke-width="2">
+                                    <path d="M50 1c8.008 0 15.258 3.246 20.506 8.494C75.754 14.742 79 21.992 79 30h0v20c0 8.008-3.246 15.258-8.494 20.506C65.258 75.754 58.008 79 50 79h0-20c-8.008 0-15.258-3.246-20.506-8.494C4.246 65.258 1 58.008 1 50h0V30c0-8.008 3.246-15.258 8.494-20.506C14.742 4.246 21.992 1 30 1h0z" transform="translate(-160 -1348) translate(160 1108.257) translate(0 239.956)"/>
+                                </g>
+                                <g>
+                                    <path class="utils-fill" d="M47 36l3.144-5.504c.177-.31.175-.69-.003-.998-.18-.308-.509-.498-.865-.498H38.732c-.357 0-.687.189-.866.497-.18.309-.18.69-.004.999L41 36c-1.58 1.034-9 3.824-9 12 .097 3.033 1.402 5.9 3.624 7.966 2.223 2.066 5.178 3.158 8.21 3.034C50.2 59 56 54.352 56 48c0-7.864-7.268-10.662-9-12z" transform="translate(-160 -1348) translate(160 1108.257) translate(0 239.956) translate(8 8)"/>
+                                    <path class="utils-stroke" d="M10.008 21L50.008 21M15.508 16.5c-.276 0-.5.224-.5.5s.224.5.5.5.5-.224.5-.5-.224-.5-.5-.5h0M20.508 16.5c-.203-.003-.388.116-.468.303-.08.187-.039.403.104.548.142.144.358.189.545.112.188-.077.311-.26.311-.463 0-.276-.224-.5-.5-.5h0M25.508 16.5c-.276 0-.5.224-.5.5s.224.5.5.5.5-.224.5-.5-.224-.5-.5-.5h0" transform="translate(-160 -1348) translate(160 1108.257) translate(0 239.956) translate(8 8)"/>
+                                    <path class="utils-stroke" d="M28 43H14c-2.21 0-4-1.79-4-4V17c0-2.21 1.79-4 4-4h32c2.21 0 4 1.79 4 4v8" transform="translate(-160 -1348) translate(160 1108.257) translate(0 239.956) translate(8 8)"/>
+                                    <path class="utils-stroke" d="M47 36l3.144-5.504c.177-.31.175-.69-.003-.998-.18-.308-.509-.498-.865-.498H38.732c-.357 0-.687.189-.866.497-.18.309-.18.69-.004.999L41 36c-1.58 1.034-9 3.824-9 12 .097 3.033 1.402 5.9 3.624 7.966 2.223 2.066 5.178 3.158 8.21 3.034C50.2 59 56 54.352 56 48c0-7.864-7.268-10.662-9-12zM44.008 51L44.008 53M44.008 41L44.008 43" transform="translate(-160 -1348) translate(160 1108.257) translate(0 239.956) translate(8 8)"/>
+                                    <path class="utils-stroke" d="M40 51h6c1.105 0 2-.895 2-2s-.895-2-2-2h-4c-1.105 0-2-.895-2-2s.895-2 2-2h6" transform="translate(-160 -1348) translate(160 1108.257) translate(0 239.956) translate(8 8)"/>
+                                </g>
+                            </g>
+                        </g>
                     </g>
-                  </g>
                 </g>
-              </g>
             </g>
           </svg>
         </div>
@@ -107,23 +109,25 @@
       </div>
       <div class="col-md-4">
         <div class="AboutCard__iconWrapper">          
-          <svg class="AboutCard__icon js-AboutCard__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 81">
+          <svg xmlns="http://www.w3.org/2000/svg" class="AboutCard__icon js-AboutCard__icon" viewBox="0 0 80 81">
             <g fill="none" fill-rule="evenodd">
-              <g>
                 <g>
-                  <g>
                     <g>
-                      <g fill="#FBF9F0" stroke="#3B012D" stroke-opacity=".04" stroke-width="2">
-                        <path d="M50 1c8.008 0 15.258 3.246 20.506 8.494C75.754 14.742 79 21.992 79 30h0v20c0 8.008-3.246 15.258-8.494 20.506C65.258 75.754 58.008 79 50 79h0-20c-8.008 0-15.258-3.246-20.506-8.494C4.246 65.258 1 58.008 1 50h0V30c0-8.008 3.246-15.258 8.494-20.506C14.742 4.246 21.992 1 30 1h0z" transform="translate(-544 -1343) translate(0 975.257) translate(160 367.956) translate(384)"/>
-                      </g>
-                      <g>
-                        <path class="utils-fill" d="M27.996 27.99l-7.295 7.293-8.059.986 5.02-5.018.31-.304c.943-.893 2.015-1.634 3.18-2.197l.283-.132-.12.02c2.168-.384 4.362-.6 6.562-.647l.119-.001zM29.118 43.838l7.347-7.345-.002.084c-.054 1.915-.238 3.824-.55 5.716l-.121.696.042-.095c-.62 1.464-1.51 2.799-2.624 3.933l-5.03 5.022.938-8.011z" transform="translate(-544 -1343) translate(0 975.257) translate(160 367.956) translate(384) translate(8 7)"/>
-                        <path class="utils-stroke" d="M37.461 34.084c.092 3.083-.145 6.167-.706 9.2-.668 1.58-1.629 3.02-2.832 4.244l-5.034 5.026c-.3.302-.76.38-1.144.195-.385-.186-.608-.595-.558-1.02l.978-8.351M19.813 37.654s21.89-21.956 23.306-23.37c1.57-1.572 6.636-2.756 9.156-3.264.329-.066.668.036.905.273.237.237.34.576.273.905-.508 2.52-1.692 7.584-3.264 9.156L26.853 44.688l-7.04-7.034zM22.633 34.802L29.685 41.86M30.39 27.012c-3.098-.115-6.199.1-9.25.642-1.565.691-2.984 1.672-4.185 2.89l-5.02 5.018c-.302.302-.38.762-.192 1.146.188.384.598.606 1.022.554l8.4-1.028M22.611 44.688c1.416 1.414.826 3.418-.706 4.952-1.434 1.432-6.87 3.066-9.652 3.83-.342.09-.707-.009-.958-.259-.252-.25-.352-.614-.264-.957.756-2.79 2.374-8.242 3.8-9.678 1.554-1.552 3.538-2.12 4.952-.706" transform="translate(-544 -1343) translate(0 975.257) translate(160 367.956) translate(384) translate(8 7)"/>
-                      </g>
+                        <g>
+                            <g>
+                                <g fill="#FBF9F0" stroke="#3B012D" stroke-opacity=".04" stroke-width="2">
+                                    <path d="M50 1c8.008 0 15.258 3.246 20.506 8.494C75.754 14.742 79 21.992 79 30h0v20c0 8.008-3.246 15.258-8.494 20.506C65.258 75.754 58.008 79 50 79h0-20c-8.008 0-15.258-3.246-20.506-8.494C4.246 65.258 1 58.008 1 50h0V30c0-8.008 3.246-15.258 8.494-20.506C14.742 4.246 21.992 1 30 1h0z" transform="translate(-544 -1348) translate(160 1108.257) translate(0 239.956) translate(384)"/>
+                                </g>
+                                <g>
+                                    <path class="utils-fill" d="M32 49c0 1.105.895 2 2 2h8l8 8v-8h4c1.105 0 2-.895 2-2V35c0-1.105-.895-2-2-2H34c-1.105 0-2 .895-2 2v14z" transform="translate(-544 -1348) translate(160 1108.257) translate(0 239.956) translate(384) translate(8 8)"/>
+                                    <path class="utils-stroke" d="M27.85 51.15L24 55v-8H12c-1.105 0-2-.895-2-2V15c0-1.105.895-2 2-2h36c1.105 0 2 .895 2 2v14" transform="translate(-544 -1348) translate(160 1108.257) translate(0 239.956) translate(384) translate(8 8)"/>
+                                    <path class="utils-stroke" d="M32 49c0 1.105.895 2 2 2h8l8 8v-8h4c1.105 0 2-.895 2-2V35c0-1.105-.895-2-2-2H34c-1.105 0-2 .895-2 2v14z" transform="translate(-544 -1348) translate(160 1108.257) translate(0 239.956) translate(384) translate(8 8)"/>
+                                    <path class="utils-stroke" d="M38 41.5c.276 0 .5.224.5.5s-.224.5-.5.5-.5-.224-.5-.5.224-.5.5-.5M44 41.5c.276 0 .5.224.5.5s-.224.5-.5.5-.5-.224-.5-.5.224-.5.5-.5M50 41.5c.276 0 .5.224.5.5s-.224.5-.5.5-.5-.224-.5-.5.224-.5.5-.5M24 21L24 25M36 21L36 25M27.946 39c-2.438-.42-4.685-1.587-6.432-3.338" transform="translate(-544 -1348) translate(160 1108.257) translate(0 239.956) translate(384) translate(8 8)"/>
+                                </g>
+                            </g>
+                        </g>
                     </g>
-                  </g>
                 </g>
-              </g>
             </g>
           </svg>
         </div>
@@ -241,7 +245,8 @@
 
 <!-- Recent Blog Posts -->
   <!-- HeadingBlock -->
-<!--     <div class="HeadingBlock container">
+  <!--     
+  <div class="HeadingBlock container">
       <div class="row justify-content-center">
 
         <div class="col-md-8">
@@ -260,7 +265,8 @@
   <!-- /BlogPostCards -->
 
   <!-- ToBlogButton -->
-<!--   <div class="ToBlogButtonWrapper container">
+  <!--   
+  <div class="ToBlogButtonWrapper container">
     <div class="row justify-content-center">
       <div class="col-auto">
         <button type="button" class="ButtonGhost">Gå til bloggen</button>
@@ -269,7 +275,6 @@
   </div> -->
   <!-- /ToBlogButton -->
 <!-- /Recent Blog Posts -->
-
 
 <?php get_template_part('includes/section', 'promo');  ?>
 
