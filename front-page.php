@@ -27,21 +27,10 @@
         <div class="col-md-4">
           <div class="row">
             <div class="col">
-              <img src="<?php echo get_template_directory_uri();?>/dist/img/logo-oticon@3x.png" alt="Oticon Logo">
+              <img src="<?php echo get_template_directory_uri();?>/dist/img/logo-scape-technologies@3x.png" alt="">
             </div>
             <div class="col">
-              <img src="<?php echo get_template_directory_uri();?>/dist/img/logo-gjensidige@3x.png" alt="Gjensidige Logo">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="row">
-            <div class="col">
-              <img src="<?php echo get_template_directory_uri();?>/dist/img/logo-nordea@3x.png" alt="Nordea Logo">
-            </div>
-            <div class="col">
-              <img src="<?php echo get_template_directory_uri();?>/dist/img/logo-3-shape@3x.png" alt="3Shape Logo">
+              <img src="<?php echo get_template_directory_uri();?>/dist/img/logo-oticon@3x.png" alt="">
             </div>
           </div>
         </div>
@@ -49,10 +38,21 @@
         <div class="col-md-4">
           <div class="row">
             <div class="col">
-              <img src="<?php echo get_template_directory_uri();?>/dist/img/logo-express@3x.png" alt="Express Logo">
+              <img src="<?php echo get_template_directory_uri();?>/dist/img/logo-plm-group@3x.png" alt="">
             </div>
             <div class="col">
-              <img src="<?php echo get_template_directory_uri();?>/dist/img/logo-3-disc@3x.png" alt="3DISC Logo">
+              <img src="<?php echo get_template_directory_uri();?>/dist/img/logo-p@3x.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col">
+              <img src="<?php echo get_template_directory_uri();?>/dist/img/logo-gjensidige@3x.png" alt="">
+            </div>
+            <div class="col">
+              <img src="<?php echo get_template_directory_uri();?>/dist/img/logo-3-disc@3x.png" alt="">
             </div>
           </div>
         </div>
