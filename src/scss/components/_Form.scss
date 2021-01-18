@@ -351,6 +351,7 @@ body .mktoForm .mktoRadioList > label {
 
 */
 
+// The input field
 #mktoForm_1055 input#Email {
   font-family: map-get($brand-fonts, 'primary');
   background-color: #75516c;
@@ -378,7 +379,19 @@ body .mktoForm .mktoRadioList > label {
   text-align: center;
 }
 
+// The button
 #mktoForm_1055 button.mktoButton {
-  color: #fff !important;
+  color: #3b012d !important;
   text-align: center;
+  background-color: #ffc900;
+  font-size: 15px;
+  font-weight: 500 !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0.9px;
+  text-transform: none !important;
+  border-radius: 16px !important;
+  margin-bottom: 0 !important;
 }
+
