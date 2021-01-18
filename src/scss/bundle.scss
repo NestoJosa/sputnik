@@ -15,6 +15,7 @@
 
 
 // Components - order does NOT matter
+@import 'components/PageWrapper';
 @import 'Components/TopNav';
 @import 'Components/Hero';
 @import 'components/ButtonSolid';
@@ -33,7 +34,6 @@
 @import 'components/SubCards';
 @import 'components/ImageAndCards';
 @import 'components/ImageAndTextBoxes';
-@import 'components/PageWrapper';
 @import 'components/ContactForm';
 @import 'components/Privacy';
 @import 'components/MailTo';

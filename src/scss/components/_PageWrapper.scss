@@ -6,9 +6,10 @@
   so we need to push the page down in order for the content
   to be shown, and not be hidden under the TopNav
 
+
 */
 
-.PageWraper {
+.PageWrapper {
   margin-top: 64px !important;
   @include media-breakpoint-up (md) {
     margin-top: 96px !important;
