@@ -63,7 +63,7 @@ Template Name:  Priser Template
           </div>
           <div class="SubCard__header">
             <span class="SubCard__name">Growth</span>
-            <span class="SubCard__description">Simple Lead Journey</span>
+            <span class="SubCard__description">Simpel Lead Journey</span>
           </div>
           <div class="SubCard__data">
             <span class="SubCard__label">Antal Leads</span>
@@ -90,7 +90,7 @@ Template Name:  Priser Template
             <span class="SubCard__value"><?php echo $icon_check_box ?></span>
           </div>
           <div class="SubCard__footer">
-            <span class="SubCard__priceFrom">Price from</span>
+            <span class="SubCard__priceFrom">Pris fra</span>
             <span class="SubCard__price">DKK 3.900,-</span>
           </div>
         </div>
@@ -103,11 +103,11 @@ Template Name:  Priser Template
       <div class="col">
         <div class="SubCard SubCard--scale">
           <div class="SubCard__promote SubCard__promote--scale">
-            Most Popular
+            Mest populær
           </div>
           <div class="SubCard__header SubCard__header--scale">
             <span class="SubCard__name">Scale</span>
-            <span class="SubCard__description">Advanced Lead Journey</span>
+            <span class="SubCard__description">Avanceret Lead Journey</span>
           </div>
           <div class="SubCard__data">
             <span class="SubCard__label">Antal Leads</span>
@@ -146,7 +146,7 @@ Template Name:  Priser Template
             <span class="SubCard__value"><?php echo $icon_check_box ?></span>
           </div>
           <div class="SubCard__footer">
-            <span class="SubCard__priceFrom">Price from</span>
+            <span class="SubCard__priceFrom">Pris fra</span>
             <span class="SubCard__price">DKK 6.500,-</span>
           </div>
         </div>
@@ -213,7 +213,7 @@ Template Name:  Priser Template
             <span class="SubCard__value"><?php echo $icon_check_box ?></span>
           </div>
           <div class="SubCard__footer">
-            <span class="SubCard__priceFrom">Price from</span>
+            <span class="SubCard__priceFrom">Pris fra</span>
             <span class="SubCard__price">DKK 10.000,-</span>
           </div>
         </div>
@@ -262,14 +262,14 @@ Template Name:  Priser Template
             <span class="SubTable__labels SubTable__labels-12">Velkomstprogram</span>
             <!-- /Labels -->
 
-            <!-- Most Popular -->
-            <span class="SubTable__mostPopular">Most popular</span>
-            <!-- /Most Popular -->
+            <!-- Mest populær -->
+            <span class="SubTable__mostPopular">Mest populær</span>
+            <!-- /Mest populær -->
 
             <!-- Growth Header -->
             <div class="SubTable__header SubTable__header--growth">
               <p class="SubTable__subName">Growth</p>        
-              <p class="SubTable__subNameDesc">Simple Lead Journey</p>        
+              <p class="SubTable__subNameDesc">Simpel Lead Journey</p>        
             </div>
             <!-- /Growth Header -->
 
@@ -290,7 +290,7 @@ Template Name:  Priser Template
 
             <!-- Growth Footer -->
             <div class="SubTable__footer SubTable__footer--growth">
-              <p class="SubTable__priceFrom">Price from</p>        
+              <p class="SubTable__priceFrom">Pris fra</p>        
               <p class="SubTable__price">DKK 3.900,-</p>        
             </div>
             <!-- Growth Footer -->
@@ -298,7 +298,7 @@ Template Name:  Priser Template
             <!-- Scale Header -->
             <div class="SubTable__header SubTable__header--scale">
               <p class="SubTable__subName">Scale</p>        
-              <p class="SubTable__subNameDesc">Advanced Lead Journey</p>        
+              <p class="SubTable__subNameDesc">Avanceret Lead Journey</p>        
             </div>
             <!-- /Scale Header -->
 
@@ -319,7 +319,7 @@ Template Name:  Priser Template
 
             <!-- Scale Footer -->
             <div class="SubTable__footer SubTable__footer--scale">
-              <p class="SubTable__priceFrom">Price from</p>        
+              <p class="SubTable__priceFrom">Pris fra</p>        
               <p class="SubTable__price">DKK 6.500,-</p>        
             </div>
             <!-- Scale Footer -->
@@ -348,7 +348,7 @@ Template Name:  Priser Template
 
             <!-- Enterprise Footer -->
             <div class="SubTable__footer SubTable__footer--enterprise">
-              <p class="SubTable__priceFrom">Price from</p>        
+              <p class="SubTable__priceFrom">Pris fra</p>        
               <p class="SubTable__price">DKK 10.000,-</p>        
             </div>
             <!-- Enterprise Footer -->
@@ -360,7 +360,7 @@ Template Name:  Priser Template
 
     <div class="FinePrint row justify-content-center">
       <div class="col-auto">
-        All prices are pr. month (invoiced yearly)
+        Alle priser er pr. måned (faktureres årligt)
       </div>
     </div>
 
