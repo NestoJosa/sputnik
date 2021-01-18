@@ -4,17 +4,17 @@
       <div class="Footer container">
 
         <div class="row justify-content-between">
-          <div class="NewsLetterSignup col-md-4 order-md-2">
+
+          <div class="NewsLetterSignup col-md-6 col-lg-4 order-md-2">
             <h3 class="NewsLetterSignup__title">Tilmeld nyhedsbrev</h3>
             <p class="NewsLetterSignup__subTitle">Hold dig opdateret om Marketing Automation. Du kan afmelde dig til hver en tid via nyhedsbrevet.</p>
             <div class="NewsLetterSignup__formWrapper">
-
               <script src="//app-lon03.marketo.com/js/forms2/js/forms2.min.js"></script>
               <form id="mktoForm_1055"></form>
               <script>MktoForms2.loadForm("//app-lon03.marketo.com", "651-TMF-940", 1055);</script>
-
             </div>
           </div>
+
           <div class="col-md-4 order-md-1">
             <p class="Footer__phoneAndEmail"><a class="PhoneToLink PhoneToLink--inFooter" href="tel:004551514784">51 51 47 84</a>
               <br><a class="MailTo MailTo--inFooter" href="mailto:hello@autobahncph.dk">hello@autobahncph.dk</a></p>
@@ -25,9 +25,11 @@
               <li>Danmark</li>
             </ul>
           </div>
+
         </div>
 
         <div class="row justify-content-between align-items-center">
+
           <div class="col-auto order-md-2">
             <div class="Footer__soMeIconsWrapper">
               <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
@@ -86,9 +88,11 @@
               </svg>
             </div>
           </div>
+
           <div class="Footer__copyright col-md-4 order-md-1">
             <p>&copy; <?php echo date("Y"); ?> - Autobahn ApS</p>
           </div>
+
         </div>
 
       </div>
