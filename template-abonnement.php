@@ -13,7 +13,7 @@ Template Name:  Abonnement Template
     <div class="container">
       <div class="row align-items-center">
         <div class="Hero__image col-md-6 order-md-2">
-          <img src="<?php echo get_template_directory_uri();?>/dist/img/man-with-computer-circle-bg--large.png" alt="Man using computer">
+          <img src="<?php echo get_template_directory_uri();?>/dist/img/woman-on-smartphone--large.png" alt="Man using computer">
         </div>
         <div class="col-md-6 order-md-1">
           <h1 class="Hero__heading">Få flere Leads til en lav månedlig pris - uden alt besværet</h1>
@@ -45,7 +45,22 @@ Template Name:  Abonnement Template
         <!-- the animation is triggered when the icon is visible on the screen, via the js-hook -->
         <div class="AboutCard__iconWrapper">
           
-          <img src="<?php echo get_template_directory_uri();?>/dist/img/icon-number-one.png" alt="Number one icon">
+        <svg xmlns="http://www.w3.org/2000/svg" class="AboutCard__icon js-AboutCard__icon" viewBox="0 0 80 81">
+          <g fill="none" fill-rule="evenodd">
+              <g>
+                  <g>
+                      <g fill="#FBF9F0" stroke="#3B012D" stroke-opacity=".04" stroke-width="2">
+                          <path d="M50 1c8.008 0 15.258 3.246 20.506 8.494C75.754 14.742 79 21.992 79 30h0v20c0 8.008-3.246 15.258-8.494 20.506C65.258 75.754 58.008 79 50 79h0-20c-8.008 0-15.258-3.246-20.506-8.494C4.246 65.258 1 58.008 1 50h0V30c0-8.008 3.246-15.258 8.494-20.506C14.742 4.246 21.992 1 30 1h0z" transform="translate(-160 -3149) translate(160 3149.214)"/>
+                      </g>
+                      <g fill-rule="nonzero">
+                          <path class="utils-fill" d="M36.64 48V21.04h-3.12c-.52 3.28-2.36 4.52-6.56 4.52v2.8H33V48h3.64z" transform="translate(-160 -3149) translate(160 3149.214) translate(8 7)"/>
+                          <path fill="#3B012D" d="M34.64 46V19.04h-3.12c-.52 3.28-2.36 4.52-6.56 4.52v2.8H31V46h3.64z" transform="translate(-160 -3149) translate(160 3149.214) translate(8 7)"/>
+                      </g>
+                  </g>
+              </g>
+          </g>
+         </svg>
+
 
         </div>
         <h3 class="AboutCard__heading">Du laver indhold</h3>
@@ -54,7 +69,21 @@ Template Name:  Abonnement Template
       <div class="col-md-4">
       <div class="AboutCard__iconWrapper">
           
-          <img src="<?php echo get_template_directory_uri();?>/dist/img/icon-number-two.png" alt="Number two icon">
+        <svg xmlns="http://www.w3.org/2000/svg" class="AboutCard__icon js-AboutCard__icon" viewBox="0 0 80 81">
+          <g fill="none" fill-rule="evenodd">
+              <g>
+                  <g>
+                      <g fill="#FBF9F0" stroke="#3B012D" stroke-opacity=".04" stroke-width="2">
+                          <path d="M50 1c8.008 0 15.258 3.246 20.506 8.494C75.754 14.742 79 21.992 79 30h0v20c0 8.008-3.246 15.258-8.494 20.506C65.258 75.754 58.008 79 50 79h0-20c-8.008 0-15.258-3.246-20.506-8.494C4.246 65.258 1 58.008 1 50h0V30c0-8.008 3.246-15.258 8.494-20.506C14.742 4.246 21.992 1 30 1h0z" transform="translate(-544 -3149) translate(544 3149.214)"/>
+                      </g>
+                      <g fill-rule="nonzero">
+                          <path class="utils-fill" d="M43.24 48v-3.16H28.68c.04-2.52 1.12-4.28 6.52-7.4 4.32-2.52 7.4-4.72 7.4-9.44 0-4.52-3.44-7.52-8.6-7.52-5.36 0-8.84 3.12-9.04 8.48h3.76c.2-3.32 1.8-5.28 5.24-5.28 2.96 0 4.8 1.8 4.8 4.4 0 3.32-2.12 4.8-6.2 7.2-6.68 3.88-7.96 6.8-7.96 11.92 0 .2 0 .52.04.8h18.6z" transform="translate(-544 -3149) translate(544 3149.214) translate(8 7)"/>
+                          <path fill="#3B012D" d="M41.24 46v-3.16H26.68c.04-2.52 1.12-4.28 6.52-7.4 4.32-2.52 7.4-4.72 7.4-9.44 0-4.52-3.44-7.52-8.6-7.52-5.36 0-8.84 3.12-9.04 8.48h3.76c.2-3.32 1.8-5.28 5.24-5.28 2.96 0 4.8 1.8 4.8 4.4 0 3.32-2.12 4.8-6.2 7.2-6.68 3.88-7.96 6.8-7.96 11.92 0 .2 0 .52.04.8h18.6z" transform="translate(-544 -3149) translate(544 3149.214) translate(8 7)"/>
+                      </g>
+                  </g>
+              </g>
+          </g>
+        </svg>
 
         </div>
         <h3 class="AboutCard__heading">Vi automatiserer kommunikationen</h3>
@@ -63,7 +92,21 @@ Template Name:  Abonnement Template
       <div class="col-md-4">
       <div class="AboutCard__iconWrapper">
           
-          <img src="<?php echo get_template_directory_uri();?>/dist/img/icon-number-three.png" alt="Number three icon">
+        <svg xmlns="http://www.w3.org/2000/svg" class="AboutCard__icon js-AboutCard__icon" viewBox="0 0 80 81">
+          <g fill="none" fill-rule="evenodd">
+              <g>
+                  <g>
+                      <g fill="#FBF9F0" stroke="#3B012D" stroke-opacity=".04" stroke-width="2">
+                          <path d="M50 1c8.008 0 15.258 3.246 20.506 8.494C75.754 14.742 79 21.992 79 30h0v20c0 8.008-3.246 15.258-8.494 20.506C65.258 75.754 58.008 79 50 79h0-20c-8.008 0-15.258-3.246-20.506-8.494C4.246 65.258 1 58.008 1 50h0V30c0-8.008 3.246-15.258 8.494-20.506C14.742 4.246 21.992 1 30 1h0z" transform="translate(-928 -3149) translate(928 3149.214)"/>
+                      </g>
+                      <g fill-rule="nonzero">
+                          <path class="utils-fill" d="M33.88 48.56c5.48 0 9.24-3.08 9.24-7.64 0-3.48-1.64-5.56-5.12-6.72v-.08c3.16-1.16 4.68-3.08 4.68-6.28 0-4.44-3.4-7.36-8.84-7.36-5.56 0-9.04 3.16-9.04 8.52h3.72c0-3.6 1.88-5.36 5.16-5.36 3.2 0 5.28 1.8 5.28 4.52 0 2.84-2.28 4.68-6 4.68h-1.08v3.08h1.08c4.16 0 6.4 1.72 6.4 4.88 0 2.72-2.2 4.6-5.48 4.6-3.64 0-5.6-1.92-5.6-5.52h-3.72c0 5.44 3.36 8.68 9.32 8.68z" transform="translate(-928 -3149) translate(928 3149.214) translate(8 7)"/>
+                          <path fill="#3B012D" d="M31.88 46.56c5.48 0 9.24-3.08 9.24-7.64 0-3.48-1.64-5.56-5.12-6.72v-.08c3.16-1.16 4.68-3.08 4.68-6.28 0-4.44-3.4-7.36-8.84-7.36-5.56 0-9.04 3.16-9.04 8.52h3.72c0-3.6 1.88-5.36 5.16-5.36 3.2 0 5.28 1.8 5.28 4.52 0 2.84-2.28 4.68-6 4.68h-1.08v3.08h1.08c4.16 0 6.4 1.72 6.4 4.88 0 2.72-2.2 4.6-5.48 4.6-3.64 0-5.6-1.92-5.6-5.52h-3.72c0 5.44 3.36 8.68 9.32 8.68z" transform="translate(-928 -3149) translate(928 3149.214) translate(8 7)"/>
+                      </g>
+                  </g>
+              </g>
+          </g>
+        </svg>  
 
         </div>
         <h3 class="AboutCard__heading">Vi sender varme leads til salget</h3>
@@ -79,7 +122,7 @@ Template Name:  Abonnement Template
       <div class="row">
         
         <div class="col-md-6">
-          <img class="ImageAndCards__image" src="<?php echo get_template_directory_uri();?>/dist/img/man-with-computer--large.png" alt="Man using computer">
+          <img class="ImageAndCards__image" src="<?php echo get_template_directory_uri();?>/dist/img/man-on-lightbulb--large.png" alt="Man using computer">
         </div>
         
         <div class="col-md-6">
@@ -89,24 +132,24 @@ Template Name:  Abonnement Template
             <div class="col-md-6">
               <!-- the animation is triggered when the icon is visible on the screen, via the js-hook -->
               <div class="AboutCard__iconWrapper">
-                <svg class="AboutCard__icon js-AboutCard__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 81">
+                <svg xmlns="http://www.w3.org/2000/svg" class="AboutCard__icon js-AboutCard__icon" viewBox="0 0 80 81">
                   <g fill="none" fill-rule="evenodd">
-                    <g>
                       <g>
-                        <g>
-                          <g fill="#FBF9F0" stroke="#3B012D" stroke-opacity=".04" stroke-width="2">
-                            <path d="M50 1c8.008 0 15.258 3.246 20.506 8.494C75.754 14.742 79 21.992 79 30h0v20c0 8.008-3.246 15.258-8.494 20.506C65.258 75.754 58.008 79 50 79h0-20c-8.008 0-15.258-3.246-20.506-8.494C4.246 65.258 1 58.008 1 50h0V30c0-8.008 3.246-15.258 8.494-20.506C14.742 4.246 21.992 1 30 1h0z" transform="translate(-160 -1343) translate(0 975.257) translate(160 367.956)"/>
-                          </g>
                           <g>
-                            <g>
-                              <path class="utils-fill" fill-rule="nonzero" d="M1.281 38.561h43.437l-.31 1.244c-.111.445-.511.757-.97.757H2.562l-.113-.006c-.41-.047-.755-.343-.857-.751l-.311-1.244zM30 28.566l.164.003c.52.016.78.116.866.266l.007.015.743 3.716H14.22l.742-3.716-.013.032c.064-.193.362-.316 1.051-.316h14z" transform="translate(-160 -1343) translate(0 975.257) translate(160 367.956) translate(8 7) translate(9 11.5)"/>
-                              <path class="utils-stroke" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 27.562H6.236c-.757 0-1.45.429-1.788 1.106L0 37.562h46l-4.448-8.894c-.339-.677-1.03-1.106-1.788-1.106H35M0 37.562l.622 2.486c.223.89 1.023 1.514 1.94 1.514h40.876c.917 0 1.717-.624 1.94-1.514L46 37.562M16 27.562c-.237-3.897.818-7.763 3-11 .937-1.061 1.939-2.063 3-3h-8c-1.344 0-1.582-.72-2-2-.099-.807.295-1.595 1-2l7-5V.438s4 2.124 6 3.124c4.42 2.21 4.092 4.106 4.012 6.4-.014.398-.146.782-.38 1.104L25 17.438c2.957 2.568 4.759 6.215 5 10.124" transform="translate(-160 -1343) translate(0 975.257) translate(160 367.956) translate(8 7) translate(9 11.5)"/>
-                              <path class="utils-stroke" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M32.76 32.366c.06.294-.015.6-.205.833-.19.232-.475.367-.775.367H14.22c-.3 0-.585-.135-.775-.367-.19-.233-.265-.539-.205-.833l.76-3.8c.272-.816 1.14-1 2-1h14c.86 0 1.728.184 2 1l.76 3.8zM38.5 31.562h0c.276 0 .5.224.5.5h0c0 .276-.224.5-.5.5h0c-.276 0-.5-.224-.5-.5h0c0-.276.224-.5.5-.5" transform="translate(-160 -1343) translate(0 975.257) translate(160 367.956) translate(8 7) translate(9 11.5)"/>
-                            </g>
+                              <g>
+                                  <g fill="#FBF9F0" stroke="#3B012D" stroke-opacity=".04" stroke-width="2">
+                                      <path d="M50 1c8.008 0 15.258 3.246 20.506 8.494C75.754 14.742 79 21.992 79 30h0v20c0 8.008-3.246 15.258-8.494 20.506C65.258 75.754 58.008 79 50 79h0-20c-8.008 0-15.258-3.246-20.506-8.494C4.246 65.258 1 58.008 1 50h0V30c0-8.008 3.246-15.258 8.494-20.506C14.742 4.246 21.992 1 30 1h0z" transform="translate(-736 -2093) translate(736 2092.257) translate(0 .956)"/>
+                                  </g>
+                                  <g>
+                                      <path class="utils-fill" d="M50.008 41v-6h-14v6h14zm4 16h-22V31h22v26z" transform="translate(-736 -2093) translate(736 2092.257) translate(0 .956) translate(8 8)"/>
+                                      <path class="utils-stroke" d="M28 43H10c-1.105 0-2-.895-2-2V13c0-1.105.895-2 2-2h38c1.105 0 2 .895 2 2v15" transform="translate(-736 -2093) translate(736 2092.257) translate(0 .956) translate(8 8)"/>
+                                      <path class="utils-stroke" d="M12 32l3.6-3.586c.781-.78 2.047-.78 2.828 0l.172.172c.781.78 2.047.78 2.828 0l8.172-8.172c.781-.78 2.047-.78 2.828 0l2.052 2.058c.394.394.934.607 1.491.585.557-.021 1.08-.274 1.443-.697L42 17" transform="translate(-736 -2093) translate(736 2092.257) translate(0 .956) translate(8 8)"/>
+                                      <path class="utils-stroke" d="M36.008 17L42.008 17 42.008 23M38 45.5c.276 0 .5.224.5.5s-.224.5-.5.5-.5-.224-.5-.5.224-.5.5-.5M38 50.52c.276 0 .5.224.5.5s-.224.5-.5.5-.5-.224-.5-.5.224-.5.5-.5M43 45.48c.276 0 .5.224.5.5s-.224.5-.5.5-.5-.224-.5-.5.224-.5.5-.5M48 45.48c.276 0 .5.224.5.5s-.224.5-.5.5-.5-.224-.5-.5.224-.5.5-.5M43 50.5c.276 0 .5.224.5.5s-.224.5-.5.5-.5-.224-.5-.5.224-.5.5-.5M48 50.5c.276 0 .5.224.5.5s-.224.5-.5.5-.5-.224-.5-.5.224-.5.5-.5M50 40c.019.27-.08.536-.273.727-.191.192-.457.292-.727.273H37c-.275.011-.541-.096-.732-.294-.191-.198-.289-.468-.268-.742V36c-.02-.27.08-.536.272-.728.192-.192.457-.291.728-.272h12c.27-.019.536.08.727.273.192.191.292.457.273.727v4z" transform="translate(-736 -2093) translate(736 2092.257) translate(0 .956) translate(8 8)"/>
+                                      <path class="utils-stroke" d="M32.008 31L54.008 31 54.008 57 32.008 57z" transform="translate(-736 -2093) translate(736 2092.257) translate(0 .956) translate(8 8)"/>
+                                  </g>
+                              </g>
                           </g>
-                        </g>
                       </g>
-                    </g>
                   </g>
                 </svg>
               </div>
@@ -117,26 +160,25 @@ Template Name:  Abonnement Template
             <div class="col-md-6">
               <div class="AboutCard__iconWrapper">
                <!-- the animation is triggered when the icon is visible on the screen, via the js-hook -->
-                <svg class="AboutCard__icon  js-AboutCard__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 81">
+               <svg xmlns="http://www.w3.org/2000/svg" class="AboutCard__icon js-AboutCard__icon" viewBox="0 0 80 81">
                   <g fill="none" fill-rule="evenodd">
-                    <g>
                       <g>
-                        <g>
                           <g>
-                            <g fill="#FBF9F0" stroke="#3B012D" stroke-opacity=".04" stroke-width="2">
-                              <path d="M50 1c8.008 0 15.258 3.246 20.506 8.494C75.754 14.742 79 21.992 79 30h0v20c0 8.008-3.246 15.258-8.494 20.506C65.258 75.754 58.008 79 50 79h0-20c-8.008 0-15.258-3.246-20.506-8.494C4.246 65.258 1 58.008 1 50h0V30c0-8.008 3.246-15.258 8.494-20.506C14.742 4.246 21.992 1 30 1h0z" transform="translate(-928 -1343) translate(0 975.257) translate(160 367.956) translate(768)"/>
-                            </g>
-                            <g>
-                              <path class="utils-fill" fill-rule="nonzero" d="M38.991 25.018L38.991 39.018 24.991 39.018 24.991 25.018z" transform="translate(-928 -1343) translate(0 975.257) translate(160 367.956) translate(768) translate(8 7)"/>
-                              <path class="utils-stroke" d="M26.27 16.79c1.936-.652 3.07-2.66 2.626-4.656-.442-1.996-2.318-3.336-4.35-3.109-2.03.227-3.564 1.95-3.555 3.994.006.36.06.72.162 1.066-.222-.02-.436-.066-.662-.066-2.856-.014-5.47 1.604-6.732 4.166-1.262 2.563-.95 5.622.802 7.878C11.431 26.277 9 28.88 9 32.019c0 3.138 2.43 5.74 5.561 5.956-1.753 2.255-2.064 5.314-.802 7.877 1.262 2.563 3.876 4.18 6.732 4.167.226 0 .44-.046.662-.066-.594 2.102.609 4.292 2.702 4.92 2.093.626 4.301-.542 4.96-2.625.66-2.083-.473-4.31-2.546-5.001M37.713 16.79c-1.936-.652-3.07-2.66-2.627-4.656.443-1.996 2.32-3.336 4.35-3.109 2.032.227 3.565 1.95 3.555 3.994-.005.36-.06.72-.162 1.066.222-.02.436-.066.662-.066 2.857-.014 5.471 1.604 6.733 4.166 1.262 2.563.95 5.622-.803 7.878 3.132.214 5.562 2.817 5.562 5.956 0 3.138-2.43 5.74-5.562 5.956 1.753 2.255 2.065 5.314.803 7.877-1.262 2.563-3.876 4.18-6.733 4.167-.226 0-.44-.046-.662-.066.595 2.102-.608 4.292-2.7 4.92-2.094.626-4.303-.542-4.962-2.625-.66-2.083.474-4.31 2.546-5.001M28.991 12.819c1.857-1.072 4.144-1.072 6 0M34.991 51.219c-1.856 1.071-4.143 1.071-6 0" transform="translate(-928 -1343) translate(0 975.257) translate(160 367.956) translate(768) translate(8 7)"/>
-                              <path class="utils-stroke" d="M23.991 24.019L39.991 24.019 39.991 40.019 23.991 40.019zM27.991 20.019L27.991 24.019M35.991 20.019L35.991 24.019M19.991 36.019L23.991 36.019M19.991 28.019L23.991 28.019M35.991 44.019L35.991 40.019M27.991 44.019L27.991 40.019M43.991 28.019L39.991 28.019M43.991 36.019L39.991 36.019" transform="translate(-928 -1343) translate(0 975.257) translate(160 367.956) translate(768) translate(8 7)"/>
-                            </g>
+                              <g>
+                                  <g fill="#FBF9F0" stroke="#3B012D" stroke-opacity=".04" stroke-width="2">
+                                      <path d="M50 1c8.008 0 15.258 3.246 20.506 8.494C75.754 14.742 79 21.992 79 30h0v20c0 8.008-3.246 15.258-8.494 20.506C65.258 75.754 58.008 79 50 79h0-20c-8.008 0-15.258-3.246-20.506-8.494C4.246 65.258 1 58.008 1 50h0V30c0-8.008 3.246-15.258 8.494-20.506C14.742 4.246 21.992 1 30 1h0z" transform="translate(-1024 -2093) translate(736 2092.257) translate(288 .956)"/>
+                                  </g>
+                                  <g>
+                                      <path class="utils-fill" d="M39 21.906c-2.4 1.6-3.648 4.538 0 7 2 5 5.72 3.654 7.922 1.334 2.507-3.602 3.148-8.182 1.726-12.334-3.516 2.65-6.648 2-9.648 4zM32.042 14.848C34.63 17.896 36 21.906 29.826 24.6c-2.826 6.308-7.124 3.972-9.982.6-2.858-3.372-3.954-12.382-1.444-17.144 4.652 3.93 10.4 2.98 13.642 6.792z" transform="translate(-1024 -2093) translate(736 2092.257) translate(288 .956) translate(8 8)"/>
+                                      <path class="utils-stroke" d="M39 21.906c-2.4 1.6-3.648 4.538 0 7 2 5 5.72 3.654 7.922 1.334 2.507-3.602 3.148-8.182 1.726-12.334-3.516 2.65-6.648 2-9.648 4zM32.042 14.848C34.63 17.896 36 21.906 29.826 24.6c-2.826 6.308-7.124 3.972-9.982.6-2.858-3.372-3.954-12.382-1.444-17.144 4.652 3.93 10.4 2.98 13.642 6.792z" transform="translate(-1024 -2093) translate(736 2092.257) translate(288 .956) translate(8 8)"/>
+                                      <path class="utils-stroke" d="M44 24.906c-6 3-9 11-9 11-2.112-7.961-6.46-15.151-12.528-20.72M9 36.056L17 36.056 17 52.056 9 52.056zM17 49.056c21.456 7.154 13.544 7.228 38-5-1.383-1.858-3.779-2.656-6-2L40.132 45" transform="translate(-1024 -2093) translate(736 2092.257) translate(288 .956) translate(8 8)"/>
+                                      <path class="utils-stroke" d="M17 38.056h6c3.404.12 6.63 1.554 9 4h6c.8-.144 1.608.203 2.056.882.447.678.447 1.558 0 2.236-.448.679-1.256 1.026-2.056.882H27" transform="translate(-1024 -2093) translate(736 2092.257) translate(288 .956) translate(8 8)"/>
+                                  </g>
+                              </g>
                           </g>
-                        </g>
                       </g>
-                    </g>
                   </g>
-                </svg>
+               </svg>
               </div>
               <h3 class="AboutCard__heading">Lead Nurturing</h3>
               <p class="AboutCard__subHeading">Vi engagerer automatisk dine målgruppe med relevante budskaber, der engagerer og flytter dem fra kolde til varme leads.</p>
@@ -176,25 +218,27 @@ Template Name:  Abonnement Template
 
             <div class="col-md-6">
               <div class="AboutCard__iconWrapper">          
-                <svg class="AboutCard__icon js-AboutCard__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 81">
+                <svg xmlns="http://www.w3.org/2000/svg" class="AboutCard__icon js-AboutCard__icon" viewBox="0 0 80 81">
                   <g fill="none" fill-rule="evenodd">
                     <g>
-                      <g>
                         <g>
-                          <g>
-                            <g fill="#FBF9F0" stroke="#3B012D" stroke-opacity=".04" stroke-width="2">
-                              <path d="M50 1c8.008 0 15.258 3.246 20.506 8.494C75.754 14.742 79 21.992 79 30h0v20c0 8.008-3.246 15.258-8.494 20.506C65.258 75.754 58.008 79 50 79h0-20c-8.008 0-15.258-3.246-20.506-8.494C4.246 65.258 1 58.008 1 50h0V30c0-8.008 3.246-15.258 8.494-20.506C14.742 4.246 21.992 1 30 1h0z" transform="translate(-544 -1343) translate(0 975.257) translate(160 367.956) translate(384)"/>
-                            </g>
                             <g>
-                              <path class="utils-fill" d="M27.996 27.99l-7.295 7.293-8.059.986 5.02-5.018.31-.304c.943-.893 2.015-1.634 3.18-2.197l.283-.132-.12.02c2.168-.384 4.362-.6 6.562-.647l.119-.001zM29.118 43.838l7.347-7.345-.002.084c-.054 1.915-.238 3.824-.55 5.716l-.121.696.042-.095c-.62 1.464-1.51 2.799-2.624 3.933l-5.03 5.022.938-8.011z" transform="translate(-544 -1343) translate(0 975.257) translate(160 367.956) translate(384) translate(8 7)"/>
-                              <path class="utils-stroke" d="M37.461 34.084c.092 3.083-.145 6.167-.706 9.2-.668 1.58-1.629 3.02-2.832 4.244l-5.034 5.026c-.3.302-.76.38-1.144.195-.385-.186-.608-.595-.558-1.02l.978-8.351M19.813 37.654s21.89-21.956 23.306-23.37c1.57-1.572 6.636-2.756 9.156-3.264.329-.066.668.036.905.273.237.237.34.576.273.905-.508 2.52-1.692 7.584-3.264 9.156L26.853 44.688l-7.04-7.034zM22.633 34.802L29.685 41.86M30.39 27.012c-3.098-.115-6.199.1-9.25.642-1.565.691-2.984 1.672-4.185 2.89l-5.02 5.018c-.302.302-.38.762-.192 1.146.188.384.598.606 1.022.554l8.4-1.028M22.611 44.688c1.416 1.414.826 3.418-.706 4.952-1.434 1.432-6.87 3.066-9.652 3.83-.342.09-.707-.009-.958-.259-.252-.25-.352-.614-.264-.957.756-2.79 2.374-8.242 3.8-9.678 1.554-1.552 3.538-2.12 4.952-.706" transform="translate(-544 -1343) translate(0 975.257) translate(160 367.956) translate(384) translate(8 7)"/>
+                                <g fill="#FBF9F0" stroke="#3B012D" stroke-opacity=".04" stroke-width="2">
+                                    <path d="M50 1c8.008 0 15.258 3.246 20.506 8.494C75.754 14.742 79 21.992 79 30h0v20c0 8.008-3.246 15.258-8.494 20.506C65.258 75.754 58.008 79 50 79h0-20c-8.008 0-15.258-3.246-20.506-8.494C4.246 65.258 1 58.008 1 50h0V30c0-8.008 3.246-15.258 8.494-20.506C14.742 4.246 21.992 1 30 1h0z" transform="translate(-1024 -2413) translate(736 2092.257) translate(288 320.956)"/>
+                                </g>
+                                <g>
+                                    <path class="utils-fill" d="M15 27c0 3.866 3.134 7 7 7s7-3.134 7-7-3.134-7-7-7-7 3.134-7 7zM9 41H55V47H9z" transform="translate(-1024 -2413) translate(736 2092.257) translate(288 320.956) translate(8 8)"/>
+                                    <path class="utils-stroke" d="M15 27c0 3.866 3.134 7 7 7s7-3.134 7-7-3.134-7-7-7-7 3.134-7 7z" transform="translate(-1024 -2413) translate(736 2092.257) translate(288 320.956) translate(8 8)"/>
+                                    <path class="utils-stroke" d="M15 27c0 3.866 3.134 7 7 7s7-3.134 7-7-3.134-7-7-7-7 3.134-7 7z" transform="translate(-1024 -2413) translate(736 2092.257) translate(288 320.956) translate(8 8)"/>
+                                    <path class="utils-stroke" d="M22 20L22 27 29 27M26 55c1.812-2.288 2.86-5.085 3-8M38 55c-1.812-2.288-2.86-5.085-3-8M22.998 55L40.998 55M9 41L55 41" transform="translate(-1024 -2413) translate(736 2092.257) translate(288 320.956) translate(8 8)"/>
+                                    <path class="utils-stroke" d="M9 13L55 13 55 47 9 47z" transform="translate(-1024 -2413) translate(736 2092.257) translate(288 320.956) translate(8 8)"/>
+                                    <path class="utils-stroke" d="M35 24L38 20 44 25 49 19M47 35L47 32M43 35L43 31M39 35L39 29M35 35L35 32" transform="translate(-1024 -2413) translate(736 2092.257) translate(288 320.956) translate(8 8)"/>
+                                </g>
                             </g>
-                          </g>
                         </g>
-                      </g>
                     </g>
                   </g>
-                </svg>
+                </svg> 
               </div>
               <h3 class="AboutCard__heading">Rapportering</h3>
               <p class="AboutCard__subHeading">Med datadrevet marketing og salg får i tilgang til rapporter, så i hele tiden kan udvikle processen og resultaterne.</p>
@@ -216,7 +260,7 @@ Template Name:  Abonnement Template
       <div class="row align-items-center">
 
         <div class="col-md-6">
-          <img class="ImageAndTextBoxes__image" src="<?php echo get_template_directory_uri();?>/dist/img/man-with-computer--large.png" alt="Man using computer">
+          <img class="ImageAndTextBoxes__image" src="<?php echo get_template_directory_uri();?>/dist/img/man-on-rocket--large.png" alt="Man using computer">
         </div>
 
         <div class="ImageAndTextBoxes__box col-md-6">
@@ -229,7 +273,7 @@ Template Name:  Abonnement Template
       <div class="row align-items-center">
 
         <div class="col-md-6 order-md-2">
-          <img class="ImageAndTextBoxes__image" src="<?php echo get_template_directory_uri();?>/dist/img/man-with-computer--large.png" alt="Man using computer">
+          <img class="ImageAndTextBoxes__image" src="<?php echo get_template_directory_uri();?>/dist/img/man-with-superhero-cape--large.png" alt="Man using computer">
         </div>
 
         <div class="ImageAndTextBoxes__box col-md-6 order-md-1">
