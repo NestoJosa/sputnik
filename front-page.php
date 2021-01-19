@@ -276,6 +276,7 @@
   <!-- /ToBlogButton -->
 <!-- /Recent Blog Posts -->
 
+<!-- Promo -->
 <?php 
 
   
@@ -303,5 +304,6 @@
   );
   
 ?>
+<!-- /Promo -->
 
 <?php get_footer(); ?>
