@@ -49,11 +49,10 @@
     @include media-breakpoint-up (md) {
       padding-bottom: 0;
     }
+  }
 
-    // breaking out of BEM for simplicity
-    & svg {
-      margin-right: 12px;
-    }
+  &__soMeLink {
+    margin-right: 12px;
   }
 
   &__copyright {
