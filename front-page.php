@@ -276,6 +276,32 @@
   <!-- /ToBlogButton -->
 <!-- /Recent Blog Posts -->
 
-<?php get_template_part('includes/section', 'promo');  ?>
+<?php 
+
+  
+  // Variables to feed the template part
+  $imgPath = '/dist/img/kasper--large.png';
+  $imgAltText = 'Image of Kasper Larsen';
+  $preHeading = 'Book et møde';
+  $heading = 'Din tur til at tage action';
+  $subHeading = 'Find ud af hvor let du og din virksomhed, kan komme i gang med at få bedre resultater med Marketing Automation.';
+  $buttonText = 'Kom rigtigt i gang';
+  $pageIdForLink = 55;
+
+  get_template_part(
+    'includes/section', 
+    'promo',
+    array(
+      'imgPath' => $imgPath,
+      'imgAltText' => $imgAltText,
+      'preHeading' => $preHeading,
+      'heading' => $heading,
+      'subHeading' => $subHeading,
+      'buttonText' => $buttonText,
+      'pageIdForLink' => $pageIdForLink,
+    )
+  );
+  
+?>
 
 <?php get_footer(); ?>
