@@ -281,7 +281,8 @@
   <?php 
     
     // Variables to feed the template part
-    $imgPath = '/dist/img/kasper--large.png';
+    
+    $imgPath = '/dist/img/kasper-waist-up--large.png';
     $imgAltText = 'Image of Kasper Larsen';
     $preHeading = 'Book et møde';
     $heading = 'Din tur til at tage action';
