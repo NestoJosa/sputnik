@@ -7,11 +7,15 @@
 
           <div class="NewsLetterSignup col-md-6 col-lg-4 order-md-2">
             <h3 class="NewsLetterSignup__title">Tilmeld nyhedsbrev</h3>
-            <p class="NewsLetterSignup__subTitle">Hold dig opdateret om Marketing Automation. Du kan afmelde dig til hver en tid via nyhedsbrevet.</p>
+            <p class="NewsLetterSignup__subTitle">Ja, tilmeld mig nyhedsbrevet med tips og markedsføring. Jeg godkender opbevaring af mine data, som beskrevet i jeres <a href="<?php echo get_permalink( 65 ) ?>">privatlivspolitik</a>.
+          
+          </p>
             <div class="NewsLetterSignup__formWrapper">
+
               <script src="//app-lon03.marketo.com/js/forms2/js/forms2.min.js"></script>
               <form id="mktoForm_1055"></form>
               <script>MktoForms2.loadForm("//app-lon03.marketo.com", "651-TMF-940", 1055);</script>
+
             </div>
           </div>
 
