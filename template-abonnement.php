@@ -287,6 +287,32 @@ Template Name:  Abonnement Template
   </div><!-- /container-fluid -->
 <!-- /ImageAndTextBoxes -->
 
-<?php get_template_part('includes/section', 'promo');  ?>
+<?php 
+  
+  // Variables to feed the template part
+  $imgPath = '/dist/img/man-on-piggybank--large.png';
+  $imgAltText = 'Man on piggy bank';
+  $preHeading = 'Book et møde';
+  $heading = 'Priser og pakker hvor alle kan være med';
+  $subHeading = 'Vi har sat Lead Automation på abonnement, så alle kan være med. Se vore priser og pakker og se hvilken løsning, der passer til dig og din virksomhed.';
+  $buttonText = 'Se priser og pakker';
+  $pageIdForLink = 53;
+
+  get_template_part(
+    'includes/section', 
+    'promo',
+    array(
+      'imgPath' => $imgPath,
+      'imgAltText' => $imgAltText,
+      'preHeading' => $preHeading,
+      'heading' => $heading,
+      'subHeading' => $subHeading,
+      'buttonText' => $buttonText,
+      'pageIdForLink' => $pageIdForLink,
+    )
+  );
+  
+?>
+<!-- /Promo -->
 
 <?php get_footer(); ?>

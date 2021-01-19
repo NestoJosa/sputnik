@@ -278,7 +278,6 @@
 
 <!-- Promo -->
 <?php 
-
   
   // Variables to feed the template part
   $imgPath = '/dist/img/kasper--large.png';
