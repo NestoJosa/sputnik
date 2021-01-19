@@ -4,17 +4,19 @@
 // https://moderncss.dev/css-button-styling-guide/
 
 $btnColor: #ffc900;
-$btnTextColor: #3b012d;
+$btnTextColor: map-get($brand-colors, 'purple-dark');
 
 @mixin button-solid-base {
   // button resets
+  cursor: pointer;
   border: none;
   font-family: map-get($brand-fonts, 'primary');
   padding: 0;
-  // center horizontally/vertically
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  
   background-color: $btnColor;
   transition: 220ms all ease-in-out;
   // state-styles
@@ -47,16 +49,11 @@ $btnTextColor: #3b012d;
 
 .ButtonSolid--large {
   @include button-solid-base;
+  letter-spacing: 0.8px;
   border-radius: 20px;
   font-size: 1rem; // => 16px
-  padding: 0 28px;
+  padding: 16px 28px 20px;
   min-width: 147px;
-  min-height: 56px;
-  
-  & a {
-    text-decoration: none;
-    color: $btnTextColor;
-  }
 }
 
 .ButtonSolid--extraLarge {

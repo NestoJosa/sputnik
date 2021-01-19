@@ -31,11 +31,13 @@
             <p class="Promo__preHeading"><?php echo $preHeading; ?></p>
             <h2 class="Promo__heading"><?php echo $heading; ?></h2>
             <p class="Promo__subHeading"><?php echo $subHeading; ?></p>
-            <button class="ButtonSolid--large" type="button">
-              <a href="<?php echo $pageIdForLink; ?>">
+
+            <a href="<?php echo $pageIdForLink; ?>">
+              <button class="ButtonSolid--large" type="button">
                 <?php echo $buttonText; ?>
-              </a>
-            </button>  
+              </button>  
+            </a>
+
           </div>
         </div>
       </div>

@@ -10,9 +10,13 @@
         <div class="col-md-6 order-md-1">
           <h1 class="Hero__heading">Få mere ud af dit marketingbudget med Marketing Automation</h1>
           <p class="Hero__subHeading">Vi gør det nemt og enkelt at komme i gang med Marketing Automation.</p>
-          <button class="Hero__button ButtonSolid--large" type="button">
-            <a href="<?php echo get_permalink( 46 ); ?>">Kom let i gang</a>
-          </button>  
+
+          <a href="<?php echo get_permalink( 46 ); ?>">
+            <button class="Hero__button ButtonSolid--large" type="button">
+              Kom let i gang
+            </button>  
+          </a>
+
         </div>
       </div>
     </div>
@@ -185,9 +189,13 @@
               <p class="SubPromo__news">Nyhed</p>
               <h2 class="SubPromo__heading">Lead Automation som abonnementsløsning</h2>
               <p class="SubPromo__subHeading">Nu er det lettere end nogensinde, at få flere varme leads, der er mere tilbøjelige til at købe.</p>
-              <button class="ButtonSolid--large" type="button">
-                <a href="<?php echo get_permalink( 46 ); ?>">Se vores abonnementer</a>
-              </button>  
+
+              <a href="<?php echo get_permalink( 46 ); ?>">
+                <button class="ButtonSolid--large" type="button">
+                Se vores abonnementer
+                </button>  
+              </a>
+
             </div>
 
           </div>
