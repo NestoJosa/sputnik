@@ -73,7 +73,7 @@
       <div class="col-md-8">
         <p class="HeadingBlock__preHeading">Om Autobahn</p>
         <h2 class="HeadingBlock__heading">Vi finder den bedste vej for dig!</h2>
-        <p  class="HeadingBlock__subHeading">Vi er et Marketing Automation bureau. Vi har samlet mange års erfaring i alt fra store komplekse, til små og lette løsninger. Vi er derfor helt trygge når vi siger at vi kan hjælpe dig og din virksomhed, med at finde den rigtige vej for Jer.</p>
+        <p  class="HeadingBlock__subHeading">Vi er et Marketing Automation bureau. Vi har samlet mange års erfaring i alt fra store komplekse, til små og lette løsninger. Vi er derfor helt trygge, når vi siger, at vi kan hjælpe dig og din virksomhed, med at finde den rigtige vej for Jer.</p>
       </div>
 
     </div>   

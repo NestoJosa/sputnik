@@ -16,7 +16,7 @@ Template Name:  Abonnement Template
           <img src="<?php echo get_template_directory_uri();?>/dist/img/woman-on-smartphone--large.png" alt="Man using computer">
         </div>
         <div class="col-md-6 order-md-1">
-          <h1 class="Hero__heading">Få flere Leads til en lav månedlig pris - uden alt besværet</h1>
+          <h1 class="Hero__heading">Få flere leads til en lav månedlig pris - uden alt besværet</h1>
           <p class="Hero__subHeading">Lead Automation på abonnement, er den letteste og billigste måde at få flere leads og mere salg.</p>
         </div>
       </div>
@@ -52,7 +52,7 @@ Template Name:  Abonnement Template
 
         <div class="ImageAndTextBoxes__box col-md-6">
           <div class="ImageAndTextBoxes__heading">Fra manuel marketing til en automatiseret lead maskine</div>
-          <p class="ImageAndTextBoxes__body">Vi automatiserer kommunikation gennem hele lead rejsen. Det gør at der bliver fulgt op på leads fra første kontakt til en sælger tager over.</p>
+          <p class="ImageAndTextBoxes__body">Vi automatiserer kommunikation gennem hele lead rejsen. Det gør, at der bliver fulgt op på leads fra første kontakt til en sælger tager over.</p>
         </div>
 
       </div><!-- /row -->
@@ -64,8 +64,8 @@ Template Name:  Abonnement Template
         </div>
 
         <div class="ImageAndTextBoxes__box col-md-6 order-md-1">
-          <div class="ImageAndTextBoxes__heading">Drop kold kanvas! Ring til varme leads</div>
-          <p class="ImageAndTextBoxes__body">Vi kvalificerer automatisk dine leads ud fra deres digitale adfærd. Vi giver besked når Jeres leads viser købssignaler og notificerer en sælger.</p>
+          <div class="ImageAndTextBoxes__heading">Drop kold kanvas! Ring til varme leads.</div>
+          <p class="ImageAndTextBoxes__body">Vi kvalificerer automatisk dine leads ud fra deres digitale adfærd. Vi giver besked, når Jeres leads viser købssignaler og notificerer en sælger.</p>
         </div>
 
       </div><!-- /row -->
@@ -155,7 +155,7 @@ Template Name:  Abonnement Template
                </svg>
               </div>
               <h3 class="AboutCard__heading">Lead Nurturing</h3>
-              <p class="AboutCard__subHeading">Vi engagerer automatisk dine målgruppe med relevante budskaber, der engagerer og flytter dem fra kolde til varme leads.</p>
+              <p class="AboutCard__subHeading">Vi engagerer automatisk din målgruppe med relevante budskaber, der engagerer og flytter dem fra kolde til varme leads.</p>
             </div><!-- /col-md-6 -->
 
           </div><!-- /row -->
@@ -186,7 +186,7 @@ Template Name:  Abonnement Template
                   </g>
                 </svg>
               </div>
-              <h3 class="AboutCard__heading">Salgs Notifikationer</h3>
+              <h3 class="AboutCard__heading">Salgsnotifikationer</h3>
               <p class="AboutCard__subHeading">Når dine leads er varme giver vi besked, så en sælger kan følge op - med indsigter, der gør det let at lukke ordren.</p>
             </div>
 
@@ -234,7 +234,7 @@ Template Name:  Abonnement Template
       <div class="col-md-8">
         <p class="HeadingBlock__preHeading">Abonnementsløsning</p>
         <h2 class="HeadingBlock__heading">Alle fordelene. Uden alt besværet!</h2>
-        <p class="HeadingBlock__subHeading">Lead Automation er den letteste og billigste måde at arbejde med Lead Automation der virker. Vi tager os af alt teknikken, så du kan fokusere på forretningen. Det der før var unikt for dem med store budgetter, kan du nu få til en fast lav månedlig pris.</p>
+        <p class="HeadingBlock__subHeading">Vores abonnementsløsning er den letteste og billigste måde at arbejde med Lead Automation der virker. Vi tager os af alt teknikken, så du kan fokusere på forretningen. Det der før var unikt for dem med store budgetter, kan du nu få til en fast lav månedlig pris.</p>
       </div>
 
     </div>   
@@ -267,7 +267,7 @@ Template Name:  Abonnement Template
 
         </div>
         <h3 class="AboutCard__heading">Du laver indhold</h3>
-        <p class="AboutCard__subHeading">Du laver indhold der engagerer og oplyse din målgruppe og skaffe nye navne i lead databasen.</p>
+        <p class="AboutCard__subHeading">Du laver indhold, der engagerer og oplyser din målgruppe og skaffer nye navne i lead databasen.</p>
       </div>
       <div class="col-md-4">
       <div class="AboutCard__iconWrapper">
@@ -290,7 +290,7 @@ Template Name:  Abonnement Template
 
         </div>
         <h3 class="AboutCard__heading">Vi automatiserer kommunikationen</h3>
-        <p class="AboutCard__subHeading">Vi sørger for at dine leads får det rigtige budskab på det rigtige tidspunkt. På den måde får du det meste ud af den kommunikation.</p>
+        <p class="AboutCard__subHeading">Vi sørger for at dine leads får det rigtige budskab på det rigtige tidspunkt. På den måde får du det meste ud af din kommunikation.</p>
       </div>
       <div class="col-md-4">
       <div class="AboutCard__iconWrapper">
@@ -312,8 +312,8 @@ Template Name:  Abonnement Template
         </svg>  
 
         </div>
-        <h3 class="AboutCard__heading">Vi sender varme leads til salget</h3>
-        <p class="AboutCard__subHeading">Fokuserer du nu bare på forretningen. Vi giver besked når dine leads er varme og parate til at få kontakt med en sælger.</p>
+        <h3 class="AboutCard__heading">Vi sender varme leads til salgsafdelingen</h3>
+        <p class="AboutCard__subHeading">Fokuserer du nu bare på forretningen. Vi giver besked, når dine leads er varme og parate til at få kontakt med en sælger.</p>
       </div>
     </div>
   </div>
@@ -325,9 +325,9 @@ Template Name:  Abonnement Template
     // Variables to feed the template part
     $imgPath = '/dist/img/man-on-piggybank--large.png';
     $imgAltText = 'Man on piggy bank';
-    $preHeading = 'Book et møde';
+    $preHeading = 'Se vores priser';
     $heading = 'Priser og pakker hvor alle kan være med';
-    $subHeading = 'Vi har sat Lead Automation på abonnement, så alle kan være med. Se vore priser og pakker og se hvilken løsning, der passer til dig og din virksomhed.';
+    $subHeading = 'Vi har sat Lead Automation på abonnement, så alle kan være med. Se vores priser og pakker og se hvilken løsning, der passer til dig og din virksomhed.';
     $buttonText = 'Se priser og pakker';
     $pageIdForLink = 53;
 

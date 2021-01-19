@@ -28,17 +28,17 @@ Template Name:  Book Template
   <div class="ContactFormWrapper container-fluid p-0">
     <div class="container">
       <div class="ContactForm row justify-content-between">
-        <div class="col-md-6 order-md-2">
-          <h2 class="ContactForm__heading">Udfyld formularen. Så kontakter vi dig!</h2>
-          <p class="ContactForm__subHeading">Udfyld formularen, så tager vi fat på dig og finder et tidspunkt til et møde. Vi kan klare alt virtuelt og uden behov personlig kontakt.</p>
+        <div class="col-md-6">
+          <h2 class="ContactForm__heading">Send os en mail eller ring</h2>
+          <p class="ContactForm__subHeading">... så tager vi fat i dig og finder et tidspunkt til et møde. Vi kan klare alt virtuelt og uden behov for personlig kontakt.</p>
           <p class="ContactForm__phoneNumberAndEmail">
             <a class="PhoneToLink PhoneToLink--inFooter PhoneToLink--inPrivacyPage" href="tel:004551514784">51 51 47 84</a>
             <br>
             <a class="MailTo MailTo--inFooter MailTo MailTo--inPrivacyPage" href="mailto:hello@autobahncph.dk">hello@autobahncph.dk</a></p>
         </div>
-        <div class="col-md-5 order-md-1">
+        <!-- <div class="col-md-5 order-md-1">
           Marketo Form Here
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

@@ -19,7 +19,7 @@ Template Name:  Priser Template
         </div>
         <div class="col-md-6 order-md-1">
           <h1 class="Hero__heading">Priser og pakker til alle størrelser virksomheder</h1>
-          <p class="Hero__subHeading">Hos Autobahn laver vi både tilpassede løsninger og færdige pakker hvor alle kan være med. Se priser på være abonnementsløsning og find den der passer dig.</p>
+          <p class="Hero__subHeading">Hos Autobahn laver vi både tilpassede løsninger og færdige pakker, hvor alle kan være med. Se priser på vores abonnementsløsning og find den, der passer dig.</p>
         </div>
       </div>
     </div>
@@ -68,7 +68,7 @@ Template Name:  Priser Template
             <span class="SubCard__description">Simpel Lead Journey</span>
           </div>
           <div class="SubCard__data">
-            <span class="SubCard__label">Antal Leads</span>
+            <span class="SubCard__label">Antal leads</span>
             <span class="SubCard__value">2000</span>
           </div>
           <div class="SubCard__data">
@@ -88,7 +88,7 @@ Template Name:  Priser Template
             <span class="SubCard__value">Simpel</span>
           </div>
           <div class="SubCard__data">
-            <span class="SubCard__label">Salgs Notifikationer</span>
+            <span class="SubCard__label">Salgsnotifikationer</span>
             <span class="SubCard__value"><?php echo $icon_check_box ?></span>
           </div>
           <div class="SubCard__footer">
@@ -112,7 +112,7 @@ Template Name:  Priser Template
             <span class="SubCard__description">Avanceret Lead Journey</span>
           </div>
           <div class="SubCard__data">
-            <span class="SubCard__label">Antal Leads</span>
+            <span class="SubCard__label">Antal leads</span>
             <span class="SubCard__value">5000</span>
           </div>
           <div class="SubCard__data">
@@ -132,7 +132,7 @@ Template Name:  Priser Template
             <span class="SubCard__value">Avanceret</span>
           </div>
           <div class="SubCard__data">
-            <span class="SubCard__label">Salgs Notifikationer</span>
+            <span class="SubCard__label">Salgsnotifikationer</span>
             <span class="SubCard__value"><?php echo $icon_check_box ?></span>
           </div>
           <div class="SubCard__data">
@@ -167,7 +167,7 @@ Template Name:  Priser Template
             <span class="SubCard__description">Customer Journey</span>
           </div>
           <div class="SubCard__data">
-            <span class="SubCard__label">Antal Leads</span>
+            <span class="SubCard__label">Antal leads</span>
             <span class="SubCard__value">10.000</span>
           </div>
           <div class="SubCard__data">
@@ -187,7 +187,7 @@ Template Name:  Priser Template
             <span class="SubCard__value">Avanceret</span>
           </div>
           <div class="SubCard__data">
-            <span class="SubCard__label">Salgs Notifikationer</span>
+            <span class="SubCard__label">Salgsnotifikationer</span>
             <span class="SubCard__value"><?php echo $icon_check_box ?></span>
           </div>
           <div class="SubCard__data">
@@ -250,12 +250,12 @@ Template Name:  Priser Template
             <!-- /Lines -->
 
             <!-- Labels -->
-            <span class="SubTable__labels SubTable__labels-1">Antal Leads</span>
+            <span class="SubTable__labels SubTable__labels-1">Antal leads</span>
             <span class="SubTable__labels SubTable__labels-2">Lead score</span>
             <span class="SubTable__labels SubTable__labels-3">Leadfaser</span>
             <span class="SubTable__labels SubTable__labels-4">Stykker indhold</span>
             <span class="SubTable__labels SubTable__labels-5">Rapporter</span>
-            <span class="SubTable__labels SubTable__labels-6">Salgs Notifikationer</span>
+            <span class="SubTable__labels SubTable__labels-6">Salgsnotifikationer</span>
             <span class="SubTable__labels SubTable__labels-7">Webinarer</span>
             <span class="SubTable__labels SubTable__labels-8">Flere sprog</span>
             <span class="SubTable__labels SubTable__labels-9">Tracking af kanaler</span>
