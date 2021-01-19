@@ -16,6 +16,13 @@
 
   &--whiteCreamBg {
     background-color: map-get($brand-colors, 'white-cream');
+
+    & .HeadingBlock {
+      padding-bottom: 0;
+    }
+    & .HeadingBlock__heading {
+      margin-bottom: 0 !important;
+    }
   }
 }
 
