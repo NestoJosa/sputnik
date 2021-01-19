@@ -1,5 +1,24 @@
 // _HeadingBlock.scss
 
+.HeadingBlockWrapper {
+
+  &--onLeadAutomationPage {
+    background-color: map-get($brand-colors, 'purple-dark');
+
+    & .HeadingBlock {
+      padding-bottom: 0;
+    }
+    & .HeadingBlock__heading {
+      color: #fff;
+      margin-bottom: 0 !important;
+    }
+  }
+
+  &--whiteCreamBg {
+    background-color: map-get($brand-colors, 'white-cream');
+  }
+}
+
 .HeadingBlock {
 
   font-family: map-get($brand-fonts, 'primary');
@@ -13,12 +32,14 @@
   
   &__preHeading {
     color: map-get($brand-colors, 'red');
-    font-size: 16px;
-    font-weight: normal;
+    font-size: 13px;
+    font-weight: 500;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
+    line-height: 1.54;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+
     margin-bottom: 8px;
     @include media-breakpoint-up(md) {
       text-align: center;

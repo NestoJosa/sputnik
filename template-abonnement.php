@@ -25,96 +25,70 @@ Template Name:  Abonnement Template
 <!-- /Hero -->
 
 <!-- HeadingBlock -->
-  <div class="HeadingBlock container">
-    <div class="row justify-content-center">
+  <div class="HeadingBlockWrapper HeadingBlockWrapper--onLeadAutomationPage container-fluid">
+    <div class="HeadingBlock container">
+      <div class="row justify-content-center">
 
-      <div class="col-md-8">
-        <p class="HeadingBlock__preHeading">Abonnementsløsning</p>
-        <h2 class="HeadingBlock__heading">Alle fordelene. Uden alt besværet!</h2>
-        <p class="HeadingBlock__subHeading">Lead Automation er den letteste og billigste måde at arbejde med Lead Automation der virker. Vi tager os af alt teknikken, så du kan fokusere på forretningen. Det der før var unikt for dem med store budgetter, kan du nu få til en fast lav månedlig pris.</p>
-      </div>
+        <div class="col-md-8">
+          <p class="HeadingBlock__preHeading">En smartere løsning</p>
+          <h2 class="HeadingBlock__heading">Vi digitaliserer, og skaber sammenhæng imellem salg og marketing</h2>
+          <p class="HeadingBlock__subHeading"></p>
+        </div>
 
-    </div>   
+      </div>   
+    </div>
   </div>
 <!-- /HeadingBlock -->
 
-<!-- About -->
-  <div class="About container">
-    <div class="row">
-      <div class="col-md-4">
-        <!-- the animation is triggered when the icon is visible on the screen, via the js-hook -->
-        <div class="AboutCard__iconWrapper">
-          
-        <svg xmlns="http://www.w3.org/2000/svg" class="AboutCard__icon js-AboutCard__icon" viewBox="0 0 80 81">
-          <g fill="none" fill-rule="evenodd">
-              <g>
-                  <g>
-                      <g fill="#FBF9F0" stroke="#3B012D" stroke-opacity=".04" stroke-width="2">
-                          <path d="M50 1c8.008 0 15.258 3.246 20.506 8.494C75.754 14.742 79 21.992 79 30h0v20c0 8.008-3.246 15.258-8.494 20.506C65.258 75.754 58.008 79 50 79h0-20c-8.008 0-15.258-3.246-20.506-8.494C4.246 65.258 1 58.008 1 50h0V30c0-8.008 3.246-15.258 8.494-20.506C14.742 4.246 21.992 1 30 1h0z" transform="translate(-160 -3149) translate(160 3149.214)"/>
-                      </g>
-                      <g fill-rule="nonzero">
-                          <path class="utils-fill" d="M36.64 48V21.04h-3.12c-.52 3.28-2.36 4.52-6.56 4.52v2.8H33V48h3.64z" transform="translate(-160 -3149) translate(160 3149.214) translate(8 7)"/>
-                          <path fill="#3B012D" d="M34.64 46V19.04h-3.12c-.52 3.28-2.36 4.52-6.56 4.52v2.8H31V46h3.64z" transform="translate(-160 -3149) translate(160 3149.214) translate(8 7)"/>
-                      </g>
-                  </g>
-              </g>
-          </g>
-         </svg>
+<!-- ImageAndTextBoxes -->
+  <div class="ImageAndTextBoxesWrapper container-fluid">
+    <div class="ImageAndTextBoxes container">
 
+      <div class="row align-items-center">
 
+        <div class="col-md-6">
+          <img class="ImageAndTextBoxes__image" src="<?php echo get_template_directory_uri();?>/dist/img/man-on-rocket--large.png" alt="Man using computer">
         </div>
-        <h3 class="AboutCard__heading">Du laver indhold</h3>
-        <p class="AboutCard__subHeading">Du laver indhold der engagerer og oplyse din målgruppe og skaffe nye navne i lead databasen.</p>
-      </div>
-      <div class="col-md-4">
-      <div class="AboutCard__iconWrapper">
-          
-        <svg xmlns="http://www.w3.org/2000/svg" class="AboutCard__icon js-AboutCard__icon" viewBox="0 0 80 81">
-          <g fill="none" fill-rule="evenodd">
-              <g>
-                  <g>
-                      <g fill="#FBF9F0" stroke="#3B012D" stroke-opacity=".04" stroke-width="2">
-                          <path d="M50 1c8.008 0 15.258 3.246 20.506 8.494C75.754 14.742 79 21.992 79 30h0v20c0 8.008-3.246 15.258-8.494 20.506C65.258 75.754 58.008 79 50 79h0-20c-8.008 0-15.258-3.246-20.506-8.494C4.246 65.258 1 58.008 1 50h0V30c0-8.008 3.246-15.258 8.494-20.506C14.742 4.246 21.992 1 30 1h0z" transform="translate(-544 -3149) translate(544 3149.214)"/>
-                      </g>
-                      <g fill-rule="nonzero">
-                          <path class="utils-fill" d="M43.24 48v-3.16H28.68c.04-2.52 1.12-4.28 6.52-7.4 4.32-2.52 7.4-4.72 7.4-9.44 0-4.52-3.44-7.52-8.6-7.52-5.36 0-8.84 3.12-9.04 8.48h3.76c.2-3.32 1.8-5.28 5.24-5.28 2.96 0 4.8 1.8 4.8 4.4 0 3.32-2.12 4.8-6.2 7.2-6.68 3.88-7.96 6.8-7.96 11.92 0 .2 0 .52.04.8h18.6z" transform="translate(-544 -3149) translate(544 3149.214) translate(8 7)"/>
-                          <path fill="#3B012D" d="M41.24 46v-3.16H26.68c.04-2.52 1.12-4.28 6.52-7.4 4.32-2.52 7.4-4.72 7.4-9.44 0-4.52-3.44-7.52-8.6-7.52-5.36 0-8.84 3.12-9.04 8.48h3.76c.2-3.32 1.8-5.28 5.24-5.28 2.96 0 4.8 1.8 4.8 4.4 0 3.32-2.12 4.8-6.2 7.2-6.68 3.88-7.96 6.8-7.96 11.92 0 .2 0 .52.04.8h18.6z" transform="translate(-544 -3149) translate(544 3149.214) translate(8 7)"/>
-                      </g>
-                  </g>
-              </g>
-          </g>
-        </svg>
 
+        <div class="ImageAndTextBoxes__box col-md-6">
+          <div class="ImageAndTextBoxes__heading">Fra manuel marketing til en automatiseret lead maskine</div>
+          <p class="ImageAndTextBoxes__body">Vi automatiserer kommunikation gennem hele lead rejsen. Det gør at der bliver fulgt op på leads fra første kontakt til en sælger tager over.</p>
         </div>
-        <h3 class="AboutCard__heading">Vi automatiserer kommunikationen</h3>
-        <p class="AboutCard__subHeading">Vi sørger for at dine leads får det rigtige budskab på det rigtige tidspunkt. På den måde får du det meste ud af den kommunikation.</p>
-      </div>
-      <div class="col-md-4">
-      <div class="AboutCard__iconWrapper">
-          
-        <svg xmlns="http://www.w3.org/2000/svg" class="AboutCard__icon js-AboutCard__icon" viewBox="0 0 80 81">
-          <g fill="none" fill-rule="evenodd">
-              <g>
-                  <g>
-                      <g fill="#FBF9F0" stroke="#3B012D" stroke-opacity=".04" stroke-width="2">
-                          <path d="M50 1c8.008 0 15.258 3.246 20.506 8.494C75.754 14.742 79 21.992 79 30h0v20c0 8.008-3.246 15.258-8.494 20.506C65.258 75.754 58.008 79 50 79h0-20c-8.008 0-15.258-3.246-20.506-8.494C4.246 65.258 1 58.008 1 50h0V30c0-8.008 3.246-15.258 8.494-20.506C14.742 4.246 21.992 1 30 1h0z" transform="translate(-928 -3149) translate(928 3149.214)"/>
-                      </g>
-                      <g fill-rule="nonzero">
-                          <path class="utils-fill" d="M33.88 48.56c5.48 0 9.24-3.08 9.24-7.64 0-3.48-1.64-5.56-5.12-6.72v-.08c3.16-1.16 4.68-3.08 4.68-6.28 0-4.44-3.4-7.36-8.84-7.36-5.56 0-9.04 3.16-9.04 8.52h3.72c0-3.6 1.88-5.36 5.16-5.36 3.2 0 5.28 1.8 5.28 4.52 0 2.84-2.28 4.68-6 4.68h-1.08v3.08h1.08c4.16 0 6.4 1.72 6.4 4.88 0 2.72-2.2 4.6-5.48 4.6-3.64 0-5.6-1.92-5.6-5.52h-3.72c0 5.44 3.36 8.68 9.32 8.68z" transform="translate(-928 -3149) translate(928 3149.214) translate(8 7)"/>
-                          <path fill="#3B012D" d="M31.88 46.56c5.48 0 9.24-3.08 9.24-7.64 0-3.48-1.64-5.56-5.12-6.72v-.08c3.16-1.16 4.68-3.08 4.68-6.28 0-4.44-3.4-7.36-8.84-7.36-5.56 0-9.04 3.16-9.04 8.52h3.72c0-3.6 1.88-5.36 5.16-5.36 3.2 0 5.28 1.8 5.28 4.52 0 2.84-2.28 4.68-6 4.68h-1.08v3.08h1.08c4.16 0 6.4 1.72 6.4 4.88 0 2.72-2.2 4.6-5.48 4.6-3.64 0-5.6-1.92-5.6-5.52h-3.72c0 5.44 3.36 8.68 9.32 8.68z" transform="translate(-928 -3149) translate(928 3149.214) translate(8 7)"/>
-                      </g>
-                  </g>
-              </g>
-          </g>
-        </svg>  
 
+      </div><!-- /row -->
+
+      <div class="row align-items-center">
+
+        <div class="col-md-6 order-md-2">
+          <img class="ImageAndTextBoxes__image" src="<?php echo get_template_directory_uri();?>/dist/img/man-with-superhero-cape--large.png" alt="Man using computer">
         </div>
-        <h3 class="AboutCard__heading">Vi sender varme leads til salget</h3>
-        <p class="AboutCard__subHeading">Fokuserer du nu bare på forretningen. Vi giver besked når dine leads er varme og parate til at få kontakt med en sælger.</p>
-      </div>
+
+        <div class="ImageAndTextBoxes__box col-md-6 order-md-1">
+          <div class="ImageAndTextBoxes__heading">Drop kold kanvas! Ring til varme leads</div>
+          <p class="ImageAndTextBoxes__body">Vi kvalificerer automatisk dine leads ud fra deres digitale adfærd. Vi giver besked når Jeres leads viser købssignaler og notificerer en sælger.</p>
+        </div>
+
+      </div><!-- /row -->
+
+    </div><!-- /container -->
+  </div><!-- /container-fluid -->
+<!-- /ImageAndTextBoxes -->
+
+<!-- HeadingBlock -->
+<div class="HeadingBlockWrapper HeadingBlockWrapper--whiteCreamBg container-fluid">
+    <div class="HeadingBlock container">
+      <div class="row justify-content-center">
+
+        <div class="col-md-8">
+          <p class="HeadingBlock__preHeading">En smartere løsning</p>
+          <h2 class="HeadingBlock__heading">Det får du - og meget mere …</h2>
+          <p class="HeadingBlock__subHeading"></p>
+        </div>
+
+      </div>   
     </div>
   </div>
-<!-- /About -->
+<!-- /HeadingBlock -->
 
 <!-- ImageAndCards -->
   <div class="ImageAndCardsWrapper container-fluid">
@@ -253,66 +227,125 @@ Template Name:  Abonnement Template
   </div><!-- /container-fluid -->
 <!-- /ImageAndCards -->
 
-<!-- ImageAndTextBoxes -->
-  <div class="ImageAndTextBoxesWrapper container-fluid">
-    <div class="ImageAndTextBoxes container">
+<!-- HeadingBlock -->
+  <div class="HeadingBlock container">
+    <div class="row justify-content-center">
 
-      <div class="row align-items-center">
+      <div class="col-md-8">
+        <p class="HeadingBlock__preHeading">Abonnementsløsning</p>
+        <h2 class="HeadingBlock__heading">Alle fordelene. Uden alt besværet!</h2>
+        <p class="HeadingBlock__subHeading">Lead Automation er den letteste og billigste måde at arbejde med Lead Automation der virker. Vi tager os af alt teknikken, så du kan fokusere på forretningen. Det der før var unikt for dem med store budgetter, kan du nu få til en fast lav månedlig pris.</p>
+      </div>
 
-        <div class="col-md-6">
-          <img class="ImageAndTextBoxes__image" src="<?php echo get_template_directory_uri();?>/dist/img/man-on-rocket--large.png" alt="Man using computer">
+    </div>   
+  </div>
+<!-- /HeadingBlock -->
+
+<!-- About -->
+  <div class="About container">
+    <div class="row">
+      <div class="col-md-4">
+        <!-- the animation is triggered when the icon is visible on the screen, via the js-hook -->
+        <div class="AboutCard__iconWrapper">
+          
+        <svg xmlns="http://www.w3.org/2000/svg" class="AboutCard__icon js-AboutCard__icon" viewBox="0 0 80 81">
+          <g fill="none" fill-rule="evenodd">
+              <g>
+                  <g>
+                      <g fill="#FBF9F0" stroke="#3B012D" stroke-opacity=".04" stroke-width="2">
+                          <path d="M50 1c8.008 0 15.258 3.246 20.506 8.494C75.754 14.742 79 21.992 79 30h0v20c0 8.008-3.246 15.258-8.494 20.506C65.258 75.754 58.008 79 50 79h0-20c-8.008 0-15.258-3.246-20.506-8.494C4.246 65.258 1 58.008 1 50h0V30c0-8.008 3.246-15.258 8.494-20.506C14.742 4.246 21.992 1 30 1h0z" transform="translate(-160 -3149) translate(160 3149.214)"/>
+                      </g>
+                      <g fill-rule="nonzero">
+                          <path class="utils-fill" d="M36.64 48V21.04h-3.12c-.52 3.28-2.36 4.52-6.56 4.52v2.8H33V48h3.64z" transform="translate(-160 -3149) translate(160 3149.214) translate(8 7)"/>
+                          <path fill="#3B012D" d="M34.64 46V19.04h-3.12c-.52 3.28-2.36 4.52-6.56 4.52v2.8H31V46h3.64z" transform="translate(-160 -3149) translate(160 3149.214) translate(8 7)"/>
+                      </g>
+                  </g>
+              </g>
+          </g>
+         </svg>
+
+
         </div>
+        <h3 class="AboutCard__heading">Du laver indhold</h3>
+        <p class="AboutCard__subHeading">Du laver indhold der engagerer og oplyse din målgruppe og skaffe nye navne i lead databasen.</p>
+      </div>
+      <div class="col-md-4">
+      <div class="AboutCard__iconWrapper">
+          
+        <svg xmlns="http://www.w3.org/2000/svg" class="AboutCard__icon js-AboutCard__icon" viewBox="0 0 80 81">
+          <g fill="none" fill-rule="evenodd">
+              <g>
+                  <g>
+                      <g fill="#FBF9F0" stroke="#3B012D" stroke-opacity=".04" stroke-width="2">
+                          <path d="M50 1c8.008 0 15.258 3.246 20.506 8.494C75.754 14.742 79 21.992 79 30h0v20c0 8.008-3.246 15.258-8.494 20.506C65.258 75.754 58.008 79 50 79h0-20c-8.008 0-15.258-3.246-20.506-8.494C4.246 65.258 1 58.008 1 50h0V30c0-8.008 3.246-15.258 8.494-20.506C14.742 4.246 21.992 1 30 1h0z" transform="translate(-544 -3149) translate(544 3149.214)"/>
+                      </g>
+                      <g fill-rule="nonzero">
+                          <path class="utils-fill" d="M43.24 48v-3.16H28.68c.04-2.52 1.12-4.28 6.52-7.4 4.32-2.52 7.4-4.72 7.4-9.44 0-4.52-3.44-7.52-8.6-7.52-5.36 0-8.84 3.12-9.04 8.48h3.76c.2-3.32 1.8-5.28 5.24-5.28 2.96 0 4.8 1.8 4.8 4.4 0 3.32-2.12 4.8-6.2 7.2-6.68 3.88-7.96 6.8-7.96 11.92 0 .2 0 .52.04.8h18.6z" transform="translate(-544 -3149) translate(544 3149.214) translate(8 7)"/>
+                          <path fill="#3B012D" d="M41.24 46v-3.16H26.68c.04-2.52 1.12-4.28 6.52-7.4 4.32-2.52 7.4-4.72 7.4-9.44 0-4.52-3.44-7.52-8.6-7.52-5.36 0-8.84 3.12-9.04 8.48h3.76c.2-3.32 1.8-5.28 5.24-5.28 2.96 0 4.8 1.8 4.8 4.4 0 3.32-2.12 4.8-6.2 7.2-6.68 3.88-7.96 6.8-7.96 11.92 0 .2 0 .52.04.8h18.6z" transform="translate(-544 -3149) translate(544 3149.214) translate(8 7)"/>
+                      </g>
+                  </g>
+              </g>
+          </g>
+        </svg>
 
-        <div class="ImageAndTextBoxes__box col-md-6">
-          <div class="ImageAndTextBoxes__heading">Fra manuel marketing til en automatiseret lead maskine</div>
-          <p class="ImageAndTextBoxes__body">Vi automatiserer kommunikation gennem hele lead rejsen. Det gør at der bliver fulgt op på leads fra første kontakt til en sælger tager over.</p>
         </div>
+        <h3 class="AboutCard__heading">Vi automatiserer kommunikationen</h3>
+        <p class="AboutCard__subHeading">Vi sørger for at dine leads får det rigtige budskab på det rigtige tidspunkt. På den måde får du det meste ud af den kommunikation.</p>
+      </div>
+      <div class="col-md-4">
+      <div class="AboutCard__iconWrapper">
+          
+        <svg xmlns="http://www.w3.org/2000/svg" class="AboutCard__icon js-AboutCard__icon" viewBox="0 0 80 81">
+          <g fill="none" fill-rule="evenodd">
+              <g>
+                  <g>
+                      <g fill="#FBF9F0" stroke="#3B012D" stroke-opacity=".04" stroke-width="2">
+                          <path d="M50 1c8.008 0 15.258 3.246 20.506 8.494C75.754 14.742 79 21.992 79 30h0v20c0 8.008-3.246 15.258-8.494 20.506C65.258 75.754 58.008 79 50 79h0-20c-8.008 0-15.258-3.246-20.506-8.494C4.246 65.258 1 58.008 1 50h0V30c0-8.008 3.246-15.258 8.494-20.506C14.742 4.246 21.992 1 30 1h0z" transform="translate(-928 -3149) translate(928 3149.214)"/>
+                      </g>
+                      <g fill-rule="nonzero">
+                          <path class="utils-fill" d="M33.88 48.56c5.48 0 9.24-3.08 9.24-7.64 0-3.48-1.64-5.56-5.12-6.72v-.08c3.16-1.16 4.68-3.08 4.68-6.28 0-4.44-3.4-7.36-8.84-7.36-5.56 0-9.04 3.16-9.04 8.52h3.72c0-3.6 1.88-5.36 5.16-5.36 3.2 0 5.28 1.8 5.28 4.52 0 2.84-2.28 4.68-6 4.68h-1.08v3.08h1.08c4.16 0 6.4 1.72 6.4 4.88 0 2.72-2.2 4.6-5.48 4.6-3.64 0-5.6-1.92-5.6-5.52h-3.72c0 5.44 3.36 8.68 9.32 8.68z" transform="translate(-928 -3149) translate(928 3149.214) translate(8 7)"/>
+                          <path fill="#3B012D" d="M31.88 46.56c5.48 0 9.24-3.08 9.24-7.64 0-3.48-1.64-5.56-5.12-6.72v-.08c3.16-1.16 4.68-3.08 4.68-6.28 0-4.44-3.4-7.36-8.84-7.36-5.56 0-9.04 3.16-9.04 8.52h3.72c0-3.6 1.88-5.36 5.16-5.36 3.2 0 5.28 1.8 5.28 4.52 0 2.84-2.28 4.68-6 4.68h-1.08v3.08h1.08c4.16 0 6.4 1.72 6.4 4.88 0 2.72-2.2 4.6-5.48 4.6-3.64 0-5.6-1.92-5.6-5.52h-3.72c0 5.44 3.36 8.68 9.32 8.68z" transform="translate(-928 -3149) translate(928 3149.214) translate(8 7)"/>
+                      </g>
+                  </g>
+              </g>
+          </g>
+        </svg>  
 
-      </div><!-- /row -->
-
-      <div class="row align-items-center">
-
-        <div class="col-md-6 order-md-2">
-          <img class="ImageAndTextBoxes__image" src="<?php echo get_template_directory_uri();?>/dist/img/man-with-superhero-cape--large.png" alt="Man using computer">
         </div>
+        <h3 class="AboutCard__heading">Vi sender varme leads til salget</h3>
+        <p class="AboutCard__subHeading">Fokuserer du nu bare på forretningen. Vi giver besked når dine leads er varme og parate til at få kontakt med en sælger.</p>
+      </div>
+    </div>
+  </div>
+<!-- /About -->
 
-        <div class="ImageAndTextBoxes__box col-md-6 order-md-1">
-          <div class="ImageAndTextBoxes__heading">Drop kold kanvas! Ring til varme leads</div>
-          <p class="ImageAndTextBoxes__body">Vi kvalificerer automatisk dine leads ud fra deres digitale adfærd. Vi giver besked når Jeres leads viser købssignaler og notificerer en sælger.</p>
-        </div>
+<!-- Promo -->
+  <?php 
+    
+    // Variables to feed the template part
+    $imgPath = '/dist/img/man-on-piggybank--large.png';
+    $imgAltText = 'Man on piggy bank';
+    $preHeading = 'Book et møde';
+    $heading = 'Priser og pakker hvor alle kan være med';
+    $subHeading = 'Vi har sat Lead Automation på abonnement, så alle kan være med. Se vore priser og pakker og se hvilken løsning, der passer til dig og din virksomhed.';
+    $buttonText = 'Se priser og pakker';
+    $pageIdForLink = 53;
 
-      </div><!-- /row -->
-
-    </div><!-- /container -->
-  </div><!-- /container-fluid -->
-<!-- /ImageAndTextBoxes -->
-
-<?php 
-  
-  // Variables to feed the template part
-  $imgPath = '/dist/img/man-on-piggybank--large.png';
-  $imgAltText = 'Man on piggy bank';
-  $preHeading = 'Book et møde';
-  $heading = 'Priser og pakker hvor alle kan være med';
-  $subHeading = 'Vi har sat Lead Automation på abonnement, så alle kan være med. Se vore priser og pakker og se hvilken løsning, der passer til dig og din virksomhed.';
-  $buttonText = 'Se priser og pakker';
-  $pageIdForLink = 53;
-
-  get_template_part(
-    'includes/section', 
-    'promo',
-    array(
-      'imgPath' => $imgPath,
-      'imgAltText' => $imgAltText,
-      'preHeading' => $preHeading,
-      'heading' => $heading,
-      'subHeading' => $subHeading,
-      'buttonText' => $buttonText,
-      'pageIdForLink' => $pageIdForLink,
-    )
-  );
-  
-?>
+    get_template_part(
+      'includes/section', 
+      'promo',
+      array(
+        'imgPath' => $imgPath,
+        'imgAltText' => $imgAltText,
+        'preHeading' => $preHeading,
+        'heading' => $heading,
+        'subHeading' => $subHeading,
+        'buttonText' => $buttonText,
+        'pageIdForLink' => $pageIdForLink,
+      )
+    );
+    
+  ?>
 <!-- /Promo -->
 
 <?php get_footer(); ?>

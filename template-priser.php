@@ -362,7 +362,7 @@ Template Name:  Priser Template
 
     <div class="FinePrint row justify-content-center">
       <div class="col-auto">
-        Alle priser er pr. måned (faktureres årligt)
+        Alle priser er pr. måned eksklusiv moms (faktureres årligt)
       </div>
     </div>
 

@@ -67,6 +67,7 @@
     <div class="row justify-content-center">
 
       <div class="col-md-8">
+        <p class="HeadingBlock__preHeading">Om Autobahn</p>
         <h2 class="HeadingBlock__heading">Vi finder den bedste vej for dig!</h2>
         <p  class="HeadingBlock__subHeading">Vi er et Marketing Automation bureau. Vi har samlet mange års erfaring i alt fra store komplekse, til små og lette løsninger. Vi er derfor helt trygge når vi siger at vi kan hjælpe dig og din virksomhed, med at finde den rigtige vej for Jer.</p>
       </div>
@@ -277,32 +278,32 @@
 <!-- /Recent Blog Posts -->
 
 <!-- Promo -->
-<?php 
-  
-  // Variables to feed the template part
-  $imgPath = '/dist/img/kasper--large.png';
-  $imgAltText = 'Image of Kasper Larsen';
-  $preHeading = 'Book et møde';
-  $heading = 'Din tur til at tage action';
-  $subHeading = 'Find ud af hvor let du og din virksomhed, kan komme i gang med at få bedre resultater med Marketing Automation.';
-  $buttonText = 'Kom rigtigt i gang';
-  $pageIdForLink = 55;
+  <?php 
+    
+    // Variables to feed the template part
+    $imgPath = '/dist/img/kasper--large.png';
+    $imgAltText = 'Image of Kasper Larsen';
+    $preHeading = 'Book et møde';
+    $heading = 'Din tur til at tage action';
+    $subHeading = 'Find ud af hvor let du og din virksomhed, kan komme i gang med at få bedre resultater med Marketing Automation.';
+    $buttonText = 'Kom rigtigt i gang';
+    $pageIdForLink = 55;
 
-  get_template_part(
-    'includes/section', 
-    'promo',
-    array(
-      'imgPath' => $imgPath,
-      'imgAltText' => $imgAltText,
-      'preHeading' => $preHeading,
-      'heading' => $heading,
-      'subHeading' => $subHeading,
-      'buttonText' => $buttonText,
-      'pageIdForLink' => $pageIdForLink,
-    )
-  );
-  
-?>
+    get_template_part(
+      'includes/section', 
+      'promo',
+      array(
+        'imgPath' => $imgPath,
+        'imgAltText' => $imgAltText,
+        'preHeading' => $preHeading,
+        'heading' => $heading,
+        'subHeading' => $subHeading,
+        'buttonText' => $buttonText,
+        'pageIdForLink' => $pageIdForLink,
+      )
+    );
+    
+  ?>
 <!-- /Promo -->
 
 <?php get_footer(); ?>

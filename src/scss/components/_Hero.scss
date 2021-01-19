@@ -28,7 +28,7 @@
   @include media-breakpoint-up (md) {
     margin-top: 96px !important;
     // and add some top-padding to match with specs
-    padding-top: 32px;
+    padding-top: 32px !important;
   }
 
   &__image {
