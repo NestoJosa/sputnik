@@ -36,7 +36,7 @@
 
         <h2>Cookies</h2>
         <p>Websitet anvender “cookies”, der er en tekstfil, som gemmes på din computer, mobil el. tilsvarende med det formål at genkende den, huske indstillinger, udføre statistik og målrette annoncer. Cookies kan ikke indeholde skadelig kode som f.eks. virus.</p>
-        <p>Det er muligt at slette eller blokere for cookies. Se vejledning: <a href="https://minecookies.org/cookiehandtering" target="_blank">https://minecookies.org/cookiehandtering</a></p>
+        <p>Det er muligt at slette eller blokere for cookies. Se vejledning: <a href="https://minecookies.org/cookiehandtering" target="_blank">minecookies.org</a></p>
         <p>Hvis du sletter eller blokerer cookies vil annoncer kunne blive mindre relevante for dig og optræde hyppigere. Du kan desuden risikere at websitet ikke fungerer optimalt samt at der er indhold, du ikke kan få adgang til.</p>
 
         <h2>Generelt</h2>
