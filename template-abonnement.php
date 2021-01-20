@@ -329,7 +329,7 @@ Template Name:  Abonnement Template
     $heading = 'Priser og pakker hvor alle kan være med';
     $subHeading = 'Vi har sat Lead Automation på abonnement, så alle kan være med. Se vores priser og pakker og se hvilken løsning, der passer til dig og din virksomhed.';
     $buttonText = 'Se priser og pakker';
-    $pageIdForLink = 53;
+    $pageToLinkTo = "Priser";
 
     get_template_part(
       'includes/section', 
@@ -341,7 +341,7 @@ Template Name:  Abonnement Template
         'heading' => $heading,
         'subHeading' => $subHeading,
         'buttonText' => $buttonText,
-        'pageIdForLink' => $pageIdForLink,
+        'pageToLinkTo' => $pageToLinkTo,
       )
     );
     

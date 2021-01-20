@@ -9,7 +9,8 @@
   $subHeading = ($args['subHeading']) ? $args['subHeading'] : 'subHeading';
 
   $buttonText = ($args['buttonText']) ? $args['buttonText'] : 'buttonText';
-  $pageIdForLink = ($args['pageIdForLink']) ? get_permalink( $args['pageIdForLink'] ) : 'pageIdForLink';
+
+  $pageToLinkTo = ($args['pageToLinkTo']) ? get_permalink( get_page_by_title( $args['pageToLinkTo'] )) : 'pageToLinkTo';
 
 
 ?>
@@ -32,7 +33,7 @@
             <h2 class="Promo__heading"><?php echo $heading; ?></h2>
             <p class="Promo__subHeading"><?php echo $subHeading; ?></p>
 
-            <a href="<?php echo $pageIdForLink; ?>">
+            <a href="<?php echo $pageToLinkTo; ?>">
               <button class="ButtonSolid--large" type="button">
                 <?php echo $buttonText; ?>
               </button>  

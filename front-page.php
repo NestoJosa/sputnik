@@ -11,7 +11,7 @@
           <h1 class="Hero__heading">Få mere ud af dit marketingbudget med Marketing Automation</h1>
           <p class="Hero__subHeading">Vi gør det nemt og enkelt at komme i gang med Marketing Automation.</p>
 
-          <a href="<?php echo get_permalink( 46 ); ?>">
+          <a href="<?php echo get_permalink( get_page_by_title( 'Lead Automation' ) ); ?>">
             <button class="Hero__button ButtonSolid--large" type="button">
               Kom let i gang
             </button>  
@@ -190,7 +190,7 @@
               <h2 class="SubPromo__heading">Lead Automation som abonnementsløsning</h2>
               <p class="SubPromo__subHeading">Nu er det lettere end nogensinde, at få flere varme leads, der er mere tilbøjelige til at købe.</p>
 
-              <a href="<?php echo get_permalink( 46 ); ?>">
+              <a href="<?php echo get_permalink( get_page_by_title( 'Lead Automation' ) ); ?>">
                 <button class="ButtonSolid--large" type="button">
                 Se vores abonnementer
                 </button>  
@@ -296,7 +296,7 @@
     $heading = 'Din tur til at tage action';
     $subHeading = 'Find ud af hvor let du og din virksomhed, kan komme i gang med at få bedre resultater med Marketing Automation.';
     $buttonText = 'Kom rigtigt i gang';
-    $pageIdForLink = 55;
+    $pageToLinkTo = "Book et møde";
 
     get_template_part(
       'includes/section', 
@@ -308,7 +308,7 @@
         'heading' => $heading,
         'subHeading' => $subHeading,
         'buttonText' => $buttonText,
-        'pageIdForLink' => $pageIdForLink,
+        'pageToLinkTo' => $pageToLinkTo,
       )
     );
     

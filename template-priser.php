@@ -371,31 +371,32 @@ Template Name:  Priser Template
 
 <!-- Promo -->
 <?php 
-  
-  // Variables to feed the template part
-  $imgPath = '/dist/img/kasper-waist-up--large.png';
-  $imgAltText = 'Image of Kasper Larsen';
-  $preHeading = 'Book et møde';
-  $heading = 'Din tur til at tage action';
-  $subHeading = 'Find ud af hvor let du og din virksomhed, kan komme i gang med at få bedre resultater med Marketing Automation.';
-  $buttonText = 'Kom rigtigt i gang';
-  $pageIdForLink = 55;
+    
+    // Variables to feed the template part
+    
+    $imgPath = '/dist/img/kasper-waist-up--large.png';
+    $imgAltText = 'Image of Kasper Larsen';
+    $preHeading = 'Book et møde';
+    $heading = 'Din tur til at tage action';
+    $subHeading = 'Find ud af hvor let du og din virksomhed, kan komme i gang med at få bedre resultater med Marketing Automation.';
+    $buttonText = 'Kom rigtigt i gang';
+    $pageToLinkTo = "Book et møde";
 
-  get_template_part(
-    'includes/section', 
-    'promo',
-    array(
-      'imgPath' => $imgPath,
-      'imgAltText' => $imgAltText,
-      'preHeading' => $preHeading,
-      'heading' => $heading,
-      'subHeading' => $subHeading,
-      'buttonText' => $buttonText,
-      'pageIdForLink' => $pageIdForLink,
-    )
-  );
-  
-?>
+    get_template_part(
+      'includes/section', 
+      'promo',
+      array(
+        'imgPath' => $imgPath,
+        'imgAltText' => $imgAltText,
+        'preHeading' => $preHeading,
+        'heading' => $heading,
+        'subHeading' => $subHeading,
+        'buttonText' => $buttonText,
+        'pageToLinkTo' => $pageToLinkTo,
+      )
+    );
+    
+  ?>
 <!-- /Promo -->
 
 
