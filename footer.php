@@ -7,7 +7,7 @@
 
           <div class="NewsLetterSignup col-md-6 col-lg-4 order-md-2">
             <h3 class="NewsLetterSignup__title">Tilmeld nyhedsbrev</h3>
-            <p class="NewsLetterSignup__subTitle">Ja, tilmeld mig nyhedsbrevet med tips og markedsføring. Jeg godkender opbevaring af mine data, som beskrevet i jeres <a href="<?php echo get_permalink( 65 ) ?>">privatlivspolitik</a>.
+            <p class="NewsLetterSignup__subTitle">Ja, tilmeld mig nyhedsbrevet med tips og markedsføring. Jeg godkender opbevaring af mine data, som beskrevet i jeres <a href="<?php echo get_permalink( get_page_by_title( 'Privatlivspolitik' ) ) ?>">privatlivspolitik</a>.
           
           </p>
             <div class="NewsLetterSignup__formWrapper">

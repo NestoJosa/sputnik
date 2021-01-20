@@ -190,7 +190,7 @@
               <h2 class="SubPromo__heading">Lead Automation som abonnementsløsning</h2>
               <p class="SubPromo__subHeading">Nu er det lettere end nogensinde, at få flere varme leads, der er mere tilbøjelige til at købe.</p>
 
-              <a href="<?php echo get_permalink( get_page_by_title( 'Lead Automation' ) ); ?>">
+              <a href="<?php echo get_permalink( get_page_by_title( 'Priser' ) ); ?>">
                 <button class="ButtonSolid--large" type="button">
                 Se vores abonnementer
                 </button>  
