@@ -180,7 +180,7 @@
 
       <div class="row justify-content-center no-gutters">
         <div class="SubPromo col-md-10">
-          <div class="row">
+          <div class="row align-items-center">
 
             <div class="col-md-6">
               <img class="SubPromo__image" src="<?php echo get_template_directory_uri();?>/dist/img/mobile-swimming-pool--large.png" alt="3D woman on a pool on a smartphone">

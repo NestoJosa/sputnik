@@ -23,7 +23,7 @@
 
     <div class="row justify-content-center no-gutters">
       <div class="Promo col-md-10">
-        <div class="row">
+        <div class="row align-items-center">
           <div class="col-md-6">
             <img class="Promo__image" src="<?php echo $imgPath; ?>" alt="<?php echo $imgAltText; ?>">
           </div>
