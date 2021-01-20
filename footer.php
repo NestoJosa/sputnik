@@ -37,7 +37,7 @@
           <div class="col-auto order-md-2">
             <div class="Footer__soMeIconsWrapper">
               <!-- Twitter Icon -->
-              <!-- <a class="Footer__soMeLink" href="#" >   
+              <!-- <a class="Footer__soMeLink" href="#" target="_blank">   
                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
                   <g fill="none" fill-rule="evenodd">
                     <g>
@@ -53,7 +53,7 @@
               </a> -->
               
               <!-- YouTube icon -->
-              <!-- <a class="Footer__soMeLink" href="#">  
+              <!-- <a class="Footer__soMeLink" href="#" target="_blank">  
                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
                   <g fill="none" fill-rule="evenodd">
                       <g>
@@ -71,7 +71,7 @@
               </a> -->
               
               <!-- LinkedIn Icon -->
-              <a class="Footer__soMeLink" href="https://www.linkedin.com/company/autobahncph" >
+              <a class="Footer__soMeLink" href="https://www.linkedin.com/company/autobahncph" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
                   <g fill="none" fill-rule="evenodd">
                       <g>
@@ -89,7 +89,7 @@
               </a>
 
               <!-- Facebook Icon -->
-              <a class="Footer__soMeLink" href="https://www.facebook.com/pg/Autobahndk/about/">
+              <a class="Footer__soMeLink" href="https://www.facebook.com/pg/Autobahndk/about/" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
                   <g fill="none" fill-rule="evenodd">
                       <g>
