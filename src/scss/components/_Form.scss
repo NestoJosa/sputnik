@@ -420,3 +420,13 @@ body .mktoForm .mktoRadioList > label {
 
 }
 
+/* 
+
+  mkto injects hidden form fields that we need to hide
+  all except for the first one (which is the second child 
+  inside of the form) 
+
+*/
+#mktoForm_1055 .mktoFormRow:nth-child(n+3) { // Represents the third and all following elements
+  display: none;
+}
