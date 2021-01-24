@@ -38,62 +38,84 @@
 
 .nav-link {
   color: map-get($brand-colors, 'purple-dark') !important;
-
-
 }
-
-
-
-
 
 
 @include media-breakpoint-up (md) {
 
-  .navbar-expand-md .navbar-nav .nav-link {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-
-  .current-menu-item {
-    border-bottom: 2px solid #ffc900;
-  }
-
-  #menu-top-nav .menu-item:not(:last-child) {
-    &:hover ,
-    &:active,
-    &:focus {
-      border-bottom: 2px solid #ffc900;
-    }
-  }
-
-  .navbar-nav {
+ // make the top-nav fill all available horizontal space
+ #menu-top-nav {
     width: 100%;
-  }
-  
-  /* Push first menu item to the right */
-  #menu-top-nav li:nth-child(1) {
+    border: 1px solid black;
+ }
+
+
+ .menu-item {
+    height: 48px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid red;
+ }
+
+ // set the same height for all nav-links
+ // and center their content (a span) horizontally and vertically
+ .navbar-expand-md .navbar-nav .nav-link { // use nested selectors to overrule bootstrap
+    height: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 4px;
+
+    border: 1px solid green;
+ }
+
+ // push the first menu-item to the right
+ .menu-item:first-child {
     margin-left: auto;
-    margin-right: 48px;
-  }
-  
-  /* Book et møde link */
-  #menu-top-nav li:last-child {
+    
+ }
+
+ .menu-item:last-child {
     margin-left: auto;
-    border-radius: 16px;
-    border: solid 1px map-get($brand-colors, 'yellow-dark');
+    
+ }
+
+  .nav-link span {
+    padding-bottom: 2px;
   }
 
-  /* the anchor inside of the Book et möde link */
-  #menu-top-nav li:last-child a {
+  .current-menu-item span {
+    border-bottom: 1px solid #ffc900;
+  }
+
+  // add a border bottom on hover on all nav-links
+  // except for the last child (the book-link)
+  .menu-item:not(:last-child) .nav-link:hover span {
+    border-bottom: 1px solid #ffc900;
+  }
+
+
+ // style the book-link
+ .menu-item:last-child .nav-link {
+    
+
+    height: 100%;
+
+    border: solid 1px map-get($brand-colors, 'yellow-dark');
+    border-radius: 16px;
+    
     padding-left: 24px !important;
     padding-right: 24px !important;
-  }
-  /* the anchor inside of the Book et möde link */
-  #menu-top-nav li:last-child a:hover {
-    border-bottom: none;
-  }
+ }
   
+
 }
+
 
 
 
