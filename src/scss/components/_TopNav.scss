@@ -17,8 +17,6 @@
 }
 
 .navbar {
-  // Note: the padding is included inside of the min-height
-  // because of box-sizing => border-box
   min-height: 64px !important;
   @include media-breakpoint-up (md) {
     min-height: 96px !important;
@@ -46,24 +44,30 @@
  // make the top-nav fill all available horizontal space
  #menu-top-nav {
     width: 100%;
-    border: 1px solid black;
  }
 
 
  .menu-item {
     height: 48px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-center;
 
-    border: 1px solid red;
+    // push all menu-items to the right
+    &:first-child {
+      margin-left: auto;    
+    }
+
+    &:nth-child(n+2) {
+      margin-left: 48px;
+    }
+
+
  }
 
- // set the same height for all nav-links
- // and center their content (a span) horizontally and vertically
- .navbar-expand-md .navbar-nav .nav-link { // use nested selectors to overrule bootstrap
-    height: 80%;
+  // set the same height for all nav-links
+  // and center their content (a span) horizontally and vertically
+  .navbar-expand-md .navbar-nav .nav-link { // use descendant selectors to overrule bootstrap
+    // height: 80%;
 
     display: flex;
     justify-content: center;
@@ -71,19 +75,12 @@
     
     padding: 4px;
 
-    border: 1px solid green;
- }
+  }
 
- // push the first menu-item to the right
- .menu-item:first-child {
-    margin-left: auto;
-    
- }
 
- .menu-item:last-child {
+  .menu-item:last-child {
     margin-left: auto;
-    
- }
+  }
 
   .nav-link span {
     padding-bottom: 2px;
