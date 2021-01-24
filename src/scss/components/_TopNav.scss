@@ -41,9 +41,12 @@
 
 @include media-breakpoint-up (md) {
 
- #menu-top-nav { 
+  // Wrap the md-up styles inside of the id selector
+  // in order to overrule the bootstrap default styles more easily
+  #menu-top-nav { 
     width: 100%;
 
+    // Menu Items
     & .menu-item {
       height: 48px;
       @include flex-center;
@@ -52,42 +55,30 @@
       &:last-child      {  margin-left: auto; }
     }
 
+    // Nav Links
     & .nav-link {
       @include flex-center;
       padding: 4px;
+      // push the border bottom down
+      & span { padding-bottom: 2px; }
     }
-  
   }
 
-  /* 
-  
-    Create the border-bottom on the nav-links
-  
-  */
-  // create some space between the span and the border-bottom
-  .nav-link span          { padding-bottom: 2px; }
-  
-  // except for the last child (the book-link)
-  .menu-item:not(:last-child) .nav-link:hover span {
-    border-bottom: 1px solid #ffc900;
-  }
+  // Add a border bottom on all nav-links
+  // except for the book-a-meeting link,
+  .menu-item:not(:last-child) .nav-link:hover span,
+  // as well as the currentmenu-item 
+  .current-menu-item span { border-bottom: 1px solid map-get($brand-colors, 'yellow-dark'); }
 
-  // set the border-bottom on the current-menu-item
-  .current-menu-item span { border-bottom: 1px solid #ffc900; }
-
-
- // style the book-link
- .menu-item:last-child .nav-link {
+  // Book-a-meeting link
+  .menu-item:last-child .nav-link {
     height: 100%;
-
     border: solid 1px map-get($brand-colors, 'yellow-dark');
     border-radius: 16px;
-    
     padding-left: 24px !important;
     padding-right: 24px !important;
- }
+  }
   
-
 }
 
 
