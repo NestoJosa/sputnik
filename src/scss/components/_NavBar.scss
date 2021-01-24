@@ -22,11 +22,6 @@
   &-toggler { border: none !important }
 }
 
-/* 
-
-  Font-style for the nav-links
-
-*/
 #menu-top-nav .nav-link {
   color: map-get($brand-colors, 'purple-dark') !important;
   font-family: map-get($brand-fonts, 'primary');
@@ -39,7 +34,6 @@
 }
 
 @include media-breakpoint-up (md) {
-
   // Wrap the md-up styles inside of the id selector
   // in order to overrule the bootstrap default styles more easily
   #menu-top-nav {
@@ -54,18 +48,17 @@
       &:last-child      {  margin-left: auto; }
     }
 
-    // Nav Links
-    & .nav-link {
-
-      @include flex-center;
-      padding: 4px;
-      // push the border bottom down
-      & span { padding-bottom: 2px; }
-    }
-
     // The border-bottom
     .menu-item:not(:last-child) .nav-link:hover span,
     .current-menu-item span { border-bottom: 1px solid map-get($brand-colors, 'yellow-dark'); }
+
+    // Nav Links
+    & .nav-link {
+      @include flex-center;
+      padding: 4px;
+      // push the span's border bottom downwards
+      & span { padding-bottom: 2px; }
+    }
 
     // The book-a-meeting link
     .menu-item:last-child .nav-link {
