@@ -42,27 +42,24 @@
 @include media-breakpoint-up (md) {
 
  // make the top-nav fill all available horizontal space
- #menu-top-nav {
-    width: 100%;
- }
-
+ #menu-top-nav { 
+    width: 100%; 
+  }
 
  .menu-item {
     height: 48px;
-
     @include flex-center;
-
-    // push all menu-items to the right
-    &:first-child {
-      margin-left: auto;    
-    }
-
-    &:nth-child(n+2) {
-      margin-left: 48px;
-    }
-
-
- }
+    // place menu-items
+    // start by pushing all menu-items to the right most edge
+    &:first-child     {  margin-left: auto; }
+    // then add some margin-left to all, counting from the second upwards
+    &:nth-child(n+2)  {  margin-left: 48px; }
+    // finish by pushing them all to the left, 
+    // essentially by leaving the last menu item on the right most edge
+    // this will create the desired effect of all menu-items being centered
+    // except for the last one which will be to the right
+    &:last-child      {  margin-left: auto; }
+  }
 
   // set the same height for all nav-links
   // and center their content (a span) horizontally and vertically
@@ -76,11 +73,7 @@
     padding: 4px;
 
   }
-
-
-  .menu-item:last-child {
-    margin-left: auto;
-  }
+  
 
   .nav-link span {
     padding-bottom: 2px;
