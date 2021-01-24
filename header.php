@@ -15,7 +15,7 @@
 <body>
 
 <header>
-  <div class="TopNavWrapper container-fluid px-0">
+  <div class="NavBarWrapper container-fluid px-0">
     <div class="container px-0">
       <nav class="navbar navbar-expand-md navbar-light" role="navigation">
 

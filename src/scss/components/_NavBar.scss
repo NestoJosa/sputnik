@@ -1,12 +1,34 @@
  // _TopNav.scss
 
-.TopNavWrapper {
+.NavBarWrapper {
   background-color: map-get($brand-colors, 'white-cream');
   position: absolute;
   top: 0;
   z-index: 1;
+}
 
+.navbar {
+  min-height: 64px !important;
+  @include media-breakpoint-up (md) {
+    min-height: 96px !important;
+  }
+  padding-top: 8px;
+  padding-bottom: 8px;
 
+  // remove the default margin-right from .navbar-brand
+  &-brand { margin-right: 0 !important; }
+
+  // remove default border from .navbar-toggler
+  &-toggler { border: none !important }
+}
+
+/* 
+
+  Font-style for the nav-links
+
+*/
+#menu-top-nav .nav-link {
+  color: map-get($brand-colors, 'purple-dark') !important;
   font-family: map-get($brand-fonts, 'primary');
   font-size: 17px;
   font-weight: normal;
@@ -16,34 +38,11 @@
   letter-spacing: normal;
 }
 
-.navbar {
-  min-height: 64px !important;
-  @include media-breakpoint-up (md) {
-    min-height: 96px !important;
-  }
-
-  padding-top: 8px;
-  padding-bottom: 8px;
-}
-
-.navbar-brand {
-  margin-right: 0 !important;
-}
-
-.navbar-toggler {
-  border: none;
-}
-
-.nav-link {
-  color: map-get($brand-colors, 'purple-dark') !important;
-}
-
-
 @include media-breakpoint-up (md) {
 
   // Wrap the md-up styles inside of the id selector
   // in order to overrule the bootstrap default styles more easily
-  #menu-top-nav { 
+  #menu-top-nav {
     width: 100%;
 
     // Menu Items
@@ -57,32 +56,26 @@
 
     // Nav Links
     & .nav-link {
+
       @include flex-center;
       padding: 4px;
       // push the border bottom down
       & span { padding-bottom: 2px; }
     }
+
+    // The border-bottom
+    .menu-item:not(:last-child) .nav-link:hover span,
+    .current-menu-item span { border-bottom: 1px solid map-get($brand-colors, 'yellow-dark'); }
+
+    // The book-a-meeting link
+    .menu-item:last-child .nav-link {
+      height: 100%;
+      border: solid 1px map-get($brand-colors, 'yellow-dark');
+      border-radius: 16px;
+      padding-left: 24px !important;
+      padding-right: 24px !important;
+    }
+
   }
 
-  // Add a border bottom on all nav-links
-  // except for the book-a-meeting link,
-  .menu-item:not(:last-child) .nav-link:hover span,
-  // as well as the currentmenu-item 
-  .current-menu-item span { border-bottom: 1px solid map-get($brand-colors, 'yellow-dark'); }
-
-  // Book-a-meeting link
-  .menu-item:last-child .nav-link {
-    height: 100%;
-    border: solid 1px map-get($brand-colors, 'yellow-dark');
-    border-radius: 16px;
-    padding-left: 24px !important;
-    padding-right: 24px !important;
-  }
-  
 }
-
-
-
-
-
-
