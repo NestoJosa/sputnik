@@ -4,9 +4,35 @@
   border-bottom: 1px solid rgba(59, 1, 45, 0.08);
   margin-bottom: 16px;
 
+  &__link {
+    /* overrule bootstrap default styles */
+    color: inherit !important;
+    text-decoration: none !important;
+
+    &:hover {
+      // remove the opacity from the excerpt and authorName
+      & .BlogPostCard__excerpt,
+      & .BlogPostCard__authorName {
+        opacity: 0.8;
+        transition: 200ms all ease-in-out;
+      }
+      // scale the image
+      & .BlogPostCard__image {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  &__imageWrapper {
+    height: 224px;
+    overflow: hidden;
+    margin-bottom: 24px;
+  }
+
   &__image {
     border-radius: 4px;
-    margin-bottom: 24px;
+    // set the transition prop here:
+    transition: transform .8s ease;
   }
 
   &__title {
@@ -23,7 +49,7 @@
     }
   }
 
-  &__subTitle {
+  &__excerpt {
     color: map-get($brand-colors, 'purple-dark');
     font-family: map-get($brand-fonts, 'primary');
     font-size: 16px;
@@ -59,6 +85,7 @@
     font-family: map-get($brand-fonts, 'primary');
     font-size: 16px;
     line-height: 1.5;
+    opacity: 0.72;
   }
 }
 

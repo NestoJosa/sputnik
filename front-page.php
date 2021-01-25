@@ -254,7 +254,6 @@
 
 <!-- Recent Blog Posts -->
   <!-- HeadingBlock -->
-  <!--     
   <div class="HeadingBlock container">
       <div class="row justify-content-center">
 
@@ -264,24 +263,23 @@
         </div>
 
       </div>
-    </div> -->
+    </div>
   <!-- /HeadingBlock -->
 
   <!-- BlogPostCards -->
-  <!-- <div class="widget-section"> -->
-    <?php /* the_widget( 'Ernies_Recent_Blog_Posts_Widget' ); */ ?>
-  <!-- </div> -->
+  <div class="widget-section">
+    <?php the_widget( 'Ernies_Recent_Blog_Posts_Widget' ); ?>
+  </div>
   <!-- /BlogPostCards -->
 
   <!-- ToBlogButton -->
-  <!--   
   <div class="ToBlogButtonWrapper container">
     <div class="row justify-content-center">
       <div class="col-auto">
         <button type="button" class="ButtonGhost">Gå til bloggen</button>
       </div>
     </div>
-  </div> -->
+  </div>
   <!-- /ToBlogButton -->
 <!-- /Recent Blog Posts -->
 
