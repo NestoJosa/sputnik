@@ -11,10 +11,6 @@
       opacity: 0.8;
       transition: 200ms all ease-in-out;
     }
-    // scale the image
-    & .BlogPostCard__image {
-      transform: scale(1.1);
-    }
   }
 
   &__link {
@@ -28,12 +24,10 @@
     height: 224px;
     overflow: hidden;
     margin-bottom: 24px;
-    //display: table; // required to remove the jump from chrome
   }
 
   &__image {
-    // set the transition prop here:
-    transition: transform .8s ease-in-out;
+    // do something
   }
 
   &__title {
