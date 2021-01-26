@@ -1,0 +1,61 @@
+// _SinglePost.scss
+
+.SinglePost {
+  font-family: map-get($brand-fonts, 'primary');
+  color: map-get($brand-colors, 'purple-dark');
+
+  &__title {
+    font-size: 40px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    margin: 56px 0 56px;
+    @include media-breakpoint-up(md) {
+      text-align: center;
+    }
+  }
+
+  &__featuredImage {
+    width: 100%;
+    height: auto;
+  }
+
+  &__avatarWrapper {
+    margin: 48px 0;
+    display: flex;
+    align-items: center;
+
+    // Target the avatar img. We need to beak out of BEM,
+    // because currently, we cannot add our own class to the avatar img
+    // - the avatar plugin, is for some reason blocking the injection 
+    // of classes via get_avatar
+    & img {
+      width: 56px;
+      height: auto;
+      border-radius: 20px;
+      margin-right: 20px;
+    }
+  }
+
+  &__authorName {
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+  }
+
+  &__authorEmail {
+    opacity: 0.76;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+  }
+
+}
