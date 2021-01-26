@@ -8,7 +8,7 @@
 
 ?>
 
-<?php get_header() ?>
+<?php get_header(); ?>
 
 <!-- PageWrapper -->
 <div class="PageWrapper PageWrapper--onThankYouPage">
@@ -23,4 +23,4 @@
 
 </div><!-- /PageWrapper -->
 
-<?php get_footer() ?>
+<?php get_footer(); ?>

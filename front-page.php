@@ -276,7 +276,13 @@
   <div class="ToBlogButtonWrapper container">
     <div class="row justify-content-center">
       <div class="col-auto">
-        <button type="button" class="ButtonGhost">Gå til bloggen</button>
+
+        <a href="<?php echo get_permalink( get_page_by_title( 'Blog' ) ); ?>">
+          <button class="ButtonSolid--large" type="button">
+            Gå til bloggen
+          </button>  
+        </a>
+
       </div>
     </div>
   </div>
