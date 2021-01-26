@@ -8,9 +8,9 @@
 }
 
 .navbar {
-  min-height: 64px !important;
+  min-height: $TopNav-mobile-height !important;
   @include media-breakpoint-up (md) {
-    min-height: 96px !important;
+    min-height: $TopNav-non-mobile-height !important;
   }
   padding-top: 8px;
   padding-bottom: 8px;

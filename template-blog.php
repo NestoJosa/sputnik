@@ -11,7 +11,7 @@
 <?php get_header(); ?>
 
 <!-- PageWrapper -->
-<div class="PageWrapper">
+<div class="PageWrapper PageWrapper--onBlogPage">
 
   <!-- HeadingBlock -->
     <div class="container">
@@ -40,28 +40,25 @@
           ?>
 
           <?php if ( $wpb_all_query -> have_posts() ) : ?>
-          
-          <ul>
-          
-              <!-- the loop -->
-              <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
+            
+            <!-- the loop -->
+            <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
 
-                  <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+              <?php get_template_part('includes/section', 'BlogPostCard'); ?>
 
-              <?php endwhile; ?>
-              <!-- end of the loop -->
-          
-          </ul>
-          
-              <?php wp_reset_postdata(); ?>
+            <?php endwhile; ?>
+            <!-- end of the loop -->
+        
+        
+          <?php wp_reset_postdata(); ?>
           
           <?php else : ?>
               <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
           <?php endif; ?>
         <!-- End Query -->
 
-      </div>
-    </div>
+      </div><!-- /row -->
+    </div><!-- /container -->
   <!-- /BlogPostCards -->
 
 </div>

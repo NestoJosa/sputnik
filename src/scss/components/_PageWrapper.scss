@@ -2,19 +2,26 @@
 
 /* 
 
-  The TopNav is absolutely positioned to the top of page,
-  so we need to push the page down in order for the content
-  to be shown, and not be hidden under the TopNav
+  The TopNav is absolutely positioned on top of page,
+  so we need to create some top-padding in order 
+  to push the content downwards. 
 
 */
 
 .PageWrapper {
-  margin-top: 64px !important;
+  padding-top: $TopNav-mobile-height !important;
   @include media-breakpoint-up (md) {
-    margin-top: 96px !important;
+    padding-top: $TopNav-non-mobile-height !important;
   }
 
   &--onThankYouPage {
     height: 60vh;
   }
+
+  &--onBlogPage {
+    padding-bottom: 48px !important;
+    @include media-breakpoint-up(md) {
+      padding-bottom: 96px !important;
+    }
+  }  
 }

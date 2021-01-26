@@ -2,7 +2,10 @@
 
 .BlogPostCard {
   border-bottom: 1px solid rgba(59, 1, 45, 0.08);
-  margin-bottom: 16px;
+  margin-bottom: 32px;
+  @include media-breakpoint-up(md) {
+    margin-bottom: 64px;
+  }
 
   &:hover {
     // remove the opacity from the excerpt and authorName
@@ -27,7 +30,7 @@
   }
 
   &__image {
-    // do something
+    // do something if needed
   }
 
   &__title {
