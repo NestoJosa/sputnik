@@ -3,6 +3,7 @@
 .SinglePost {
   font-family: map-get($brand-fonts, 'primary');
   color: map-get($brand-colors, 'purple-dark');
+  margin-bottom: 80px;
 
   &__title {
     font-size: 40px;
@@ -56,6 +57,62 @@
     font-style: normal;
     line-height: 1.43;
     letter-spacing: normal;
+  }
+
+
+  /* 
+  
+    Style the body - we break out of BEM, because we will
+    not be adding classes to all of the content, that is created
+    via wp-admin
+  
+  */
+
+  & h2 {
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    margin-bottom: 12px;
+  }
+
+
+  & p, li {
+    opacity: 0.76;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;  
+  }
+
+  & p {
+    margin-bottom: 48px;
+  }
+
+  & li {
+    position: relative;
+    margin-bottom: 32px;
+    list-style-type: none;
+    
+    &::before {
+      content: '';
+      position: absolute;
+      top: 5px;
+      left: -30px;
+      width: 24px;
+      height: 24px;
+      background-image: url('../img/icon-bullet.svg');
+      background-position: top 0% left 0%;
+      background-repeat: no-repeat;
+    }
+  }
+
+  & .wp-block-image {
+    margin-bottom: 48px !important;
   }
 
 }
