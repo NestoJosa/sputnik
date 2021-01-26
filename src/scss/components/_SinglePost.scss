@@ -14,8 +14,8 @@
     letter-spacing: normal;
     margin: 40px 0;
     @include media-breakpoint-up(md) {
-      text-align: center;
       margin: 56px 0;
+      text-align: center;
     }
   }
 
@@ -63,7 +63,6 @@
     letter-spacing: normal;
   }
 
-
   /* 
   
     Style the body - we break out of BEM, because we will
@@ -101,6 +100,7 @@
   }
 
   & ul {
+    // make space for the custom bullet
     padding-left: 24px;
   }
 
@@ -126,6 +126,8 @@
     }
   }
 
+  // change the default wp margin-bottom for 
+  // full-width images added via wp-admin
   & .wp-block-image {
     margin-bottom: 48px !important;
   }
