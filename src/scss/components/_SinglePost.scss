@@ -12,9 +12,10 @@
     font-style: normal;
     line-height: 1.2;
     letter-spacing: normal;
-    margin: 56px 0 56px;
+    margin: 40px 0;
     @include media-breakpoint-up(md) {
       text-align: center;
+      margin: 56px 0;
     }
   }
 
@@ -24,7 +25,10 @@
   }
 
   &__avatarWrapper {
-    margin: 48px 0;
+    margin: 32px 0;
+    @include media-breakpoint-up(md) {
+      margin: 48px 0;
+    }
     display: flex;
     align-items: center;
 
@@ -90,14 +94,25 @@
   }
 
   & p {
-    margin-bottom: 48px;
+    margin-bottom: 32px;
+    @include media-breakpoint-up(md) {
+      margin-bottom: 48px;
+    }
+  }
+
+  & ul {
+    padding-left: 24px;
   }
 
   & li {
     position: relative;
-    margin-bottom: 32px;
     list-style-type: none;
+    margin-bottom: 24px;
+    @include media-breakpoint-up(md) {
+      margin-bottom: 32px;
+    }
     
+    // Custom Bullet
     &::before {
       content: '';
       position: absolute;
