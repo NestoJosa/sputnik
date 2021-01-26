@@ -131,8 +131,10 @@
 
   // change the default wp margin-bottom for 
   // full-width images added via wp-admin
-  & .wp-block-image {
+  & .wp-block-image img {
     margin-bottom: 48px !important;
+    max-width: 100% !important;
+    height: auto !important;
   }
 
 }
