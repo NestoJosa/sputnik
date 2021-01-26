@@ -102,6 +102,9 @@
   & ul {
     // make space for the custom bullet
     padding-left: 24px;
+    @include media-breakpoint-up(md) {
+      padding-left: 34px;
+    }
   }
 
   & li {
