@@ -14,13 +14,16 @@
 <div class="PageWrapper PageWrapper--onBlogPage">
 
   <!-- HeadingBlock -->
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1>Hello?</h1>
-        </div>
-      </div>
-    </div>
+    <?php 
+    
+      $args = array(
+        'heading' => 'Viden og Indsigt',
+        'subHeading' => 'Free directories - directories are perfect for customers that are searching for a particular topic. What’s great about them is that you only have to post once and they are good for long periods of time.'
+      );
+    
+      get_template_part('includes/section', 'HeadingBlock', $args); 
+
+    ?>
   <!-- /HeadingBlock -->
       
   <!-- BlogPostCards -->
