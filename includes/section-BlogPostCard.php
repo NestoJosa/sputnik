@@ -5,7 +5,6 @@
         <div class="BlogPostCard__imageWrapper" 
           style="background-image: url('<?php the_post_thumbnail_url(); ?>');">
           <div class="BlogPostCard__imageOverlay"></div>
-          <!-- <img class="BlogPostCard__image" src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>" /> -->
         </div>
         <h3 class="BlogPostCard__title"><?php the_title(); ?></h3>
         <p class="BlogPostCard__excerpt"><?php echo get_the_excerpt(); ?></p>
