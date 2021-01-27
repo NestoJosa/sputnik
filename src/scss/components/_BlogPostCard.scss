@@ -1,5 +1,7 @@
 // _BlogPostCard.scss
 
+$transition: 600ms all ease-in-out;
+
 .BlogPostCard {
   border-bottom: 1px solid rgba(59, 1, 45, 0.08);
   margin-bottom: 32px;
@@ -8,11 +10,12 @@
   }
 
   &:hover {
-    // remove the opacity from the excerpt and authorName
+    & .BlogPostCard__imageOverlay {
+      opacity: 0.2;
+    }
     & .BlogPostCard__excerpt,
     & .BlogPostCard__authorName {
       opacity: 0.9;
-      transition: 400ms all ease-in-out;
     }
   }
 
@@ -24,6 +27,18 @@
 
   &__imageWrapper {
     margin-bottom: 24px;
+    position: relative;
+  }
+
+  // this element is just used to darken the image
+  &__imageOverlay {
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    border-radius: 4px;
+    transition: $transition;
   }
 
   &__image {
@@ -50,6 +65,7 @@
     font-size: 16px;
     line-height: 1.5;
     opacity: 0.72;
+    transition: $transition;
     
     padding: 0 8px;
     margin-bottom: 36px;
@@ -81,6 +97,7 @@
     font-size: 16px;
     line-height: 1.5;
     opacity: 0.72;
+    transition: $transition;
   }
 }
 
