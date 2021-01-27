@@ -27,7 +27,16 @@ $transition: 600ms all ease-in-out;
 
   &__imageWrapper {
     margin-bottom: 24px;
-    position: relative;
+    height: 208px;
+    @include media-breakpoint-up(md) {
+      height: 224px;
+    }
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    // required to position absolute the imageOverlay:
+    position: relative; 
   }
 
   // this element is just used to darken the image
