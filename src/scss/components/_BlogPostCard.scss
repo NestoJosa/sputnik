@@ -8,10 +8,11 @@
   }
 
   &:hover {
+    // border: 1px solid black;
     // remove the opacity from the excerpt and authorName
     & .BlogPostCard__excerpt,
     & .BlogPostCard__authorName {
-      opacity: 0.8;
+      opacity: 1;
       transition: 200ms all ease-in-out;
     }
   }
@@ -24,8 +25,6 @@
 
   &__imageWrapper {
     border-radius: 4px;
-    height: 224px;
-    overflow: hidden;
     margin-bottom: 24px;
   }
 
