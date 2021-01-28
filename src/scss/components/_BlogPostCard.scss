@@ -26,8 +26,8 @@ $transition: 600ms all ease-in-out;
   }
 
   &__imageWrapper {
-    margin-bottom: 24px;
     height: 208px;
+    margin-bottom: 24px;
     @include media-breakpoint-up(md) {
       height: 224px;
     }
@@ -51,43 +51,40 @@ $transition: 600ms all ease-in-out;
     transition: $transition;
   }
 
-  &__image {
-    border-radius: 4px;
-  }
-
   &__title {
     color: map-get($brand-colors, 'purple-dark');
     font-family: map-get($brand-fonts, 'primary');
     font-size: 20px;
     font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
     line-height: 1.4;
+    letter-spacing: normal;
 
-    padding: 0 8px;
+    padding: 0 16px;
     margin-bottom: 16px;
-    @include media-breakpoint-up (md) {
-      padding: 0 16px;
-    }
   }
 
   &__excerpt {
     color: map-get($brand-colors, 'purple-dark');
     font-family: map-get($brand-fonts, 'primary');
     font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
     line-height: 1.5;
+    letter-spacing: normal;
     opacity: 0.72;
+
     transition: $transition;
-    
-    padding: 0 8px;
+    padding: 0 16px;
     margin-bottom: 36px;
-    @include media-breakpoint-up (md) {
-      padding: 0 16px;
-    }
   }
 
   &__authorAvatarAndNameWrapper {
     display: flex;
     align-items: center;
-    padding: 0 8px;
+    padding: 0 16px;
     margin-bottom: 24px;
   }
 
@@ -105,12 +102,13 @@ $transition: 600ms all ease-in-out;
     color: map-get($brand-colors, 'purple-dark');
     font-family: map-get($brand-fonts, 'primary');
     font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
     line-height: 1.5;
+    letter-spacing: normal;
     opacity: 0.72;
     transition: $transition;
   }
 }
 
-.ToBlogButton {
-  margin-top: 40px;
-}
