@@ -56,4 +56,4 @@
 </header>
 
 <!-- PagerWrapper -->
-<div class="PageWrapper PageWrapper--onThankYouPage PageWrapper--onBlogPage">
+<div class="PageWrapper">
