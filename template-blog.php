@@ -24,7 +24,7 @@
 <!-- /HeadingBlock -->
     
 <!-- BlogPostCards -->
-  <div class="container">
+  <div class="container BlogPostCardsWrapper">
     <div class="row">
 
       <!-- Start Query -->

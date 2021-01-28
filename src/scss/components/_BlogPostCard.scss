@@ -2,6 +2,10 @@
 
 $transition: 600ms all ease-in-out;
 
+.BlogPostCardsWrapper {
+  padding-bottom: 32px;
+}
+
 .BlogPostCard {
   border-bottom: 1px solid rgba(59, 1, 45, 0.08);
   margin-bottom: 32px;

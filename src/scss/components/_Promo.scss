@@ -5,8 +5,8 @@
     background: linear-gradient(180deg, #FFFFFF 50%, map-get($brand-colors, 'purple-dark') 50%);
   }
 
-  margin-top: 68px !important;
-  margin-bottom: 68px !important;
+  margin-top: 64px !important;
+  margin-bottom: 64px !important;
   @include media-breakpoint-up (md) {
     margin-top: 96px !important;
     margin-bottom: 96px !important;

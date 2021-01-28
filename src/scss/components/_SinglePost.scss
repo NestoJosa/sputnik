@@ -3,7 +3,10 @@
 .SinglePost {
   font-family: map-get($brand-fonts, 'primary');
   color: map-get($brand-colors, 'purple-dark');
-  margin-bottom: 80px;
+  margin-bottom: 64px;
+  @include media-breakpoint-up(md) {
+    margin-bottom: 128px;
+  }
 
   &__title {
     font-size: 30px;
@@ -101,10 +104,15 @@
   }
 
   & p {
-    margin-bottom: 26px;
+    margin-bottom: 26px !important;
     @include media-breakpoint-up(md) {
-      margin-bottom: 48px;
+      margin-bottom: 48px !important;
     }
+  }
+
+  // overrule bootstrap
+  & p:last-child {
+    margin-bottom: 0 !important;
   }
 
   & ul {
