@@ -55,6 +55,11 @@
     @include media-breakpoint-up(md) {
       text-align: center;
     }
+
+    // do NOT show if there is no content
+    &:empty {
+      display: none;
+    }
   }
 
   &__heading {
