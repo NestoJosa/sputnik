@@ -21,13 +21,8 @@
     }
   }  
 
-  /* The hero sits under the TopNav as default,
-  so we need to push it down - the values correspond to the 
-  height of the nav on various breakpoints */
-  margin-top: 64px !important;
   @include media-breakpoint-up (md) {
-    margin-top: 96px !important;
-    // and add some top-padding to match with specs
+    // add some top-padding to match with specs
     padding-top: 32px !important;
   }
 

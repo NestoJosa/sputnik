@@ -35,8 +35,6 @@
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
               <span class="navbar-toggler-icon"></span>
           </button>
-          
-          
 
             <?php
               wp_nav_menu( 
@@ -56,3 +54,6 @@
     </div>
   </div>
 </header>
+
+<!-- PagerWrapper -->
+<div class="PageWrapper PageWrapper--onThankYouPage PageWrapper--onBlogPage">

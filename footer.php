@@ -1,3 +1,6 @@
+</div>
+<!-- /PageWrapper -->
+
 <!-- Footer -->
   <footer>
     <div class="FooterWrapper container-fluid p-0">

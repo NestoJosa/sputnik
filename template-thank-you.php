@@ -10,17 +10,12 @@
 
 <?php get_header(); ?>
 
-<!-- PageWrapper -->
-<div class="PageWrapper PageWrapper--onThankYouPage">
-
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-md-8">
-        <h1>Tak for din tilmelding!</h1>
-      </div>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <h1>Tak for din tilmelding!</h1>
     </div>
   </div>
-
-</div><!-- /PageWrapper -->
+</div>
 
 <?php get_footer(); ?>
