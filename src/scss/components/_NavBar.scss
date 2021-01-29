@@ -33,6 +33,48 @@
   letter-spacing: normal;
 }
 
+
+// encapsulate the mobile styles for the navbar in a media query
+@media (max-width: 767.98px) { 
+  .menu-item {
+    margin-bottom: 8px;
+    font-size: 22px;
+  }
+
+  .navbar-nav {
+    justify-content: center;
+  }
+
+  .nav-link span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-link span:after {
+    content: url('../img/icon-24-arrow-right.svg');
+    width: 24px;
+    height: 24px;
+  }
+
+
+
+  .navbar-collapse ul {
+    // we need to use interpolation in order to inject the sass variable to the calc function:
+    // https://www.geeksforgeeks.org/sass-variable-in-css-calc-function/
+    //height: calc(100vh - #{$TopNav-mobile-height});
+    min-height: calc(100vh - 56px);
+  }
+
+
+
+}
+
+
+
+
+
+
 @include media-breakpoint-up (md) {
   // Wrap the md-up styles inside of the id selector
   // in order to overrule the bootstrap default styles more easily
