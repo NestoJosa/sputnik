@@ -22,10 +22,16 @@
   &-toggler { border: none !important }
 }
 
+/* 
+
+  NavBar Font Styles
+
+*/
+
 #menu-top-nav .nav-link {
   color: map-get($brand-colors, 'purple-dark') !important;
   font-family: map-get($brand-fonts, 'primary');
-  font-size: 17px;
+  font-size: 22px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -34,15 +40,21 @@
 }
 
 
-// encapsulate the mobile styles for the navbar in a media query
+// encapsulate the mobile styles for the default navbar
 @media (max-width: 767.98px) { 
-  .menu-item {
-    margin-bottom: 8px;
-    font-size: 22px;
+  .navbar-nav {
+    // vertical centering
+    justify-content: center;
   }
 
-  .navbar-nav {
-    justify-content: center;
+  .navbar-collapse ul {
+    // we need to use interpolation in order to inject the sass variable to the calc function:
+    // https://www.geeksforgeeks.org/sass-variable-in-css-calc-function/
+    height: calc(100vh - #{$TopNav-mobile-height});
+  }
+
+  .menu-item {
+    margin-bottom: 8px;
   }
 
   .nav-link span {
@@ -56,23 +68,7 @@
     width: 24px;
     height: 24px;
   }
-
-
-
-  .navbar-collapse ul {
-    // we need to use interpolation in order to inject the sass variable to the calc function:
-    // https://www.geeksforgeeks.org/sass-variable-in-css-calc-function/
-    //height: calc(100vh - #{$TopNav-mobile-height});
-    min-height: calc(100vh - 56px);
-  }
-
-
-
 }
-
-
-
-
 
 
 @include media-breakpoint-up (md) {
@@ -84,6 +80,7 @@
     // Menu Items
     & .menu-item {
       height: 48px;
+      font-size: 17px;
       @include flex-center;
       &:first-child     {  margin-left: auto; }
       &:nth-child(n+2)  {  margin-left: 48px; }
@@ -92,7 +89,9 @@
 
     // The border-bottom
     .menu-item:not(:last-child) .nav-link:hover span,
-    .current-menu-item span { border-bottom: 1px solid map-get($brand-colors, 'yellow-dark'); }
+    .current-menu-item span { 
+      border-bottom: 1px solid map-get($brand-colors, 'yellow-dark'); 
+    }
 
     // Nav Links
     & .nav-link {
