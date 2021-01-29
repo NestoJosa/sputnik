@@ -31,7 +31,7 @@
 #menu-top-nav .nav-link {
   color: map-get($brand-colors, 'purple-dark') !important;
   font-family: map-get($brand-fonts, 'primary');
-  font-size: 22px;
+  font-size: 17px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -55,6 +55,7 @@
 
   .menu-item {
     margin-bottom: 8px;
+    font-size: 17px;
   }
 
   .nav-link span {
@@ -80,7 +81,7 @@
     // Menu Items
     & .menu-item {
       height: 48px;
-      font-size: 17px;
+      font-size: 22px !important;
       @include flex-center;
       &:first-child     {  margin-left: auto; }
       &:nth-child(n+2)  {  margin-left: 48px; }
@@ -113,3 +114,10 @@
   }
 
 }
+
+/* 
+
+  Animate Burger Icon 
+
+*/
+
