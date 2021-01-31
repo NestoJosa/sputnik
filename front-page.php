@@ -254,7 +254,7 @@
 
 <!-- Recent Blog Posts -->
   <!-- HeadingBlock -->
-  <!-- <div class="HeadingBlock container">
+  <div class="HeadingBlock container">
       <div class="row justify-content-center">
 
         <div class="col-md-8">
@@ -263,21 +263,21 @@
         </div>
 
       </div>
-    </div> -->
+    </div>
   <!-- /HeadingBlock -->
 
   <!-- BlogPostCards -->
- <!--  <div class="widget-section">
-    <?php //the_widget( 'Ernies_Recent_Blog_Posts_Widget' ); ?>
-  </div> -->
+  <div class="widget-section">
+    <?php the_widget( 'Ernies_Recent_Blog_Posts_Widget' ); ?>
+  </div>
   <!-- /BlogPostCards -->
 
   <!-- ToBlogButton -->
-  <!-- <div class="ToBlogButtonWrapper container">
+  <div class="ToBlogButtonWrapper container">
     <div class="row justify-content-center">
       <div class="col-auto">
 
-        <a href="<?php //echo get_permalink( get_page_by_title( 'Blog' ) ); ?>">
+        <a href="<?php echo get_permalink( get_page_by_title( 'Blog' ) ); ?>">
           <button class="ButtonSolid--large" type="button">
             Gå til bloggen
           </button>  
@@ -285,7 +285,7 @@
 
       </div>
     </div>
-  </div> -->
+  </div>
   <!-- /ToBlogButton -->
 <!-- /Recent Blog Posts -->
 
