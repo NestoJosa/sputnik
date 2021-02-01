@@ -7,24 +7,9 @@
   z-index: 1;
 }
 
-.navbar {
-  min-height: $TopNav-mobile-height !important;
-  @include media-breakpoint-up (md) {
-    min-height: $TopNav-non-mobile-height !important;
-  }
-  padding-top: 8px;
-  padding-bottom: 8px;
-
-  // remove the default margin-right from .navbar-brand
-  &-brand { margin-right: 0 !important; }
-
-  // remove default border from .navbar-toggler
-  &-toggler { border: none !important }
-}
-
 /* 
 
-  NavBar Font Styles
+  Font Styles
 
 */
 
@@ -40,8 +25,40 @@
 }
 
 
+/* 
+
+  Mobile Default Nav
+
+*/
+
+
+@include media-breakpoint-between(xs, sm) { 
+  
+}
+
+.navbar {
+  min-height: $TopNav-mobile-height !important;
+  @include media-breakpoint-up (md) {
+    min-height: $TopNav-non-mobile-height !important;
+  }
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  // remove the default margin-right from .navbar-brand
+  &-brand { margin-right: 0 !important; }
+
+  // remove default border from .navbar-toggler
+  &-toggler { border: none !important }
+}
+
+
+
+
+
+
+
 // encapsulate the mobile styles for the default navbar
-@media (max-width: 767.98px) { 
+@media ( max-width: 767.98px ) { 
 
 
   .navbar-nav {
@@ -80,12 +97,10 @@
 
 @include media-breakpoint-up (md) {
   
-  
   // re-size the font-size for md-up
   .nav-link {
     font-size: 17px;
   }
-
 
   #menu-top-nav {
     width: 100%;
@@ -99,18 +114,10 @@
       &:last-child      {  margin-left: auto; }
     }
 
-    // The border-bottom
-    .menu-item:not(:last-child) .nav-link:hover span,
-    .current-menu-item span { 
-      border-bottom: 1px solid map-get($brand-colors, 'yellow-dark'); 
-    }
-
     // Nav Links
     & .nav-link {
       @include flex-center;
       padding: 4px;
-      // push the span's border bottom downwards
-      & span { padding-bottom: 2px; }
     }
 
     // The book-a-meeting link
@@ -133,12 +140,33 @@
 
 */
 
-#menu-top-nav .menu-item:last-child span {
-  border-bottom: none !important;
-}
 
 .navbar-toggler {
   padding: 0 !important;
 }
 
+/* 
 
+  Add AnimatedBorder - refactor later
+
+*/
+
+
+.nav-link {
+  position: relative;
+}
+
+.AnimatedLine {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  border-bottom: 1px solid map-get($brand-colors, 'yellow-dark');
+  transition: width 170ms ease-in-out 100ms;
+  margin-left: 4px;
+}
+
+.menu-item:not(:last-child) .nav-link:hover .AnimatedLine {
+  width: calc(100% - 8px);
+}
