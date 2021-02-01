@@ -1,5 +1,7 @@
  // _TopNav.scss
 
+// just a test
+
 .NavBarWrapper {
   background-color: map-get($brand-colors, 'white-cream');
   position: absolute;
@@ -9,14 +11,25 @@
 
 /* 
 
+  Remove defaults
+
+*/
+.navbar {
+  &-brand { margin-right: 0 !important; }
+  &-toggler { 
+    border: none !important;
+    padding: 0 !important;  
+  }
+}
+
+/* 
+
   Font Styles
 
 */
-
 #menu-top-nav .nav-link {
   color: map-get($brand-colors, 'purple-dark') !important;
   font-family: map-get($brand-fonts, 'primary');
-  
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -24,42 +37,17 @@
   letter-spacing: normal;
 }
 
-
 /* 
 
-  Mobile Default Nav
+  Mobile Navigation
 
 */
+@include media-breakpoint-between(xs, sm) {
 
-
-@include media-breakpoint-between(xs, sm) { 
-  
-}
-
-.navbar {
-  min-height: $TopNav-mobile-height !important;
-  @include media-breakpoint-up (md) {
-    min-height: $TopNav-non-mobile-height !important;
+  .navbar {
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
-  padding-top: 8px;
-  padding-bottom: 8px;
-
-  // remove the default margin-right from .navbar-brand
-  &-brand { margin-right: 0 !important; }
-
-  // remove default border from .navbar-toggler
-  &-toggler { border: none !important }
-}
-
-
-
-
-
-
-
-// encapsulate the mobile styles for the default navbar
-@media ( max-width: 767.98px ) { 
-
 
   .navbar-nav {
     // vertical centering
@@ -72,7 +60,7 @@
     height: calc(100vh - #{$TopNav-mobile-height});
   }
 
-  #menu-top-nav .menu-item {
+  .menu-item {
     margin-bottom: 8px;
   }
 
@@ -92,81 +80,71 @@
     width: 24px;
     height: 24px;
   }
-}
+} 
 
 
+/* 
+
+  Non-Mobile Navigation
+
+*/
 @include media-breakpoint-up (md) {
-  
-  // re-size the font-size for md-up
+
+  .navbar {
+    min-height: $TopNav-non-mobile-height !important;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .menu-item {
+    height: 48px;
+    @include flex-center;
+    &:first-child     {  margin-left: auto; }
+    &:nth-child(n+2)  {  margin-left: 48px; }
+    &:last-child      {  margin-left: auto; }
+  }
+
+  .navbar-nav { width: 100%; }
+
   .nav-link {
     font-size: 17px;
+    @include flex-center;
+    padding: 4px !important;
+    position: relative;
   }
 
-  #menu-top-nav {
-    width: 100%;
-
-    // Menu Items
-    & .menu-item {
-      height: 48px;
-      @include flex-center;
-      &:first-child     {  margin-left: auto; }
-      &:nth-child(n+2)  {  margin-left: 48px; }
-      &:last-child      {  margin-left: auto; }
-    }
-
-    // Nav Links
-    & .nav-link {
-      @include flex-center;
-      padding: 4px;
-    }
-
-    // The book-a-meeting link
-    .menu-item:last-child .nav-link {
-      height: 100%;
-      border: solid 1px map-get($brand-colors, 'yellow-dark');
-      border-radius: 16px;
-      padding-left: 24px !important;
-      padding-right: 24px !important;
-    }
-
+  // The book-a-meeting link
+  .menu-item:last-child .nav-link {
+    height: 100%;
+    border: solid 1px map-get($brand-colors, 'yellow-dark');
+    border-radius: 16px;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
   }
 
+  /* 
+
+  The Animated Line
+
+  */
+  .AnimatedLine {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    border-bottom: 1px solid map-get($brand-colors, 'yellow-dark');
+    transition: width 170ms ease-in-out 100ms;
+    margin-left: 4px;
+  }
+  .menu-item:not(.current-menu-item) .nav-link:hover .AnimatedLine { 
+    width: calc(100% - 8px); 
+  }
+  .current-menu-item .AnimatedLine {
+    width: calc(100% - 8px); 
+  }
+  
 }
 
-/* 
-
-  Fix bug now
-  - refactor later
-
-*/
 
 
-.navbar-toggler {
-  padding: 0 !important;
-}
-
-/* 
-
-  Add AnimatedBorder - refactor later
-
-*/
-
-
-.nav-link {
-  position: relative;
-}
-
-.AnimatedLine {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 1px;
-  border-bottom: 1px solid map-get($brand-colors, 'yellow-dark');
-  transition: width 170ms ease-in-out 100ms;
-  margin-left: 4px;
-}
-
-.menu-item:not(:last-child) .nav-link:hover .AnimatedLine {
-  width: calc(100% - 8px);
-}
