@@ -6,8 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="format-detection" content="telephone=no">
 
-  <title><?php echo wp_title(); ?></title>
-
   <link rel="shortcut icon" type="image/png" href="<?php echo get_template_directory_uri();?>/dist/img/favicon.png" />
 
   <?php wp_head(); ?>
