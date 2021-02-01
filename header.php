@@ -7,7 +7,7 @@
 
   <meta name="format-detection" content="telephone=no">
 
-  <title>Document</title>
+  <title></title>
 
   <?php wp_head(); ?>
 
