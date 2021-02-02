@@ -32,6 +32,23 @@ add_action('wp_enqueue_scripts', 'load_js');
 
 
 
+// Load Google Analytics
+function sputnik_add_google_analytics() { 
+  ?>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LQ68LX0CXL"></script>
+    <script>
+      //console.log('google analytics loading...')
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-LQ68LX0CXL');
+    </script>
+	<?php
+}
+
+add_action( 'wp_head', 'sputnik_add_google_analytics', 20 );
+
 /* 
 
   Theme Setup
@@ -72,5 +89,7 @@ function register_navwalker(){
   require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 }
 add_action( 'after_setup_theme', 'register_navwalker' );
+
+
 
 ?>
