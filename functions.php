@@ -2,6 +2,7 @@
 
 
 
+
 // Load Stylesheets
 function load_css() {
   
@@ -13,6 +14,7 @@ function load_css() {
   
 }
 add_action('wp_enqueue_scripts', 'load_css');
+
 
 
 
@@ -32,22 +34,38 @@ add_action('wp_enqueue_scripts', 'load_js');
 
 
 
-// Load Google Analytics
-function sputnik_add_google_analytics() { 
-  ?>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LQ68LX0CXL"></script>
-    <script>
-      //console.log('google analytics loading...')
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'G-LQ68LX0CXL');
-    </script>
+/* 
+
+  Google Tag Manager
+
+*/
+
+// Add head script
+function sputnik_add_google_tag_manager_in_head() {
+  ?> 
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MVM4ZMT');</script>
+    <!-- End Google Tag Manager -->
 	<?php
 }
+add_action( 'wp_head', 'sputnik_add_google_tag_manager_in_head', -1 );
 
-add_action( 'wp_head', 'sputnik_add_google_analytics', 20 );
+// Add body script
+function sputnik_add_google_tag_manager_in_body() {
+    echo '<!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MVM4ZMT"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->';
+}
+add_action( 'wp_body_open', 'sputnik_add_google_tag_manager_in_body' );
+
+
+
 
 /* 
 

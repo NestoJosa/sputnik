@@ -12,6 +12,11 @@
 
 </head>
 <body>
+<!-- wp_body_open() -->
+
+  <?php wp_body_open(); ?>
+  
+<!-- /wp_body_open() -->
 
 <header>
   <div class="NavBarWrapper container-fluid px-0">
