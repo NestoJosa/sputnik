@@ -464,19 +464,6 @@ body .mktoForm .mktoRadioList > label {
     }
   }
 
-  & select {
-    height: 48px !important;
-    background-color: #75516c !important;
-    border: none !important;
-    border-radius: 16px !important;
-    color: #fff !important;
-    padding-left: 20.7px !important;
-    padding-right: 20.7px !important;
-    &::placeholder {
-      color: #fff !important;
-    }
-  }
-
   & textarea {
     background-color: #75516c !important;
     border: none !important;
