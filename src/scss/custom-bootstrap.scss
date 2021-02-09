@@ -1,7 +1,7 @@
 // custom-bootstrap.scss
 
 /* import only the necessary Bootstrap files,
-these are the files which have content we are going to change */
+these are the files with content that we are about to change */
 @import "../bootstrap-4.0.0/scss/functions"; 
 @import "../bootstrap-4.0.0/scss/variables";
 
@@ -10,7 +10,7 @@ these are the files which have content we are going to change */
 /* change the column padding */
 $grid-gutter-width: 32px;
 
-/* change the default breakpoints */
+/* add one breakpoint: xxl */
 $grid-breakpoints: (
   xs: 0,
   sm: 576px,
@@ -20,6 +20,7 @@ $grid-breakpoints: (
   xxl: 1400px
 );
 
+/* add one max-width: xxl */
 $container-max-widths: (
   sm: 540px,
   md: 720px,
@@ -36,7 +37,7 @@ $container-max-widths: (
 /* 
 
   If you want to extend any bootstrap class,
-  the additional styles should live here - 
+  the additional styles should live bellow this comment - 
   after the bootstrap import. 
 
 */
