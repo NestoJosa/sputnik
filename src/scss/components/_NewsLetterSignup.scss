@@ -28,6 +28,7 @@
       text-decoration: none; 
       color: #fff;
       border-bottom: 1px solid #ffffff50;
+      transition: 220ms all ease-in-out;
       &:hover, &:active, &:focus  {
         opacity: 0.5;
       }
