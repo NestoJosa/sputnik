@@ -3,6 +3,10 @@
 $transition: 600ms all ease-in-out;
 
 .BlogPostCardsWrapper {
+  padding-top: 40px;
+  @include media-breakpoint-up (md) {
+    padding-top: 80px;
+  }
   padding-bottom: 32px;
 }
 
