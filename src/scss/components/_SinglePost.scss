@@ -1,14 +1,25 @@
 // _SinglePost.scss
 
+/* 
+
+  BrandColors - move to variables when finished
+
+*/
+$brandColorFirst: map-get($brand-colors, 'purple-dark');
+$brandColorFirst--opaque: scale-color($brandColorFirst, $alpha: -24%);
+// print the value to console
+// @debug $brandColorFirst--opaque;
+
+
 .SinglePost {
   font-family: map-get($brand-fonts, 'primary');
-  color: map-get($brand-colors, 'purple-dark');
   margin-bottom: 64px;
   @include media-breakpoint-up(md) {
     margin-bottom: 128px;
   }
 
   &__title {
+    color: $brandColorFirst;
     font-size: 30px;
     font-weight: 700;
     font-stretch: normal;
@@ -50,6 +61,7 @@
   }
 
   &__authorName {
+    color: $brandColorFirst;
     font-size: 14px;
     font-weight: 600;
     font-stretch: normal;
@@ -59,7 +71,7 @@
   }
 
   &__authorEmail {
-    opacity: 0.76;
+    color: $brandColorFirst--opaque;
     font-size: 14px;
     font-weight: normal;
     font-stretch: normal;
@@ -77,6 +89,7 @@
   */
 
   & h2 {
+    color: $brandColorFirst;
     font-size: 24px;
     font-weight: bold;
     font-stretch: normal;
@@ -89,7 +102,7 @@
 
 
   & p, li {
-    opacity: 0.76;
+    color: $brandColorFirst--opaque;
     font-size: 17px;
     font-weight: normal;
     font-stretch: normal;
@@ -100,7 +113,6 @@
       font-size: 20px;
       line-height: 1.6;
     }
-
   }
 
   & p {
@@ -115,21 +127,21 @@
     margin-bottom: 0 !important;
   }
 
-  & ul {
+  & ul, ol {
     // make space for the custom bullet
     padding-left: 16px;
+    margin-bottom: 32px;
     @include media-breakpoint-up(md) {
       padding-left: 34px;
+      margin-bottom: 48px;
     }
   }
 
   & li {
     position: relative;
     list-style-type: none;
-    margin-bottom: 24px;
-    @include media-breakpoint-up(md) {
-      margin-bottom: 32px;
-    }
+    margin-bottom: 16px;
+    color: $brandColorFirst--opaque;
     
     // Custom Bullet
     &::before {
@@ -151,6 +163,40 @@
     }
   }
 
+  // style the list-item-anchors
+  & li a {
+    color: inherit;
+    
+    border-bottom: 1px solid map-get($brand-colors, 'yellow-dark');
+    transition: 220ms all ease-in-out;
+    &:hover,
+    &:active,
+    &:focus {
+      
+      border-bottom: 1px solid map-get($brand-colors, 'yellow-dark');
+      text-decoration: none;
+      color: $brandColorFirst;
+    }
+  }
+
+  // style the inline anchors
+  // #refactor because you are repeating the same styles as above
+  // consider creating a mixin that you can include instead
+  & p a {
+    color: inherit;
+    
+    border-bottom: 1px solid map-get($brand-colors, 'yellow-dark');
+    transition: 220ms all ease-in-out;
+    &:hover,
+    &:active,
+    &:focus {
+      
+      border-bottom: 1px solid map-get($brand-colors, 'yellow-dark');
+      text-decoration: none;
+      color: $brandColorFirst;
+    }
+  }
+
   // change the default wp margin-bottom for 
   // full-width images added via wp-admin
   & .wp-block-image img {
@@ -158,6 +204,21 @@
     max-width: 100% !important;
     height: auto !important;
     border-radius: 4px !important;
+  }
+
+  // style the figure
+  & figure.wp-block-pullquote {
+
+    border-top: 2px solid $brandColorFirst;
+    border-bottom: 2px solid $brandColorFirst;
+    
+    margin-top: 26px;
+    margin-bottom: 32px;
+    padding: 40px 16px 24px;
+
+    & p {
+      margin-bottom: 16px !important;
+    }
   }
 
 }
