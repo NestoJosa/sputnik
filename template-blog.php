@@ -9,19 +9,6 @@
 ?>
 
 <?php get_header(); ?>
-
-<!-- HeadingBlock -->
-  <?php 
-  
-    $args = array(
-      'heading' => 'Viden og Indsigt',
-      'subHeading' => 'Free directories - directories are perfect for customers that are searching for a particular topic. What’s great about them is that you only have to post once and they are good for long periods of time.'
-    );
-  
-    get_template_part('includes/section', 'HeadingBlock', $args); 
-
-  ?>
-<!-- /HeadingBlock -->
     
 <!-- BlogPostCards -->
   <div class="container BlogPostCardsWrapper">
