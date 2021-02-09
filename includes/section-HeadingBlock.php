@@ -1,5 +1,3 @@
-<!-- section-HeadingBlock.php -->
-
 <?php
 
   $preHeading = isset($args['preHeading'])  ? $args['preHeading'] : '';
