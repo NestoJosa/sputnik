@@ -31,7 +31,10 @@ Template Name:  Book Template
 
         <div class="col-md-6 order-md-2">
           <h2 class="ContactForm__heading">Udfyld formularen - så kontakter vi dig!</h2>
-          <p class="ContactForm__subHeading">Udfyld formularen, så tager vi fat på dig og finder et tidspunkt til et møde. Vi kan klare alt virtuelt og uden behov for personlig kontakt.</p>
+          <div class="ContactForm__body">
+            <p>Udfyld formularen, så tager vi fat på dig og finder et tidspunkt til et møde. Vi kan klare alt virtuelt og uden behov for personlig kontakt</p>
+            <p>Når du udfylder formularen, accepterer du samtidig vores <a href="<?php echo get_permalink( get_page_by_title( 'Privatlivspolitik' ) ) ?>">privatlivspolitik</a>.</p>
+          </div>
           <p class="ContactForm__phoneNumberAndEmail">
             <a class="PhoneToLink PhoneToLink--inFooter PhoneToLink--inPrivacyPage" href="tel:004551514784">51 51 47 84</a>
             <br>
