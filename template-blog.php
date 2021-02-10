@@ -9,6 +9,18 @@
 ?>
 
 <?php get_header(); ?>
+
+<!-- HeadingBlock -->
+  <?php 
+
+  $args = array(
+    'heading' => 'Blog',
+  );
+
+  get_template_part('includes/section', 'HeadingBlock', $args); 
+
+  ?>
+<!-- /HeadingBlock -->
     
 <!-- BlogPostCards -->
   <div class="container BlogPostCardsWrapper">
