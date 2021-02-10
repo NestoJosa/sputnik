@@ -258,8 +258,7 @@
       <div class="row justify-content-center">
 
         <div class="col-md-8">
-          <h2 class="HeadingBlock__heading">Viden & Indsigt</h2>
-          <p  class="HeadingBlock__subHeading">Free directories - directories are perfect for customers that are searching for a particular topic. What’s great about them is that you only have to post once and they are good for long periods of time.</p>
+          <h2 class="HeadingBlock__heading">Seneste blogindlæg</h2>
         </div>
 
       </div>
