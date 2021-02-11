@@ -10,12 +10,25 @@
 
 <?php get_header(); ?>
 
-<div class="ThankYouPageWrapper container">
-  <div class="row justify-content-center">
-    <div class="col-md-8">
-      <h1>Tak for din tilmelding!</h1>
-    </div>
-  </div>
+<!-- MiniPageWrapper -->
+<div class="MiniPageWrapper">
+
+  <!-- HeadingBlock -->
+    <?php 
+  
+    $args = array(
+      'preHeading' => 'preHeading',
+      'heading' => 'Tak for din tilmelding!',
+      'subHeading' => 'Ligula praesent egestas. Convallis conubia faucibus porta tempor bibendum magna justo eros placerat pretium lobortis feugiat tincidunt nam accumsan convallis amet pellentesque potenti habitasse eleifend.
+      ',
+    );
+  
+    get_template_part('includes/section', 'HeadingBlock', $args); 
+  
+    ?>
+  <!-- /HeadingBlock -->
+
 </div>
+<!-- /MiniPageWrapper -->
 
 <?php get_footer(); ?>

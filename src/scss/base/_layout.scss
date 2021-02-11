@@ -1,0 +1,32 @@
+/* 
+
+  Push footer down:
+  https://css-tricks.com/couple-takes-sticky-footer/
+
+*/
+
+html, body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+footer {
+  margin-top: auto;
+}
+
+/* 
+
+  On pages with little content, aka MiniPage's, we sometimes need a special
+  wrapper to make sure that there is enough top- and bottom-space.
+  
+  Note: the MiniPageWrapper is made for pages with a HeadingBlock only,
+  and the margin-bottom is set to match the HeadingBlocks margin-top
+
+*/
+.MiniPageWrapper {
+  margin-bottom: 8px;
+  @include media-breakpoint-up(md) {
+    margin-bottom: 56px; 
+  }
+}
