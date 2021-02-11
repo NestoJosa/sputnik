@@ -52,7 +52,7 @@ $btnBorderRadius: (
   &:hover,
   &:active,
   &:focus {
-    background-color: scale-color($btnBackgroundColor--ghost, $lightness: -10%);
+    background-color: scale-color($btnBackgroundColor--ghost, $lightness: -5%);
   }
 }
 
