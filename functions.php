@@ -9,7 +9,7 @@ function load_css() {
   wp_register_style('adobe-fonts', 'https://use.typekit.net/kbs0hyb.css', array(), null, 'all' );
   wp_enqueue_style('adobe-fonts');
       
-  wp_register_style('styles-bundle', get_template_directory_uri() . '/dist/css/bundle.css', array(), '2', 'all' );
+  wp_register_style('styles-bundle', get_template_directory_uri() . '/dist/css/bundle.css', array(), '2.1', 'all' );
   wp_enqueue_style('styles-bundle'); 
   
 }
