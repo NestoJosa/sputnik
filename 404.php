@@ -1,14 +1,17 @@
 <?php get_header(); ?>
 
 
-<!-- 404 - for now -->
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        Page Not Found
-      </div>
-    </div>
-  </div>
-<!-- /404 - for now -->
+<!-- HeadingBlock -->
+<?php 
+
+$args = array(
+  'preHeading' => 'Fejl 404',
+  'heading' => 'Siden findes ikke',
+);
+
+get_template_part('includes/section', 'HeadingBlock', $args); 
+
+?>
+<!-- /HeadingBlock -->
 
 <?php get_footer(); ?>
