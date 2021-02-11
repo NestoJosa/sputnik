@@ -50,7 +50,7 @@ function sputnik_add_google_tag_manager_in_head() {
     <!-- End Google Tag Manager -->
 	<?php
 }
-add_action( 'wp_head', 'sputnik_add_google_tag_manager_in_head', -1 );
+// add_action( 'wp_head', 'sputnik_add_google_tag_manager_in_head', -1 );
 
 // Add body script
 function sputnik_add_google_tag_manager_in_body() {
@@ -59,7 +59,7 @@ function sputnik_add_google_tag_manager_in_body() {
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->';
 }
-add_action( 'wp_body_open', 'sputnik_add_google_tag_manager_in_body' );
+// add_action( 'wp_body_open', 'sputnik_add_google_tag_manager_in_body' );
 
 
 

@@ -11,10 +11,8 @@
           <h1 class="Hero__heading">Få mere ud af dit marketingbudget med Marketing Automation</h1>
           <p class="Hero__subHeading">Vi gør det nemt og enkelt at komme i gang med Marketing Automation.</p>
 
-          <a href="<?php echo get_permalink( get_page_by_title( 'Lead Automation' ) ); ?>">
-            <button class="Hero__button ButtonSolid--large" type="button">
-              Kom let i gang
-            </button>  
+          <a class="Hero__button ButtonLarge" href="<?php echo get_permalink( get_page_by_title( 'Lead Automation' ) ); ?>">
+            Kom let i gang
           </a>
 
         </div>
@@ -189,13 +187,9 @@
               <p class="SubPromo__news">Nyhed</p>
               <h2 class="SubPromo__heading">Lead Automation som abonnementsløsning</h2>
               <p class="SubPromo__subHeading">Nu er det lettere end nogensinde, at få flere varme leads, der er mere tilbøjelige til at købe.</p>
-
-              <a href="<?php echo get_permalink( get_page_by_title( 'Priser' ) ); ?>">
-                <button class="ButtonSolid--large" type="button">
+              <a class="ButtonLarge" href="<?php echo get_permalink( get_page_by_title( 'Priser' ) ); ?>">
                 Se vores abonnementer
-                </button>  
               </a>
-
             </div>
 
           </div>
@@ -276,10 +270,8 @@
     <div class="row justify-content-center">
       <div class="col-auto">
 
-        <a href="<?php echo get_permalink( get_page_by_title( 'Blog' ) ); ?>">
-          <button class="ButtonSolid--large" type="button">
-            Gå til bloggen
-          </button>  
+        <a class="ButtonLarge ButtonLarge--ghost" href="<?php echo get_permalink( get_page_by_title( 'Blog' ) ); ?>">
+          Gå til bloggen
         </a>
 
       </div>

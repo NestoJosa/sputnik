@@ -32,13 +32,9 @@
             <p class="Promo__preHeading"><?php echo $preHeading; ?></p>
             <h2 class="Promo__heading"><?php echo $heading; ?></h2>
             <p class="Promo__subHeading"><?php echo $subHeading; ?></p>
-
-            <a href="<?php echo $pageToLinkTo; ?>">
-              <button class="ButtonSolid--large" type="button">
-                <?php echo $buttonText; ?>
-              </button>  
+            <a class="ButtonLarge" href="<?php echo $pageToLinkTo; ?>">
+              <?php echo $buttonText; ?>
             </a>
-
           </div>
         </div>
       </div>

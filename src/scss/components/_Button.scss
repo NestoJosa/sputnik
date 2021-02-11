@@ -1,0 +1,122 @@
+// _Button.scss
+
+/* 
+
+  When moving this code to sputnik,
+  remember to use the maps for setting 
+  the color variables
+
+*/
+$btnBackgroundColor: #ffc900;
+$btnBackgroundColor--ghost: #fff;
+$btnTextColor: #3b012d;
+$btnBorderColor: #ffc900;
+
+$btnBorderRadius: (
+  'small': 12px,
+  'medium': 16px,
+  'large': 20px,
+  'extra-large': 24px,
+);
+
+@mixin button-base {
+  background-color: $btnBackgroundColor;
+  display: inline-block;
+  
+  // state styles
+  transition: 220ms all ease-in-out;
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: scale-color($btnBackgroundColor, $lightness: -10%);
+    text-decoration: none;
+  }
+}
+
+@mixin label-base {
+  color: $btnTextColor !important; // overrule bootstrap; 
+  font-family: map-get($brand-fonts, 'primary');
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: center;
+}
+
+@mixin ghost-base {
+  background-color: $btnBackgroundColor--ghost;
+  border: 1px solid $btnBorderColor;
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: scale-color($btnBackgroundColor--ghost, $lightness: -10%);
+  }
+}
+
+.Button {
+  @include button-base;
+  border-radius: map-get($btnBorderRadius, 'small'); 
+  min-width: 120px;
+  min-height: 40px;
+  padding: 12px 20px;
+
+  @include label-base;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 1px;
+
+  &--ghost {
+    @include ghost-base;
+  }
+}
+
+.ButtonMedium {
+  @include button-base;
+  border-radius: map-get($btnBorderRadius, 'medium');
+  min-width: 136px;
+  min-height: 48px;
+  padding: 14px 24px; 
+
+  @include label-base;
+  font-size: 15px;
+  line-height: 1.33;
+  letter-spacing: 0.9px;
+
+  &--ghost {
+    @include ghost-base;
+  }
+}
+
+.ButtonLarge {
+  @include button-base;
+  border-radius: map-get($btnBorderRadius, 'large');
+  min-width: 144px;
+  min-height: 56px;
+  padding: 18px 28px; 
+
+  @include label-base;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.8px;
+
+  &--ghost {
+    @include ghost-base;
+  }
+}
+
+.ButtonExtraLarge {
+  @include button-base;
+  border-radius: map-get($btnBorderRadius, 'extra-large');
+  min-width: 160px;
+  min-height: 64px;
+  padding: 20px 32px;
+
+  @include label-base;
+  font-size: 17px;
+  line-height: 1.41;
+  letter-spacing: 0.7px;
+
+  &--ghost {
+    @include ghost-base;
+  }
+}
+
