@@ -3,7 +3,7 @@
     <div class="BlogPostCard">
       <a class="BlogPostCard__link" href="<?php the_permalink() ?>">
         <div class="BlogPostCard__imageWrapper" 
-          style="background-image: url('<?php the_post_thumbnail_url(); ?>');">
+          style="background-image: url('<?php the_post_thumbnail_url('medium_large'); ?>');">
           <div class="BlogPostCard__imageOverlay"></div>
         </div>
         <h3 class="BlogPostCard__title"><?php the_title(); ?></h3>
