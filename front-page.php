@@ -5,7 +5,14 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="Hero__image col-md-6 order-md-2">
-          <img src="<?php echo get_template_directory_uri();?>/dist/img/man-and-coins--large.png" alt="3D man lying in front of stacks of gold coins">
+          <?php 
+            echo wp_get_attachment_image( $attachment_id = 221, $size = 'large', $icon = false, $attr = 
+              array( 
+                'sizes' => '(min-width: 768px) 600px, 100vw',
+                'loading' => false
+              ) 
+            );
+          ?>
         </div>
         <div class="col-md-6 order-md-1">
           <h1 class="Hero__heading">Få mere ud af dit marketingbudget med Marketing Automation</h1>
@@ -181,7 +188,15 @@
           <div class="row align-items-center">
 
             <div class="col-md-6">
-              <img class="SubPromo__image" src="<?php echo get_template_directory_uri();?>/dist/img/mobile-swimming-pool--large.png" alt="3D woman on a pool on a smartphone">
+              <?php 
+                echo wp_get_attachment_image( $attachment_id = 222, $size = 'large', $icon = false, $attr = 
+                  array( 
+                    'sizes' => '(min-width: 768px) 450px, 100vw',
+                    'loading' => true,
+                    'class' => 'SubPromo__image'
+                  ) 
+                );
+              ?>
             </div>
             <div class="col-md-6">
               <p class="SubPromo__news">Nyhed</p>
