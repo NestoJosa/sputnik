@@ -298,29 +298,17 @@
 <!-- Promo -->
   <?php 
     
-    // Variables to feed the template part
-    
-    $imgPath = '/dist/img/kasper-waist-up--large.png';
-    $imgAltText = 'Image of Kasper Larsen';
-    $preHeading = 'Book et møde';
-    $heading = 'Din tur til at tage action';
-    $subHeading = 'Find ud af hvor let du og din virksomhed, kan komme i gang med at få bedre resultater med Marketing Automation.';
-    $buttonText = 'Kom rigtigt i gang';
-    $pageToLinkTo = "Book et møde";
+    $args = array(
+      'attachment_id' => 210,
+      'preHeading' => 'Book et møde',
+      'heading' => 'Din tur til at tage action',
+      'subHeading' => 'Find ud af hvor let du og din virksomhed, kan komme i gang med at få bedre resultater med Marketing Automation.',
+      'buttonText' => 'Kom rigtigt i gang',
+      'pageTitleToLinkTo' => 'Book et møde',
 
-    get_template_part(
-      'includes/section', 
-      'promo',
-      array(
-        'imgPath' => $imgPath,
-        'imgAltText' => $imgAltText,
-        'preHeading' => $preHeading,
-        'heading' => $heading,
-        'subHeading' => $subHeading,
-        'buttonText' => $buttonText,
-        'pageToLinkTo' => $pageToLinkTo,
-      )
     );
+
+    get_template_part( 'includes/section', 'Promo', $args );
     
   ?>
 <!-- /Promo -->
