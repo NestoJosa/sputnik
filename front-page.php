@@ -189,10 +189,9 @@
 
             <div class="col-md-6">
               <?php 
-                echo wp_get_attachment_image( $attachment_id = 222, $size = 'large', $icon = false, $attr = 
+                echo wp_get_attachment_image( $attachment_id = 226, $size = 'large', $icon = false, $attr = 
                   array( 
                     'sizes' => '(min-width: 768px) 450px, 100vw',
-                    'loading' => true,
                     'class' => 'SubPromo__image'
                   ) 
                 );
@@ -299,13 +298,12 @@
   <?php 
     
     $args = array(
-      'attachment_id' => 210,
+      'attachment_id' => 224,
       'preHeading' => 'Book et møde',
       'heading' => 'Din tur til at tage action',
       'subHeading' => 'Find ud af hvor let du og din virksomhed, kan komme i gang med at få bedre resultater med Marketing Automation.',
       'buttonText' => 'Kom rigtigt i gang',
       'pageTitleToLinkTo' => 'Book et møde',
-
     );
 
     get_template_part( 'includes/section', 'Promo', $args );
