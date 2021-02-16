@@ -54,7 +54,14 @@ Template Name:  Abonnement Template
       <div class="row align-items-center">
 
         <div class="col-md-6">
-          <img class="ImageAndTextBoxes__image" src="<?php echo get_template_directory_uri();?>/dist/img/man-on-rocket--large.png" alt="Man using computer">
+          <?php 
+            echo wp_get_attachment_image( $attachment_id = 229, $size = 'large', $icon = false, 
+              $attr = array( 
+                'sizes' => '(min-width: 768px) 550px, 100vw',
+                'class' => 'ImageAndTextBoxes__image'
+              ) 
+            );
+          ?>
         </div>
 
         <div class="ImageAndTextBoxes__box col-md-6">
@@ -67,7 +74,14 @@ Template Name:  Abonnement Template
       <div class="row align-items-center">
 
         <div class="col-md-6 order-md-2">
-          <img class="ImageAndTextBoxes__image" src="<?php echo get_template_directory_uri();?>/dist/img/man-with-superhero-cape--large.png" alt="Man using computer">
+          <?php 
+            echo wp_get_attachment_image( $attachment_id = 230, $size = 'large', $icon = false, 
+              $attr = array( 
+                'sizes' => '(min-width: 768px) 550px, 100vw',
+                'class' => 'ImageAndTextBoxes__image'
+              ) 
+            );
+          ?>
         </div>
 
         <div class="ImageAndTextBoxes__box col-md-6 order-md-1">
@@ -103,7 +117,14 @@ Template Name:  Abonnement Template
       <div class="row">
         
         <div class="col-md-6">
-          <img class="ImageAndCards__image" src="<?php echo get_template_directory_uri();?>/dist/img/man-on-lightbulb--large.png" alt="Man using computer">
+          <?php 
+            echo wp_get_attachment_image( $attachment_id = 231, $size = 'large', $icon = false, 
+              $attr = array( 
+                'sizes' => '(min-width: 768px) 550px, 100vw',
+                'class' => 'ImageAndCards__image'
+              ) 
+            );
+          ?>
         </div>
         
         <div class="col-md-6">
