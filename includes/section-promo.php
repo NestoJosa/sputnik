@@ -26,7 +26,6 @@
               echo wp_get_attachment_image( $attachment_id, $size = 'large', $icon = false, $attr = 
                 array( 
                   'sizes' => '(min-width: 768px) 450px, 100vw',
-                  'loading' => true,
                   'class' => 'Promo__image'
                 ) 
               );
