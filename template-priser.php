@@ -370,31 +370,18 @@ Template Name:  Priser Template
 <!-- /SubTable and FinePrint -->
 
 <!-- Promo -->
-<?php 
+  <?php 
     
-    // Variables to feed the template part
-    
-    $imgPath = '/dist/img/kasper-waist-up--large.png';
-    $imgAltText = 'Image of Kasper Larsen';
-    $preHeading = 'Book et møde';
-    $heading = 'Din tur til at tage action';
-    $subHeading = 'Find ud af hvor let du og din virksomhed, kan komme i gang med at få bedre resultater med Marketing Automation.';
-    $buttonText = 'Kom rigtigt i gang';
-    $pageToLinkTo = "Book et møde";
-
-    get_template_part(
-      'includes/section', 
-      'Promo',
-      array(
-        'imgPath' => $imgPath,
-        'imgAltText' => $imgAltText,
-        'preHeading' => $preHeading,
-        'heading' => $heading,
-        'subHeading' => $subHeading,
-        'buttonText' => $buttonText,
-        'pageToLinkTo' => $pageToLinkTo,
-      )
+    $args = array(
+      'attachment_id' => 224,
+      'preHeading' => 'Book et møde',
+      'heading' => 'Din tur til at tage action',
+      'subHeading' => 'Find ud af hvor let du og din virksomhed, kan komme i gang med at få bedre resultater med Marketing Automation.',
+      'buttonText' => 'Kom rigtigt i gang',
+      'pageTitleToLinkTo' => 'Book et møde',
     );
+
+    get_template_part( 'includes/section', 'Promo', $args );
     
   ?>
 <!-- /Promo -->

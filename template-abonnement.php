@@ -322,28 +322,16 @@ Template Name:  Abonnement Template
 <!-- Promo -->
   <?php 
     
-    // Variables to feed the template part
-    $imgPath = '/dist/img/man-on-piggybank--large.png';
-    $imgAltText = 'Man on piggy bank';
-    $preHeading = 'Se vores priser';
-    $heading = 'Priser og pakker hvor alle kan være med';
-    $subHeading = 'Vi har sat Lead Automation på abonnement, så alle kan være med. Se vores priser og pakker og se hvilken løsning, der passer til dig og din virksomhed.';
-    $buttonText = 'Se priser og pakker';
-    $pageToLinkTo = "Priser";
-
-    get_template_part(
-      'includes/section', 
-      'Promo',
-      array(
-        'imgPath' => $imgPath,
-        'imgAltText' => $imgAltText,
-        'preHeading' => $preHeading,
-        'heading' => $heading,
-        'subHeading' => $subHeading,
-        'buttonText' => $buttonText,
-        'pageToLinkTo' => $pageToLinkTo,
-      )
+    $args = array(
+      'attachment_id' => 225,
+      'preHeading' => 'Se vores priser',
+      'heading' => 'Priser og pakker hvor alle kan være med',
+      'subHeading' => 'Vi har sat Lead Automation på abonnement, så alle kan være med. Se vores priser og pakker og se hvilken løsning, der passer til dig og din virksomhed.',
+      'buttonText' => 'Se priser og pakker',
+      'pageTitleToLinkTo' => 'Priser',
     );
+
+    get_template_part( 'includes/section', 'Promo', $args );
     
   ?>
 <!-- /Promo -->
