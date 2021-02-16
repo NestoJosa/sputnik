@@ -10,10 +10,17 @@ Template Name:  Book Template
 
 <!-- Hero -->
 <div class="Hero Hero--onPricePage container-fluid p-0">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="Hero__image col-md-6 order-md-2">
-          <img src="<?php echo get_template_directory_uri();?>/dist/img/man-and-woman-on-phone--large.png" alt="Man using computer">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="Hero__image col-md-6 order-md-2">
+        <?php 
+          echo wp_get_attachment_image( $attachment_id = 227, $size = 'large', $icon = false, 
+            $attr = array( 
+              'sizes' => '(min-width: 768px) 600px, 100vw',
+              'loading' => false
+            ) 
+          );
+        ?>
         </div>
         <div class="col-md-6 order-md-1">
           <h1 class="Hero__heading">Book et møde</h1>

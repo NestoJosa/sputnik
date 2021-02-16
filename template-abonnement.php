@@ -13,7 +13,14 @@ Template Name:  Abonnement Template
     <div class="container">
       <div class="row align-items-center">
         <div class="Hero__image col-md-6 order-md-2">
-          <img src="<?php echo get_template_directory_uri();?>/dist/img/woman-on-smartphone--large.png" alt="Man using computer">
+          <?php 
+            echo wp_get_attachment_image( $attachment_id = 226, $size = 'large', $icon = false, 
+              $attr = array( 
+                'sizes' => '(min-width: 768px) 600px, 100vw',
+                'loading' => false
+              ) 
+            );
+          ?>
         </div>
         <div class="col-md-6 order-md-1">
           <h1 class="Hero__heading">Få flere leads til en lav månedlig pris - uden alt besværet</h1>

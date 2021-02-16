@@ -6,11 +6,11 @@
       <div class="row align-items-center">
         <div class="Hero__image col-md-6 order-md-2">
           <?php 
-            echo wp_get_attachment_image( $attachment_id = 221, $size = 'large', $icon = false, $attr = 
-              array( 
+            echo wp_get_attachment_image( $attachment_id = 221, $size = 'large', $icon = false, 
+              $attr = array( 
                 'sizes' => '(min-width: 768px) 600px, 100vw',
                 'loading' => false
-              ) 
+              )
             );
           ?>
         </div>
