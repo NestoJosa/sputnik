@@ -333,7 +333,7 @@ Template Name:  Abonnement Template
 
     get_template_part(
       'includes/section', 
-      'promo',
+      'Promo',
       array(
         'imgPath' => $imgPath,
         'imgAltText' => $imgAltText,
